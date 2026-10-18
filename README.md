@@ -50,6 +50,7 @@ Dafür braucht das Repository einen **TMDB-API-Schlüssel** als Secret: **Settin
 
 | Feld | Bedeutung |
 |---|---|
+| `logo` | Link auf ein Logo (`https://…`, z. B. ein TMDB-Firmenlogo von image.tmdb.org) oder ein Pfad relativ zu `welten.json` (für selbst erstellte Logos). Das Plugin lädt das Bild, speichert es zwischen und liefert es an Apps aus. Marken-Logos werden bewusst nicht als Datei hier abgelegt. |
 | `name` | Anzeigename; die ID im Plugin entsteht daraus (klein, Umlaute als ae/oe/ue/ss, Sonderzeichen als `-`) oder aus einem eigenen Feld `id`. |
 | `studios`, `sammlungen` | Regeln, die das Plugin direkt in der Bibliothek anwendet (Teil des Studio- bzw. Sammlungsnamens). |
 | `tmdb.firmen` | TMDB-Firmen-IDs; Filme mit mindestens `min_stimmen` Stimmen, angekündigte Filme immer (abschaltbar mit `"angekuendigte": false`). |

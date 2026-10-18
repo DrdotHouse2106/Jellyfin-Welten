@@ -5,6 +5,7 @@ Disney+-like "worlds" (Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumin
 Plugin URL (default since LocalRecs 12.12.0, setting "Welten-Liste"): `https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/welten.json`
 
 - `regeln.json` – rules, TMDB sources, **manually added titles and exclusions** (edit this file).
+- Each world may have a `logo` (https link, e.g. a TMDB company logo, or a path relative to `welten.json`); brand logos are deliberately not stored as files here.
 - `welten.json` – generated list for the plugin (do not edit).
 - `scripts/aktualisieren.py` – builds `welten.json` from `regeln.json` and TMDB. Manual entries are never lost (they live in `regeln.json`, which the script only reads), and titles once in `welten.json` stay unless excluded.
 

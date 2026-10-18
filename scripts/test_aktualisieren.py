@@ -23,7 +23,7 @@ class FakeTmdb:
 
 
 REGELN = {"welten": [{
-    "name": "Pixar", "studios": ["Pixar"], "sammlungen": ["Toy Story"],
+    "name": "Pixar", "logo": "https://image.tmdb.org/t/p/w500/pixar.png", "studios": ["Pixar"], "sammlungen": ["Toy Story"],
     "tmdb": {"firmen": [{"id": 3, "min_stimmen": 50}], "sammlungen": [10194], "ausschluss_muster": ["(?i)making[- ]of"]},
     "titel": [{"tmdb": "999", "typ": "film", "name": "Von Hand ergänzt"}],
     "ausschluss": [{"tmdb": "920", "typ": "film", "name": "Cars"}, {"sammlung": "Indiana Jones"}]}]}
@@ -76,6 +76,7 @@ class Tests(unittest.TestCase):
     def test_ausschluesse_und_regeln_landen_in_welten_json(self):
         welt = self.dok["welten"][0]
         self.assertEqual(welt["studios"], ["Pixar"])
+        self.assertEqual(welt["logo"], "https://image.tmdb.org/t/p/w500/pixar.png")
         self.assertIn({"sammlung": "Indiana Jones"}, welt["ausschluss"])
 
     def test_ohne_tmdb_aendert_sich_nur_durch_regeln(self):

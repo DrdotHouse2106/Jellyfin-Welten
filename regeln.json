@@ -1,8 +1,9 @@
 {
- "beschreibung": "Von Hand gepflegte Regeln für die Welten. Das Skript scripts/aktualisieren.py liest diese Datei und schreibt daraus welten.json – diese Datei hier wird nie automatisch verändert. \"studios\"/\"sammlungen\" sind die Regeln, die das Plugin direkt in der Jellyfin-Bibliothek anwendet. \"tmdb\" sagt dem Skript, wo es Titel bei TMDB findet (Firmen-IDs mit Mindestzahl an Stimmen, Serien-Firmen, TMDB-Sammlungen, Muster für Titel, die nicht übernommen werden). \"titel\" sind von Hand ergänzte Titel, \"ausschluss\" Titel, die nie dazugehören (auch nicht, wenn TMDB sie liefert).",
+ "beschreibung": "Von Hand gepflegte Regeln für die Welten. Das Skript scripts/aktualisieren.py liest diese Datei und schreibt daraus welten.json – diese Datei hier wird nie automatisch verändert. \"studios\"/\"sammlungen\" sind die Regeln, die das Plugin direkt in der Jellyfin-Bibliothek anwendet. \"tmdb\" sagt dem Skript, wo es Titel bei TMDB findet (Firmen-IDs mit Mindestzahl an Stimmen, Serien-Firmen, TMDB-Sammlungen, Muster für Titel, die nicht übernommen werden). \"titel\" sind von Hand ergänzte Titel, \"ausschluss\" Titel, die nie dazugehören (auch nicht, wenn TMDB sie liefert). \"logo\" ist ein Link auf ein Logo (https, z. B. ein TMDB-Firmenlogo) oder ein Pfad relativ zu welten.json; Marken-Logos werden bewusst nicht als Datei im Repository abgelegt.",
  "welten": [
   {
    "name": "Marvel",
+   "logo": "https://image.tmdb.org/t/p/w500/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
    "studios": [
     "Marvel Studios",
     "Marvel Entertainment",
@@ -62,6 +63,7 @@
   },
   {
    "name": "Star Wars",
+   "logo": "https://image.tmdb.org/t/p/w500/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
    "studios": [],
    "sammlungen": [
     "Star Wars"
@@ -81,6 +83,7 @@
   },
   {
    "name": "DC",
+   "logo": "https://image.tmdb.org/t/p/w500/13F3Jf7EFAcREU0xzZqJnVnyGXu.png",
    "studios": [
     "DC Studios",
     "DC Entertainment",
@@ -139,6 +142,7 @@
   },
   {
    "name": "Pixar",
+   "logo": "https://image.tmdb.org/t/p/w500/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
    "studios": [
     "Pixar"
    ],
@@ -166,6 +170,7 @@
   },
   {
    "name": "Disney",
+   "logo": "https://image.tmdb.org/t/p/w500/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
    "studios": [
     "Walt Disney Pictures",
     "Walt Disney Animation",
@@ -221,6 +226,7 @@
   },
   {
    "name": "DreamWorks",
+   "logo": "https://image.tmdb.org/t/p/w500/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
    "studios": [
     "DreamWorks Animation"
    ],
@@ -251,6 +257,7 @@
   },
   {
    "name": "Illumination",
+   "logo": "https://image.tmdb.org/t/p/w500/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
    "studios": [
     "Illumination"
    ],
@@ -310,6 +317,7 @@
   },
   {
    "name": "James Bond",
+   "logo": "https://image.tmdb.org/t/p/w500/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
    "studios": [
     "Eon Productions"
    ],
@@ -340,6 +348,7 @@
   },
   {
    "name": "Studio Ghibli",
+   "logo": "https://image.tmdb.org/t/p/w500/uFuxPEZRUcBTEiYIxjHJq62Vr77.png",
    "studios": [
     "Studio Ghibli"
    ],

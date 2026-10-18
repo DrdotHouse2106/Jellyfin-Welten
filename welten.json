@@ -5,6 +5,7 @@
  "welten": [
   {
    "name": "Marvel",
+   "logo": "https://image.tmdb.org/t/p/w500/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
    "studios": [
     "Marvel Studios",
     "Marvel Entertainment",
@@ -652,6 +653,7 @@
   },
   {
    "name": "Star Wars",
+   "logo": "https://image.tmdb.org/t/p/w500/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
    "studios": [],
    "sammlungen": [
     "Star Wars"
@@ -807,6 +809,7 @@
   },
   {
    "name": "DC",
+   "logo": "https://image.tmdb.org/t/p/w500/13F3Jf7EFAcREU0xzZqJnVnyGXu.png",
    "studios": [
     "DC Studios",
     "DC Entertainment",
@@ -1405,6 +1408,7 @@
   },
   {
    "name": "Pixar",
+   "logo": "https://image.tmdb.org/t/p/w500/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
    "studios": [
     "Pixar"
    ],
@@ -1720,6 +1724,7 @@
   },
   {
    "name": "Disney",
+   "logo": "https://image.tmdb.org/t/p/w500/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
    "studios": [
     "Walt Disney Pictures",
     "Walt Disney Animation",
@@ -2384,6 +2389,7 @@
   },
   {
    "name": "DreamWorks",
+   "logo": "https://image.tmdb.org/t/p/w500/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
    "studios": [
     "DreamWorks Animation"
    ],
@@ -2684,6 +2690,7 @@
   },
   {
    "name": "Illumination",
+   "logo": "https://image.tmdb.org/t/p/w500/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
    "studios": [
     "Illumination"
    ],
@@ -3026,6 +3033,7 @@
   },
   {
    "name": "James Bond",
+   "logo": "https://image.tmdb.org/t/p/w500/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
    "studios": [
     "Eon Productions"
    ],
@@ -3207,6 +3215,7 @@
   },
   {
    "name": "Studio Ghibli",
+   "logo": "https://image.tmdb.org/t/p/w500/uFuxPEZRUcBTEiYIxjHJq62Vr77.png",
    "studios": [
     "Studio Ghibli"
    ],
