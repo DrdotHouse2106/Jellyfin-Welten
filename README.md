@@ -2,7 +2,7 @@
 
 *[English version](README.en.md)*
 
-„Welten“ wie bei Disney+ – Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Harry Potter, Mittelerde, James Bond, Jurassic Park, Studio Ghibli – als Liste für das Jellyfin-Plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). Das Plugin lädt die Liste täglich und zeigt die Welten in Apps wie Quallenkino persönlich sortiert an. Die Jellyfin-Bibliothek wird dabei nicht verändert.
+„Welten“ wie bei Disney+ – Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Wizarding World, Mittelerde, James Bond, Jurassic Park, Studio Ghibli – als Liste für das Jellyfin-Plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). Das Plugin lädt die Liste täglich und zeigt die Welten in Apps wie Quallenkino persönlich sortiert an. Die Jellyfin-Bibliothek wird dabei nicht verändert.
 
 **Adresse für das Plugin** (Standard ab LocalRecs 12.12.0, Einstellung „Welten-Liste“):
 
@@ -50,7 +50,8 @@ Dafür braucht das Repository einen **TMDB-API-Schlüssel** als Secret: **Settin
 
 | Feld | Bedeutung |
 |---|---|
-| `logo` | Link auf ein Logo (`https://…`, z. B. ein TMDB-Firmenlogo von image.tmdb.org) oder ein Pfad relativ zu `welten.json` (für selbst erstellte Logos). Das Plugin lädt das Bild, speichert es zwischen und liefert es an Apps aus. Marken-Logos werden bewusst nicht als Datei hier abgelegt. |
+| `logo` | Logo oder Liste von Logos in Reihenfolge – das erste, das klappt, wird verwendet: `fanart:collection/{TMDB-Sammlung}`, `fanart:movie/{TMDB-ID}` oder `fanart:tv/{TVDB-ID}` (Logos von fanart.tv, braucht einen fanart.tv-Schlüssel in den Plugin-Einstellungen), ein Link `https://…` (z. B. TMDB-Firmenlogo) oder ein Pfad relativ zu `welten.json`. Das Plugin lädt das Bild, speichert es zwischen und liefert es an Apps aus. Marken-Logos werden bewusst nicht als Datei hier abgelegt. |
+| `aliase` | Frühere IDs der Welt (z. B. `harry-potter` nach der Umbenennung in „Wizarding World“) – Apps und Einstellungen, die die alte ID verwenden, funktionieren weiter. |
 | `name` | Anzeigename; die ID im Plugin entsteht daraus (klein, Umlaute als ae/oe/ue/ss, Sonderzeichen als `-`) oder aus einem eigenen Feld `id`. |
 | `studios`, `sammlungen` | Regeln, die das Plugin direkt in der Bibliothek anwendet (Teil des Studio- bzw. Sammlungsnamens). |
 | `tmdb.firmen` | TMDB-Firmen-IDs; Filme mit mindestens `min_stimmen` Stimmen, angekündigte Filme immer (abschaltbar mit `"angekuendigte": false`). |

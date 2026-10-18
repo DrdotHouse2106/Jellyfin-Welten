@@ -83,14 +83,26 @@ class Tests(unittest.TestCase):
         dok, _ = a.erzeugen(REGELN, ALT, None)
         self.assertEqual([t["tmdb"] for t in dok["welten"][0]["titel"]], ["862", "1", "999"])
 
+    def test_umbenennung_verliert_keine_titel(self):
+        regeln = {"welten": [{"name": "Wizarding World", "aliase": ["harry-potter"], "titel": []}]}
+        alt = {"welten": [{"name": "Harry Potter", "titel": [{"tmdb": "671", "typ": "film"}]}]}
+        dok, _ = a.erzeugen(regeln, alt, None)
+        self.assertEqual([t["tmdb"] for t in dok["welten"][0]["titel"]], ["671"])
+        self.assertEqual(dok["welten"][0]["aliase"], ["harry-potter"])
+
+    def test_welt_id_wie_im_plugin(self):
+        self.assertEqual(a.welt_id("Star Wars"), "star-wars")
+        self.assertEqual(a.welt_id("Ärzte & Co."), "aerzte-co")
+
     def test_echte_dateien_sind_gueltig_und_stabil(self):
         root = Path(__file__).resolve().parent.parent
         regeln = json.loads((root / "regeln.json").read_text(encoding="utf-8"))
         welten = json.loads((root / "welten.json").read_text(encoding="utf-8"))
         dok, _ = a.erzeugen(regeln, welten, None)
-        alt = {w["name"]: len(w["titel"]) for w in welten["welten"]}
+        alt = {a.welt_id(w["name"]): len(w["titel"]) for w in welten["welten"]}
         for w in dok["welten"]:
-            self.assertGreaterEqual(len(w["titel"]), alt.get(w["name"], 0) - sum(1 for x in w["ausschluss"] if x.get("tmdb")), w["name"])
+            vorher = max([alt.get(a.welt_id(w["name"]), 0)] + [alt.get(x, 0) for x in w.get("aliase", [])])
+            self.assertGreaterEqual(len(w["titel"]), vorher - sum(1 for x in w["ausschluss"] if x.get("tmdb")), w["name"])
 
 
 if __name__ == "__main__":

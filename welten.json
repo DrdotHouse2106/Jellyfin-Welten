@@ -653,7 +653,10 @@
   },
   {
    "name": "Star Wars",
-   "logo": "https://image.tmdb.org/t/p/w500/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+   "logo": [
+    "fanart:collection/10",
+    "https://image.tmdb.org/t/p/w500/tlVSws0RvvtPBwViUyOFAO0vcQS.png"
+   ],
    "studios": [],
    "sammlungen": [
     "Star Wars"
@@ -2912,8 +2915,14 @@
    "ausschluss": []
   },
   {
-   "name": "Harry Potter",
-   "logo": "https://image.tmdb.org/t/p/w500/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+   "name": "Wizarding World",
+   "aliase": [
+    "harry-potter"
+   ],
+   "logo": [
+    "fanart:collection/1241",
+    "https://image.tmdb.org/t/p/w500/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png"
+   ],
    "studios": [],
    "sammlungen": [
     "Harry Potter",
@@ -2981,7 +2990,10 @@
   },
   {
    "name": "Mittelerde",
-   "logo": "https://image.tmdb.org/t/p/w500/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+   "logo": [
+    "fanart:collection/119",
+    "https://image.tmdb.org/t/p/w500/2ycs64eqV5rqKYHyQK0GVoKGvfX.png"
+   ],
    "studios": [],
    "sammlungen": [
     "Der Herr der Ringe",
@@ -3035,7 +3047,10 @@
   },
   {
    "name": "James Bond",
-   "logo": "https://image.tmdb.org/t/p/w500/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+   "logo": [
+    "fanart:collection/645",
+    "https://image.tmdb.org/t/p/w500/oYcUi1byZ312Z3xiz5ojz9RQLND.png"
+   ],
    "studios": [
     "Eon Productions"
    ],
@@ -3157,6 +3172,9 @@
   },
   {
    "name": "Jurassic Park",
+   "logo": [
+    "fanart:collection/328"
+   ],
    "studios": [],
    "sammlungen": [
     "Jurassic"

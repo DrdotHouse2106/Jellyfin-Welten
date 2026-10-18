@@ -1,11 +1,11 @@
 # Jellyfin-Welten
 
-Disney+-like "worlds" (Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Harry Potter, Middle-earth, James Bond, Jurassic Park, Studio Ghibli) as a list for the Jellyfin plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). The plugin loads the list daily; the library is not changed.
+Disney+-like "worlds" (Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Wizarding World, Middle-earth, James Bond, Jurassic Park, Studio Ghibli) as a list for the Jellyfin plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). The plugin loads the list daily; the library is not changed.
 
 Plugin URL (default since LocalRecs 12.12.0, setting "Welten-Liste"): `https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/welten.json`
 
 - `regeln.json` – rules, TMDB sources, **manually added titles and exclusions** (edit this file).
-- Each world may have a `logo` (https link, e.g. a TMDB company logo, or a path relative to `welten.json`); brand logos are deliberately not stored as files here.
+- Each world may have a `logo` or a list of logos in order of preference (`fanart:collection/{id}` etc. via fanart.tv with a key in the plugin settings, https link, e.g. a TMDB company logo, or a path relative to `welten.json`) and `aliase` (former IDs); brand logos are deliberately not stored as files here.
 - `welten.json` – generated list for the plugin (do not edit).
 - `scripts/aktualisieren.py` – builds `welten.json` from `regeln.json` and TMDB. Manual entries are never lost (they live in `regeln.json`, which the script only reads), and titles once in `welten.json` stay unless excluded.
 

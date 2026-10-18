@@ -1,5 +1,5 @@
 {
- "beschreibung": "Von Hand gepflegte Regeln für die Welten. Das Skript scripts/aktualisieren.py liest diese Datei und schreibt daraus welten.json – diese Datei hier wird nie automatisch verändert. \"studios\"/\"sammlungen\" sind die Regeln, die das Plugin direkt in der Jellyfin-Bibliothek anwendet. \"tmdb\" sagt dem Skript, wo es Titel bei TMDB findet (Firmen-IDs mit Mindestzahl an Stimmen, Serien-Firmen, TMDB-Sammlungen, Muster für Titel, die nicht übernommen werden). \"titel\" sind von Hand ergänzte Titel, \"ausschluss\" Titel, die nie dazugehören (auch nicht, wenn TMDB sie liefert). \"logo\" ist ein Link auf ein Logo (https, z. B. ein TMDB-Firmenlogo) oder ein Pfad relativ zu welten.json; Marken-Logos werden bewusst nicht als Datei im Repository abgelegt.",
+ "beschreibung": "Von Hand gepflegte Regeln für die Welten. Das Skript scripts/aktualisieren.py liest diese Datei und schreibt daraus welten.json – diese Datei hier wird nie automatisch verändert. \"studios\"/\"sammlungen\" sind die Regeln, die das Plugin direkt in der Jellyfin-Bibliothek anwendet. \"tmdb\" sagt dem Skript, wo es Titel bei TMDB findet (Firmen-IDs mit Mindestzahl an Stimmen, Serien-Firmen, TMDB-Sammlungen, Muster für Titel, die nicht übernommen werden). \"titel\" sind von Hand ergänzte Titel, \"ausschluss\" Titel, die nie dazugehören (auch nicht, wenn TMDB sie liefert). \"logo\" ist ein Logo oder eine Liste von Logos in Reihenfolge (\"fanart:collection/{TMDB-Sammlung}\", \"fanart:movie/{TMDB-ID}\", \"fanart:tv/{TVDB-ID}\" – braucht einen fanart.tv-Schlüssel im Plugin – oder ein Link (https, z. B. ein TMDB-Firmenlogo) oder ein Pfad relativ zu welten.json; Marken-Logos werden bewusst nicht als Datei im Repository abgelegt. \"aliase\" sind frühere IDs einer Welt (z. B. nach einer Umbenennung).",
  "welten": [
   {
    "name": "Marvel",
@@ -63,7 +63,10 @@
   },
   {
    "name": "Star Wars",
-   "logo": "https://image.tmdb.org/t/p/w500/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+   "logo": [
+    "fanart:collection/10",
+    "https://image.tmdb.org/t/p/w500/tlVSws0RvvtPBwViUyOFAO0vcQS.png"
+   ],
    "studios": [],
    "sammlungen": [
     "Star Wars"
@@ -281,8 +284,14 @@
    "ausschluss": []
   },
   {
-   "name": "Harry Potter",
-   "logo": "https://image.tmdb.org/t/p/w500/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+   "name": "Wizarding World",
+   "aliase": [
+    "harry-potter"
+   ],
+   "logo": [
+    "fanart:collection/1241",
+    "https://image.tmdb.org/t/p/w500/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png"
+   ],
    "studios": [],
    "sammlungen": [
     "Harry Potter",
@@ -300,7 +309,10 @@
   },
   {
    "name": "Mittelerde",
-   "logo": "https://image.tmdb.org/t/p/w500/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+   "logo": [
+    "fanart:collection/119",
+    "https://image.tmdb.org/t/p/w500/2ycs64eqV5rqKYHyQK0GVoKGvfX.png"
+   ],
    "studios": [],
    "sammlungen": [
     "Der Herr der Ringe",
@@ -319,7 +331,10 @@
   },
   {
    "name": "James Bond",
-   "logo": "https://image.tmdb.org/t/p/w500/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+   "logo": [
+    "fanart:collection/645",
+    "https://image.tmdb.org/t/p/w500/oYcUi1byZ312Z3xiz5ojz9RQLND.png"
+   ],
    "studios": [
     "Eon Productions"
    ],
@@ -336,6 +351,9 @@
   },
   {
    "name": "Jurassic Park",
+   "logo": [
+    "fanart:collection/328"
+   ],
    "studios": [],
    "sammlungen": [
     "Jurassic"

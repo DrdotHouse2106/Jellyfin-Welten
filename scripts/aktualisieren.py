@@ -47,6 +47,20 @@ BESCHREIBUNG = (
 QUELLE = "Daten: TMDB (https://www.themoviedb.org). Dieses Produkt nutzt die TMDB-API, ist aber nicht von TMDB unterstützt oder zertifiziert."
 
 
+def welt_id(name):
+    """ID einer Welt wie im Plugin: klein, Umlaute ersetzt, Sonderzeichen als Bindestrich."""
+    ersatz = {"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"}
+    ergebnis = ""
+    for zeichen in (name or "").lower():
+        if zeichen in ersatz:
+            ergebnis += ersatz[zeichen]
+        elif zeichen.isascii() and zeichen.isalnum():
+            ergebnis += zeichen
+        elif ergebnis and not ergebnis.endswith("-"):
+            ergebnis += "-"
+    return ergebnis.strip("-")
+
+
 def schluessel(eintrag):
     """Eindeutiger Schlüssel eines Titels: TMDB-ID + Typ, sonst IMDb/TVDB."""
     if eintrag.get("tmdb"):
@@ -161,10 +175,17 @@ def welt_zusammenfuehren(regel, alt, neu):
 def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
     """Erzeugt den Inhalt von welten.json. Gibt (dokument, bericht) zurück."""
     heute = heute or datetime.date.today().isoformat()
-    alt_nach_name = {w["name"]: w for w in alt_welten.get("welten", [])}
+    # Bisherige Welten über Name, ID oder frühere IDs (aliase) finden – eine Umbenennung verliert keine Titel
+    alt_nach_id = {}
+    for w in alt_welten.get("welten", []):
+        for k in [w.get("id"), welt_id(w.get("name"))] + list(w.get("aliase", [])):
+            if k:
+                alt_nach_id.setdefault(welt_id(k), w)
     welten, bericht = [], []
     for regel in regeln["welten"]:
-        alt = alt_nach_name.get(regel["name"], {}).get("titel", [])
+        kandidaten = [regel.get("id"), welt_id(regel["name"])] + list(regel.get("aliase", []))
+        alt_welt = next((alt_nach_id[welt_id(k)] for k in kandidaten if k and welt_id(k) in alt_nach_id), {})
+        alt = alt_welt.get("titel", [])
         neu = tmdb_titel(tmdb, regel.get("tmdb", {}), heute) if tmdb else []
         titel, neu_hinzu = welt_zusammenfuehren(regel, alt, neu)
         entfernt = [e for e in alt if ist_ausgeschlossen(e, regel.get("ausschluss", []))]
@@ -172,6 +193,8 @@ def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
         welt = {"name": regel["name"]}
         if regel.get("id"):
             welt["id"] = regel["id"]
+        if regel.get("aliase"):
+            welt["aliase"] = regel["aliase"]
         if regel.get("logo"):
             welt["logo"] = regel["logo"]
         welt.update({"studios": regel.get("studios", []), "sammlungen": regel.get("sammlungen", []),
