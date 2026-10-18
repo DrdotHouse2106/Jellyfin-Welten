@@ -5065,6 +5065,16 @@
      "tmdb": "75686",
      "typ": "serie",
      "name": "L'uomo che sognava con le aquile"
+    },
+    {
+     "tmdb": "5609",
+     "typ": "film",
+     "name": "Die Nibelungen, Teil 2: Kriemhilds Rache"
+    },
+    {
+     "tmdb": "212795",
+     "typ": "film",
+     "name": "Io non protesto, io amo"
     }
    ],
    "ausschluss": [
@@ -5166,6 +5176,71 @@
      "tmdb": "1992",
      "typ": "serie",
      "name": "Die Enterprise (Zeichentrick)"
+    },
+    {
+     "tmdb": "152",
+     "typ": "film",
+     "name": "Star Trek - Der Film"
+    },
+    {
+     "tmdb": "154",
+     "typ": "film",
+     "name": "Star Trek II - Der Zorn des Khan"
+    },
+    {
+     "tmdb": "157",
+     "typ": "film",
+     "name": "Star Trek III - Auf der Suche nach Mr. Spock"
+    },
+    {
+     "tmdb": "168",
+     "typ": "film",
+     "name": "Star Trek IV - Zurück in die Gegenwart"
+    },
+    {
+     "tmdb": "172",
+     "typ": "film",
+     "name": "Star Trek V - Am Rande des Universums"
+    },
+    {
+     "tmdb": "174",
+     "typ": "film",
+     "name": "Star Trek VI - Das unentdeckte Land"
+    },
+    {
+     "tmdb": "193",
+     "typ": "film",
+     "name": "Star Trek - Treffen der Generationen"
+    },
+    {
+     "tmdb": "199",
+     "typ": "film",
+     "name": "Star Trek - Der erste Kontakt"
+    },
+    {
+     "tmdb": "200",
+     "typ": "film",
+     "name": "Star Trek - Der Aufstand"
+    },
+    {
+     "tmdb": "201",
+     "typ": "film",
+     "name": "Star Trek: Nemesis"
+    },
+    {
+     "tmdb": "13475",
+     "typ": "film",
+     "name": "Star Trek"
+    },
+    {
+     "tmdb": "54138",
+     "typ": "film",
+     "name": "Star Trek Into Darkness"
+    },
+    {
+     "tmdb": "188927",
+     "typ": "film",
+     "name": "Star Trek Beyond"
     }
    ],
    "ausschluss": []
@@ -5198,6 +5273,76 @@
      "tmdb": "157239",
      "typ": "serie",
      "name": "Alien: Earth"
+    },
+    {
+     "tmdb": "348",
+     "typ": "film",
+     "name": "Alien - Das unheimliche Wesen aus einer fremden Welt"
+    },
+    {
+     "tmdb": "679",
+     "typ": "film",
+     "name": "Aliens - Die Rückkehr"
+    },
+    {
+     "tmdb": "106",
+     "typ": "film",
+     "name": "Predator"
+    },
+    {
+     "tmdb": "169",
+     "typ": "film",
+     "name": "Predator 2"
+    },
+    {
+     "tmdb": "8077",
+     "typ": "film",
+     "name": "Alien 3"
+    },
+    {
+     "tmdb": "8078",
+     "typ": "film",
+     "name": "Alien - Die Wiedergeburt"
+    },
+    {
+     "tmdb": "395",
+     "typ": "film",
+     "name": "Alien vs. Predator"
+    },
+    {
+     "tmdb": "440",
+     "typ": "film",
+     "name": "Aliens vs. Predator 2"
+    },
+    {
+     "tmdb": "34851",
+     "typ": "film",
+     "name": "Predators"
+    },
+    {
+     "tmdb": "70981",
+     "typ": "film",
+     "name": "Prometheus - Dunkle Zeichen"
+    },
+    {
+     "tmdb": "126889",
+     "typ": "film",
+     "name": "Alien: Covenant"
+    },
+    {
+     "tmdb": "346910",
+     "typ": "film",
+     "name": "Predator - Upgrade"
+    },
+    {
+     "tmdb": "945961",
+     "typ": "film",
+     "name": "Alien: Romulus"
+    },
+    {
+     "tmdb": "1434936",
+     "typ": "film",
+     "name": "Untitled Alien: Romulus Sequel"
     }
    ],
    "ausschluss": []
@@ -5211,7 +5356,133 @@
     "Final Destination",
     "Amityville"
    ],
-   "titel": [],
+   "titel": [
+    {
+     "tmdb": "11449",
+     "typ": "film",
+     "name": "Amityville Horror"
+    },
+    {
+     "tmdb": "16235",
+     "typ": "film",
+     "name": "Amityville 2 - Der Besessene"
+    },
+    {
+     "tmdb": "27214",
+     "typ": "film",
+     "name": "Amityville 3"
+    },
+    {
+     "tmdb": "55377",
+     "typ": "film",
+     "name": "Amityville Horror IV"
+    },
+    {
+     "tmdb": "41848",
+     "typ": "film",
+     "name": "The Amityville Curse - Der Fluch"
+    },
+    {
+     "tmdb": "41671",
+     "typ": "film",
+     "name": "Amityville - Face of Terror"
+    },
+    {
+     "tmdb": "33519",
+     "typ": "film",
+     "name": "Amityville: A New Generation"
+    },
+    {
+     "tmdb": "52263",
+     "typ": "film",
+     "name": "Amityville - Das Böse stirbt nie"
+    },
+    {
+     "tmdb": "4232",
+     "typ": "film",
+     "name": "Scream - Schrei!"
+    },
+    {
+     "tmdb": "4233",
+     "typ": "film",
+     "name": "Scream 2"
+    },
+    {
+     "tmdb": "4234",
+     "typ": "film",
+     "name": "Scream 3"
+    },
+    {
+     "tmdb": "9532",
+     "typ": "film",
+     "name": "Final Destination"
+    },
+    {
+     "tmdb": "9358",
+     "typ": "film",
+     "name": "Final Destination 2"
+    },
+    {
+     "tmdb": "10065",
+     "typ": "film",
+     "name": "Amityville Horror - Eine wahre Geschichte"
+    },
+    {
+     "tmdb": "9286",
+     "typ": "film",
+     "name": "Final Destination 3"
+    },
+    {
+     "tmdb": "19912",
+     "typ": "film",
+     "name": "Final Destination 4"
+    },
+    {
+     "tmdb": "41446",
+     "typ": "film",
+     "name": "Scream 4"
+    },
+    {
+     "tmdb": "55779",
+     "typ": "film",
+     "name": "Final Destination 5"
+    },
+    {
+     "tmdb": "203835",
+     "typ": "film",
+     "name": "Amityville: The Awakening"
+    },
+    {
+     "tmdb": "646385",
+     "typ": "film",
+     "name": "Scream"
+    },
+    {
+     "tmdb": "934433",
+     "typ": "film",
+     "name": "Scream 6"
+    },
+    {
+     "tmdb": "574475",
+     "typ": "film",
+     "name": "Final Destination Bloodlines"
+    },
+    {
+     "tmdb": "1159559",
+     "typ": "film",
+     "name": "Scream 7"
+    },
+    {
+     "tmdb": "1505252",
+     "typ": "film",
+     "name": "Final Destination 7"
+    },
+    {
+     "tmdb": "1650066",
+     "typ": "film",
+     "name": "Scream 8"
+    }
+   ],
    "ausschluss": []
   }
  ]
