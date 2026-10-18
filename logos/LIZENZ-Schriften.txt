@@ -1,0 +1,17 @@
+Eigene Welten-Logos (bud-spencer-terence-hill.png, horror-klassiker.png)
+======================================================================
+
+Die Logos wurden mit logos/make_logos.py aus zwei Schriften erzeugt, die unter der
+SIL Open Font License 1.1 (OFL) stehen. Die OFL erlaubt die Nutzung der Schriften für
+eigene Grafiken – auch kommerziell –, und die erzeugten Bilder unterliegen nicht der OFL.
+Die Schriftdateien selbst sind nicht in diesem Repository enthalten.
+
+- Rye – Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
+  with Reserved Font Name "Rye". Design: Nicole Fally.
+  Quelle: https://github.com/google/fonts/tree/main/ofl/rye
+
+- Creepster – Copyright (c) 2011, Font Diner, Inc (diner@fontdiner.com),
+  with Reserved Font Names "Creepster". Design: Sideshow.
+  Quelle: https://github.com/google/fonts/tree/main/ofl/creepster
+
+Lizenztext: https://openfontlicense.org (SIL Open Font License, Version 1.1)

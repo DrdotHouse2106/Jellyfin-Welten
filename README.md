@@ -17,6 +17,7 @@ https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/welten.jso
 | [`regeln.json`](regeln.json) | Regeln pro Welt, TMDB-Quellen, **von Hand ergänzte Titel und Ausschlüsse** | **Ja** – hier wird gepflegt |
 | [`welten.json`](welten.json) | Fertige Liste für das Plugin | Nein – wird automatisch erzeugt |
 | [`scripts/aktualisieren.py`](scripts/aktualisieren.py) | Erzeugt `welten.json` aus `regeln.json` und TMDB | – |
+| [`logos/`](logos/) | Selbst gestaltete Logos für Welten ohne passendes Marken-Logo (Bud Spencer & Terence Hill, Horror-Klassiker), erzeugt mit [`make_logos.py`](logos/make_logos.py) aus OFL-Schriften – siehe [`LIZENZ-Schriften.txt`](logos/LIZENZ-Schriften.txt) | bei Bedarf neu erzeugen |
 
 **Von Hand gepflegte Einträge gehen nie verloren:** Sie stehen in `regeln.json`, und das Skript liest diese Datei nur. Außerdem bleibt jeder Titel, der einmal in `welten.json` steht, dort – auch wenn er bei TMDB später unter die Stimmen-Schwelle rutscht. Entfernt wird ein Titel nur über einen Eintrag unter `ausschluss`.
 

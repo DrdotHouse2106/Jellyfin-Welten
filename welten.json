@@ -4633,6 +4633,7 @@
   {
    "name": "Bud Spencer & Terence Hill",
    "id": "bud-spencer-terence-hill",
+   "logo": "logos/bud-spencer-terence-hill.png",
    "studios": [],
    "sammlungen": [],
    "titel": [
@@ -5350,6 +5351,7 @@
   {
    "name": "Horror-Klassiker",
    "id": "horror-klassiker",
+   "logo": "logos/horror-klassiker.png",
    "studios": [],
    "sammlungen": [
     "Scream",
