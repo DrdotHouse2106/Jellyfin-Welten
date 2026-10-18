@@ -1,0 +1,375 @@
+{
+ "beschreibung": "Von Hand gepflegte Regeln für die Welten. Das Skript scripts/aktualisieren.py liest diese Datei und schreibt daraus welten.json – diese Datei hier wird nie automatisch verändert. \"studios\"/\"sammlungen\" sind die Regeln, die das Plugin direkt in der Jellyfin-Bibliothek anwendet. \"tmdb\" sagt dem Skript, wo es Titel bei TMDB findet (Firmen-IDs mit Mindestzahl an Stimmen, Serien-Firmen, TMDB-Sammlungen, Muster für Titel, die nicht übernommen werden). \"titel\" sind von Hand ergänzte Titel, \"ausschluss\" Titel, die nie dazugehören (auch nicht, wenn TMDB sie liefert).",
+ "welten": [
+  {
+   "name": "Marvel",
+   "studios": [
+    "Marvel Studios",
+    "Marvel Entertainment",
+    "Marvel Enterprises",
+    "Marvel Animation",
+    "Marvel Television"
+   ],
+   "sammlungen": [
+    "Avengers",
+    "Iron Man",
+    "Thor",
+    "Captain America",
+    "Captain Marvel",
+    "Guardians of the Galaxy",
+    "Spider-Man",
+    "X-Men",
+    "Wolverine",
+    "Deadpool",
+    "Ant-Man",
+    "Black Panther",
+    "Doctor Strange",
+    "Venom",
+    "Hulk",
+    "Fantastic Four",
+    "Ghost Rider"
+   ],
+   "tmdb": {
+    "firmen": [
+     {
+      "id": 7505,
+      "min_stimmen": 100
+     },
+     {
+      "id": 420,
+      "min_stimmen": 100
+     }
+    ],
+    "serien_firmen": [
+     {
+      "id": 420
+     }
+    ],
+    "ausschluss_muster": [
+     "(?i)making[- ]of",
+     "(?i)gemeinsam unbesiegbar",
+     "(?i)\\blego\\b",
+     "(?i)assembled",
+     "(?i)disney\\+ day",
+     "(?i)fan's guide",
+     "(?i)expanding the universe",
+     "(?i)assembling a universe",
+     "(?i)heroic years"
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "Star Wars",
+   "studios": [],
+   "sammlungen": [
+    "Star Wars"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     10
+    ]
+   },
+   "titel": [],
+   "ausschluss": [
+    {
+     "sammlung": "Indiana Jones",
+     "name": "Indiana Jones ist auch von Lucasfilm, gehört aber nicht zu Star Wars"
+    }
+   ]
+  },
+  {
+   "name": "DC",
+   "studios": [
+    "DC Studios",
+    "DC Entertainment",
+    "DC Films",
+    "DC Comics"
+   ],
+   "sammlungen": [
+    "Batman",
+    "Superman",
+    "Justice League",
+    "Wonder Woman",
+    "Aquaman",
+    "The Dark Knight",
+    "Suicide Squad",
+    "Shazam"
+   ],
+   "tmdb": {
+    "firmen": [
+     {
+      "id": 128064,
+      "min_stimmen": 0
+     },
+     {
+      "id": 9993,
+      "min_stimmen": 100
+     },
+     {
+      "id": 429,
+      "min_stimmen": 100
+     }
+    ],
+    "serien_firmen": [
+     {
+      "id": 128064
+     }
+    ],
+    "ausschluss_muster": [
+     "(?i)\\blego\\b",
+     "(?i)dc showcase",
+     "(?i)batman unlimited"
+    ]
+   },
+   "titel": [],
+   "ausschluss": [
+    {
+     "tmdb": "39514",
+     "typ": "film",
+     "name": "R.E.D."
+    },
+    {
+     "tmdb": "146216",
+     "typ": "film",
+     "name": "R.E.D. 2"
+    }
+   ]
+  },
+  {
+   "name": "Pixar",
+   "studios": [
+    "Pixar"
+   ],
+   "sammlungen": [
+    "Toy Story",
+    "Findet Nemo",
+    "Finding Nemo",
+    "Die Unglaublichen",
+    "The Incredibles",
+    "Monster AG",
+    "Alles steht Kopf",
+    "Inside Out",
+    "Cars"
+   ],
+   "tmdb": {
+    "firmen": [
+     {
+      "id": 3,
+      "min_stimmen": 50
+     }
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "Disney",
+   "studios": [
+    "Walt Disney Pictures",
+    "Walt Disney Animation",
+    "Walt Disney Productions"
+   ],
+   "sammlungen": [
+    "Disney"
+   ],
+   "tmdb": {
+    "firmen": [
+     {
+      "id": 6125,
+      "min_stimmen": 50
+     },
+     {
+      "id": 2,
+      "min_stimmen": 300
+     }
+    ]
+   },
+   "titel": [],
+   "ausschluss": [
+    {
+     "tmdb": "920",
+     "typ": "film",
+     "name": "Cars (Pixar)"
+    },
+    {
+     "tmdb": "49013",
+     "typ": "film",
+     "name": "Cars 2 (Pixar)"
+    },
+    {
+     "tmdb": "260514",
+     "typ": "film",
+     "name": "Cars 3 (Pixar)"
+    },
+    {
+     "tmdb": "508439",
+     "typ": "film",
+     "name": "Onward (Pixar)"
+    },
+    {
+     "tmdb": "774825",
+     "typ": "film",
+     "name": "Ice Age – Die Abenteuer von Buck Wild"
+    },
+    {
+     "sammlung": "Cars",
+     "name": "Cars gehört zu Pixar"
+    }
+   ]
+  },
+  {
+   "name": "DreamWorks",
+   "studios": [
+    "DreamWorks Animation"
+   ],
+   "sammlungen": [
+    "Shrek",
+    "Madagascar",
+    "Drachenzähmen",
+    "How to Train Your Dragon",
+    "Kung Fu Panda",
+    "Die Croods",
+    "Trolls",
+    "Boss Baby",
+    "Der gestiefelte Kater"
+   ],
+   "tmdb": {
+    "firmen": [
+     {
+      "id": 521,
+      "min_stimmen": 30
+     }
+    ],
+    "ausschluss_muster": [
+     "(?i)\\bspecial\\b"
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "Illumination",
+   "studios": [
+    "Illumination"
+   ],
+   "sammlungen": [
+    "Einfach unverbesserlich",
+    "Despicable Me",
+    "Minions",
+    "Pets",
+    "Sing",
+    "Super Mario"
+   ],
+   "tmdb": {
+    "firmen": [
+     {
+      "id": 6704,
+      "min_stimmen": 10
+     }
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "Harry Potter",
+   "studios": [],
+   "sammlungen": [
+    "Harry Potter",
+    "Phantastische Tierwesen",
+    "Fantastic Beasts"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     1241,
+     435259
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "Mittelerde",
+   "studios": [],
+   "sammlungen": [
+    "Der Herr der Ringe",
+    "Lord of the Rings",
+    "Der Hobbit",
+    "The Hobbit"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     119,
+     121938
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "James Bond",
+   "studios": [
+    "Eon Productions"
+   ],
+   "sammlungen": [
+    "James Bond"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     645
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "Jurassic Park",
+   "studios": [],
+   "sammlungen": [
+    "Jurassic"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     328
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
+  },
+  {
+   "name": "Studio Ghibli",
+   "studios": [
+    "Studio Ghibli"
+   ],
+   "sammlungen": [],
+   "tmdb": {
+    "firmen": [
+     {
+      "id": 10342,
+      "min_stimmen": 10
+     }
+    ]
+   },
+   "titel": [],
+   "ausschluss": [
+    {
+     "tmdb": "12140",
+     "typ": "film",
+     "name": "Ghost in the Shell 2: Innocence"
+    },
+    {
+     "tmdb": "252511",
+     "typ": "film",
+     "name": "The Kingdom of Dreams and Madness (Doku)"
+    },
+    {
+     "tmdb": "1044343",
+     "typ": "film",
+     "name": "Zen: Grogu und die Rußmännchen"
+    }
+   ]
+  }
+ ]
+}
