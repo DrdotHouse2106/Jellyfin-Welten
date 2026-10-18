@@ -12,3 +12,9 @@ Plugin URL (default since LocalRecs 12.12.0, setting "Welten-Liste"): `https://r
 The GitHub Action runs weekly, on changes to `regeln.json` and on demand. It needs a repository secret `TMDB_API_KEY` (TMDB v3 API key or v4 read token); without it only `regeln.json` changes are applied.
 
 Data: [TMDB](https://www.themoviedb.org). This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+## Support the project
+
+Development costs time and money (servers, test devices, AI tools). If you like the project, a small donation is very welcome:
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white)](https://paypal.me/DrdotHouse)
