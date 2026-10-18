@@ -399,6 +399,626 @@
      "name": "Zen: Grogu und die Rußmännchen"
     }
    ]
+  },
+  {
+   "name": "Bud Spencer & Terence Hill",
+   "id": "bud-spencer-terence-hill",
+   "studios": [],
+   "sammlungen": [],
+   "tmdb": {
+    "personen": [
+     {
+      "id": 18841,
+      "ab_jahr": 1967
+     },
+     {
+      "id": 15140,
+      "ab_jahr": 1967
+     }
+    ],
+    "ausschluss_muster": []
+   },
+   "titel": [
+    {
+     "tmdb": "1721",
+     "typ": "film",
+     "name": "Zwei Himmelhunde auf dem Weg zur Hölle"
+    },
+    {
+     "tmdb": "10295",
+     "typ": "film",
+     "name": "Die Miami Cops"
+    },
+    {
+     "tmdb": "10770",
+     "typ": "film",
+     "name": "Der Große mit seinem außerirdischen Kleinen"
+    },
+    {
+     "tmdb": "11144",
+     "typ": "film",
+     "name": "Sie nannten ihn Mücke"
+    },
+    {
+     "tmdb": "11160",
+     "typ": "film",
+     "name": "Plattfuss am Nil"
+    },
+    {
+     "tmdb": "11039",
+     "typ": "film",
+     "name": "Buddy haut den Lukas"
+    },
+    {
+     "tmdb": "11048",
+     "typ": "film",
+     "name": "Sie nannten ihn Plattfuss"
+    },
+    {
+     "tmdb": "11055",
+     "typ": "film",
+     "name": "Plattfuss in Afrika"
+    },
+    {
+     "tmdb": "11053",
+     "typ": "film",
+     "name": "Plattfuss räumt auf"
+    },
+    {
+     "tmdb": "11340",
+     "typ": "film",
+     "name": "Banana Joe"
+    },
+    {
+     "tmdb": "6399",
+     "typ": "film",
+     "name": "Zwei Asse trumpfen auf"
+    },
+    {
+     "tmdb": "11367",
+     "typ": "film",
+     "name": "Zwei sind nicht zu bremsen"
+    },
+    {
+     "tmdb": "11681",
+     "typ": "film",
+     "name": "Zwei Missionare"
+    },
+    {
+     "tmdb": "11689",
+     "typ": "film",
+     "name": "Zwei außer Rand und Band"
+    },
+    {
+     "tmdb": "11719",
+     "typ": "film",
+     "name": "Wenn man vom Teufel spricht..."
+    },
+    {
+     "tmdb": "11612",
+     "typ": "film",
+     "name": "Auch die Engel essen Bohnen"
+    },
+    {
+     "tmdb": "11613",
+     "typ": "film",
+     "name": "Bud, der Ganovenschreck"
+    },
+    {
+     "tmdb": "11614",
+     "typ": "film",
+     "name": "Der Bomber"
+    },
+    {
+     "tmdb": "11616",
+     "typ": "film",
+     "name": "Zwei bärenstarke Typen"
+    },
+    {
+     "tmdb": "6916",
+     "typ": "film",
+     "name": "Zwei wie Pech und Schwefel"
+    },
+    {
+     "tmdb": "11813",
+     "typ": "film",
+     "name": "Hector, der Ritter ohne Furcht und Tadel"
+    },
+    {
+     "tmdb": "11829",
+     "typ": "film",
+     "name": "Vier Fäuste für ein Halleluja"
+    },
+    {
+     "tmdb": "11874",
+     "typ": "film",
+     "name": "Vier für ein Ave Maria"
+    },
+    {
+     "tmdb": "8833",
+     "typ": "film",
+     "name": "Vier Fäuste gegen Rio"
+    },
+    {
+     "tmdb": "12529",
+     "typ": "film",
+     "name": "Hügel der blutigen Stiefel"
+    },
+    {
+     "tmdb": "9031",
+     "typ": "film",
+     "name": "Das Krokodil und sein Nilpferd"
+    },
+    {
+     "tmdb": "9287",
+     "typ": "film",
+     "name": "Die Troublemaker"
+    },
+    {
+     "tmdb": "9807",
+     "typ": "film",
+     "name": "Aladin"
+    },
+    {
+     "tmdb": "9394",
+     "typ": "film",
+     "name": "Die Rechte und die Linke Hand des Teufels"
+    },
+    {
+     "tmdb": "12758",
+     "typ": "film",
+     "name": "Die letzte Rechnung zahlst du selbst"
+    },
+    {
+     "tmdb": "41608",
+     "typ": "film",
+     "name": "Gott vergibt - Django nie!"
+    },
+    {
+     "tmdb": "61237",
+     "typ": "film",
+     "name": "Sie verkaufen den Tod"
+    },
+    {
+     "tmdb": "1110403",
+     "typ": "film",
+     "name": "Vier Fäuste lassen's krachen"
+    },
+    {
+     "tmdb": "15640",
+     "typ": "film",
+     "name": "Mord ist mein Geschäft, Liebling"
+    },
+    {
+     "tmdb": "38670",
+     "typ": "film",
+     "name": "Die fünf Gefürchteten"
+    },
+    {
+     "tmdb": "46445",
+     "typ": "film",
+     "name": "Eine Faust geht nach Westen"
+    },
+    {
+     "tmdb": "46448",
+     "typ": "film",
+     "name": "Charleston - Zwei Fäuste räumen auf"
+    },
+    {
+     "tmdb": "46437",
+     "typ": "film",
+     "name": "Söhne des Windes"
+    },
+    {
+     "tmdb": "46565",
+     "typ": "film",
+     "name": "Der Sizilianer"
+    },
+    {
+     "tmdb": "46567",
+     "typ": "film",
+     "name": "Halleluja... Amigo"
+    },
+    {
+     "tmdb": "46570",
+     "typ": "film",
+     "name": "Heute ich… morgen Du!"
+    },
+    {
+     "tmdb": "46569",
+     "typ": "film",
+     "name": "Padre Speranza"
+    },
+    {
+     "tmdb": "46653",
+     "typ": "film",
+     "name": "In den Armen der Bestie"
+    },
+    {
+     "tmdb": "52721",
+     "typ": "film",
+     "name": "Freibeuter der Meere"
+    },
+    {
+     "tmdb": "81697",
+     "typ": "film",
+     "name": "Cantando dietro i paraventi"
+    },
+    {
+     "tmdb": "54154",
+     "typ": "film",
+     "name": "Gott mit uns"
+    },
+    {
+     "tmdb": "999800",
+     "typ": "film",
+     "name": "Django, Sartana, Trinita' et les autres…"
+    },
+    {
+     "tmdb": "346582",
+     "typ": "film",
+     "name": "Tre per sempre"
+    },
+    {
+     "tmdb": "457843",
+     "typ": "film",
+     "name": "Pane e Olio"
+    },
+    {
+     "tmdb": "60047",
+     "typ": "film",
+     "name": "Fuochi d'artificio"
+    },
+    {
+     "tmdb": "30689",
+     "typ": "film",
+     "name": "Vier Fliegen auf grauem Samt"
+    },
+    {
+     "tmdb": "1754751",
+     "typ": "film",
+     "name": "Zwei Supertypen in Miami - Der Kleine mit der großen Klappe"
+    },
+    {
+     "tmdb": "10915",
+     "typ": "film",
+     "name": "Nobody ist der Größte"
+    },
+    {
+     "tmdb": "4391",
+     "typ": "film",
+     "name": "Allein gegen das Gesetz"
+    },
+    {
+     "tmdb": "11175",
+     "typ": "film",
+     "name": "Lucky Luke"
+    },
+    {
+     "tmdb": "11333",
+     "typ": "film",
+     "name": "Der Supercop"
+    },
+    {
+     "tmdb": "11539",
+     "typ": "film",
+     "name": "Keiner haut wie Don Camillo"
+    },
+    {
+     "tmdb": "11496",
+     "typ": "film",
+     "name": "Renegade"
+    },
+    {
+     "tmdb": "25388",
+     "typ": "film",
+     "name": "Marschier oder stirb"
+    },
+    {
+     "tmdb": "9474",
+     "typ": "film",
+     "name": "Mein Name ist Nobody"
+    },
+    {
+     "tmdb": "44699",
+     "typ": "film",
+     "name": "Mr. Billion"
+    },
+    {
+     "tmdb": "46436",
+     "typ": "film",
+     "name": "Virtual Weapon"
+    },
+    {
+     "tmdb": "46443",
+     "typ": "film",
+     "name": "Django und die Bande der Gehenkten"
+    },
+    {
+     "tmdb": "46446",
+     "typ": "film",
+     "name": "Der Teufel kennt kein Halleluja"
+    },
+    {
+     "tmdb": "46568",
+     "typ": "film",
+     "name": "Blaue Bohnen für ein Halleluja"
+    },
+    {
+     "tmdb": "39807",
+     "typ": "film",
+     "name": "Doc West - Nobody ist zurück"
+    },
+    {
+     "tmdb": "54164",
+     "typ": "film",
+     "name": "Verflucht, verdammt und Halleluja"
+    },
+    {
+     "tmdb": "54166",
+     "typ": "film",
+     "name": "Etappenschweine"
+    },
+    {
+     "tmdb": "55093",
+     "typ": "film",
+     "name": "Doc West - Nobody schlägt zurück"
+    },
+    {
+     "tmdb": "1136357",
+     "typ": "film",
+     "name": "They call me Lucky Luke - Ma Dalton"
+    },
+    {
+     "tmdb": "107527",
+     "typ": "film",
+     "name": "Der blauäugige Bandit"
+    },
+    {
+     "tmdb": "126813",
+     "typ": "film",
+     "name": "Lucky Luke - der neue Film"
+    },
+    {
+     "tmdb": "239211",
+     "typ": "film",
+     "name": "ORG"
+    },
+    {
+     "tmdb": "346566",
+     "typ": "film",
+     "name": "L'uomo che sognava con le aquile"
+    },
+    {
+     "tmdb": "429710",
+     "typ": "film",
+     "name": "Mein Name ist Somebody"
+    },
+    {
+     "tmdb": "430082",
+     "typ": "film",
+     "name": "Das Schwert der Nibelungen"
+    },
+    {
+     "tmdb": "1704381",
+     "typ": "film",
+     "name": "The Socceritos"
+    },
+    {
+     "tmdb": "40438",
+     "typ": "serie",
+     "name": "Ein Koch für alle Fälle"
+    },
+    {
+     "tmdb": "41755",
+     "typ": "serie",
+     "name": "Zwei Engel mit vier Fäusten"
+    },
+    {
+     "tmdb": "40671",
+     "typ": "serie",
+     "name": "Zwei Supertypen in Miami"
+    },
+    {
+     "tmdb": "57033",
+     "typ": "serie",
+     "name": "Jack Clementi - Anruf genügt"
+    },
+    {
+     "tmdb": "19597",
+     "typ": "serie",
+     "name": "Lucky Luke"
+    },
+    {
+     "tmdb": "21220",
+     "typ": "serie",
+     "name": "Don Matteo"
+    },
+    {
+     "tmdb": "41571",
+     "typ": "serie",
+     "name": "Die Bergpolizei – Ganz nah am Himmel"
+    },
+    {
+     "tmdb": "227550",
+     "typ": "serie",
+     "name": "Riding the Dark"
+    },
+    {
+     "tmdb": "75686",
+     "typ": "serie",
+     "name": "L'uomo che sognava con le aquile"
+    }
+   ],
+   "ausschluss": [
+    {
+     "tmdb": "1032957",
+     "typ": "film",
+     "name": "Klaus Kinski – Ich bin kein Schauspieler (Doku)"
+    },
+    {
+     "tmdb": "887719",
+     "typ": "film",
+     "name": "Caterina Caselli (Doku)"
+    },
+    {
+     "tmdb": "483501",
+     "typ": "film",
+     "name": "Così parlò De Crescenzo (Doku)"
+    },
+    {
+     "tmdb": "5610",
+     "typ": "serie",
+     "name": "Ciao Darwin (Show)"
+    },
+    {
+     "tmdb": "66312",
+     "typ": "serie",
+     "name": "Rischiatutto (Show)"
+    }
+   ]
+  },
+  {
+   "name": "Star Trek",
+   "logo": [
+    "fanart:collection/151",
+    "fanart:collection/115575"
+   ],
+   "studios": [],
+   "sammlungen": [
+    "Star Trek",
+    "Raumschiff Enterprise"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     151,
+     115570,
+     115575
+    ]
+   },
+   "titel": [
+    {
+     "tmdb": "253",
+     "typ": "serie",
+     "name": "Raumschiff Enterprise"
+    },
+    {
+     "tmdb": "655",
+     "typ": "serie",
+     "name": "Star Trek: Das nächste Jahrhundert"
+    },
+    {
+     "tmdb": "580",
+     "typ": "serie",
+     "name": "Star Trek: Deep Space Nine"
+    },
+    {
+     "tmdb": "1855",
+     "typ": "serie",
+     "name": "Star Trek: Raumschiff Voyager"
+    },
+    {
+     "tmdb": "314",
+     "typ": "serie",
+     "name": "Star Trek: Enterprise"
+    },
+    {
+     "tmdb": "67198",
+     "typ": "serie",
+     "name": "Star Trek: Discovery"
+    },
+    {
+     "tmdb": "85949",
+     "typ": "serie",
+     "name": "Star Trek: Picard"
+    },
+    {
+     "tmdb": "85948",
+     "typ": "serie",
+     "name": "Star Trek: Lower Decks"
+    },
+    {
+     "tmdb": "106393",
+     "typ": "serie",
+     "name": "Star Trek: Prodigy"
+    },
+    {
+     "tmdb": "103516",
+     "typ": "serie",
+     "name": "Star Trek: Strange New Worlds"
+    },
+    {
+     "tmdb": "223530",
+     "typ": "serie",
+     "name": "Star Trek: Starfleet Academy"
+    },
+    {
+     "tmdb": "1992",
+     "typ": "serie",
+     "name": "Die Enterprise (Zeichentrick)"
+    }
+   ],
+   "ausschluss": []
+  },
+  {
+   "name": "Alien & Predator",
+   "id": "alien-predator",
+   "logo": [
+    "fanart:collection/115762",
+    "fanart:collection/8091"
+   ],
+   "studios": [],
+   "sammlungen": [
+    "Alien",
+    "Predator",
+    "Prometheus"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     8091,
+     135416,
+     1434946,
+     399,
+     115762
+    ]
+   },
+   "titel": [
+    {
+     "tmdb": "766507",
+     "typ": "film",
+     "name": "Prey"
+    },
+    {
+     "tmdb": "1242898",
+     "typ": "film",
+     "name": "Predator: Badlands"
+    },
+    {
+     "tmdb": "157239",
+     "typ": "serie",
+     "name": "Alien: Earth"
+    }
+   ],
+   "ausschluss": []
+  },
+  {
+   "name": "Horror-Klassiker",
+   "id": "horror-klassiker",
+   "studios": [],
+   "sammlungen": [
+    "Scream",
+    "Final Destination",
+    "Amityville"
+   ],
+   "tmdb": {
+    "sammlungen": [
+     2602,
+     8864,
+     397842
+    ]
+   },
+   "titel": [],
+   "ausschluss": []
   }
  ]
 }

@@ -2,7 +2,7 @@
 
 *[English version](README.en.md)*
 
-„Welten“ wie bei Disney+ – Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Wizarding World, Mittelerde, James Bond, Jurassic Park, Studio Ghibli – als Liste für das Jellyfin-Plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). Das Plugin lädt die Liste täglich und zeigt die Welten in Apps wie Quallenkino persönlich sortiert an. Die Jellyfin-Bibliothek wird dabei nicht verändert.
+„Welten“ wie bei Disney+ – Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Wizarding World, Mittelerde, James Bond, Jurassic Park, Studio Ghibli, Bud Spencer & Terence Hill, Star Trek, Alien & Predator, Horror-Klassiker – als Liste für das Jellyfin-Plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). Das Plugin lädt die Liste täglich und zeigt die Welten in Apps wie Quallenkino persönlich sortiert an. Die Jellyfin-Bibliothek wird dabei nicht verändert.
 
 **Adresse für das Plugin** (Standard ab LocalRecs 12.12.0, Einstellung „Welten-Liste“):
 
@@ -57,6 +57,7 @@ Dafür braucht das Repository einen **TMDB-API-Schlüssel** als Secret: **Settin
 | `tmdb.firmen` | TMDB-Firmen-IDs; Filme mit mindestens `min_stimmen` Stimmen, angekündigte Filme immer (abschaltbar mit `"angekuendigte": false`). |
 | `tmdb.serien_firmen` | TMDB-Firmen-IDs für Serien. |
 | `tmdb.sammlungen` | TMDB-Sammlungs-IDs (z. B. 1241 = Harry Potter). |
+| `tmdb.personen` | TMDB-Personen-IDs: alle Filme und Serien, in denen die Person mitspielt (ohne Dokus, Talk- und Reality-Shows und Auftritte als sie selbst); mit `ab_jahr` nur Titel ab diesem Jahr (z. B. Bud Spencer & Terence Hill ab 1967). |
 | `tmdb.ausschluss_muster` | Reguläre Ausdrücke: neue TMDB-Titel mit passendem Namen werden nicht übernommen (z. B. Making-ofs). |
 | `titel` | Von Hand ergänzte Titel (`tmdb` + `typ`, oder `imdb`, oder `tvdb`). |
 | `ausschluss` | Titel, die nie dazugehören – auch wenn TMDB oder eine Regel sie liefert. Statt einer ID geht `"sammlung": "…"` (ganze Jellyfin-Sammlung). |

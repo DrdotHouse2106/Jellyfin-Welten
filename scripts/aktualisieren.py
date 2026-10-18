@@ -35,6 +35,8 @@ REGELN = ROOT / "regeln.json"
 WELTEN = ROOT / "welten.json"
 API = "https://api.themoviedb.org/3"
 MAX_SEITEN = 25
+OHNE_GENRES = {99, 10763, 10764, 10767}  # Dokumentation, Nachrichten, Reality, Talk
+SELBST = re.compile(r"(?i)\b(himself|herself|self|sich selbst|se stesso)\b")
 
 BESCHREIBUNG = (
     "Welten für das Jellyfin-Plugin Local Recommendations (LocalRecs). Diese Datei wird von "
@@ -138,6 +140,21 @@ def tmdb_titel(tmdb, quelle, heute):
                                **{"vote_count.gte": firma.get("min_stimmen", 0)})
         gefunden += [{"tmdb": str(s["id"]), "typ": "serie", "name": s.get("name") or s.get("original_name"),
                       "datum": s.get("first_air_date") or ""} for s in serien]
+    for person in quelle.get("personen", []):
+        # Filme und Serien einer Person (als Darsteller), ohne Dokus/Talk-/Reality-Shows und Auftritte als sie selbst
+        cast = tmdb.get("/person/" + str(person["id"]) + "/combined_credits").get("cast", [])
+        for c in cast:
+            datum = c.get("release_date") or c.get("first_air_date") or ""
+            if person.get("ab_jahr") and datum and datum[:4] < str(person["ab_jahr"]):
+                continue
+            if set(c.get("genre_ids") or []) & OHNE_GENRES:
+                continue
+            if SELBST.search(c.get("character") or ""):
+                continue
+            serie = c.get("media_type") == "tv"
+            gefunden.append({"tmdb": str(c["id"]), "typ": "serie" if serie else "film",
+                             "name": (c.get("name") if serie else c.get("title")) or c.get("original_title") or c.get("original_name"),
+                             "datum": datum})
     for sammlung in quelle.get("sammlungen", []):
         teile = tmdb.get("/collection/" + str(sammlung)).get("parts", [])
         gefunden += [{"tmdb": str(t["id"]), "typ": "film", "name": t.get("title") or t.get("original_title"),

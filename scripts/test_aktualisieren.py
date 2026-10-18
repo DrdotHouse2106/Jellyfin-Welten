@@ -19,7 +19,19 @@ class FakeTmdb:
         return [f for f in quelle.get(params["with_companies"], []) if f.get("vote_count", 0) >= params.get("vote_count.gte", 0)]
 
     def get(self, pfad, **params):
+        if pfad.endswith("/combined_credits"):
+            return {"cast": PERSON_CAST}
         return {"parts": self.sammlungen.get(int(pfad.rsplit("/", 1)[1]), [])}
+
+
+PERSON_CAST = [
+    {"id": 11829, "media_type": "movie", "title": "Vier Fäuste für ein Halleluja", "release_date": "1971-10-21", "genre_ids": [37, 35]},
+    {"id": 1000, "media_type": "movie", "title": "Früher Film", "release_date": "1959-01-01", "genre_ids": [18]},
+    {"id": 1001, "media_type": "movie", "title": "Doku", "release_date": "2010-01-01", "genre_ids": [99]},
+    {"id": 1002, "media_type": "tv", "name": "Talkshow", "first_air_date": "2000-01-01", "genre_ids": [10767]},
+    {"id": 1003, "media_type": "movie", "title": "Gastauftritt", "release_date": "2015-01-01", "genre_ids": [35], "character": "Himself"},
+    {"id": 21220, "media_type": "tv", "name": "Don Matteo", "first_air_date": "2000-01-07", "genre_ids": [80, 18]},
+    {"id": 1004, "media_type": "movie", "title": "Angekündigt", "release_date": "", "genre_ids": []}]
 
 
 REGELN = {"welten": [{
@@ -89,6 +101,12 @@ class Tests(unittest.TestCase):
         dok, _ = a.erzeugen(regeln, alt, None)
         self.assertEqual([t["tmdb"] for t in dok["welten"][0]["titel"]], ["671"])
         self.assertEqual(dok["welten"][0]["aliase"], ["harry-potter"])
+
+    def test_personen_mit_filtern(self):
+        regeln = {"welten": [{"name": "Bud Spencer & Terence Hill", "tmdb": {"personen": [{"id": 15140, "ab_jahr": 1967}]}, "titel": []}]}
+        dok, _ = a.erzeugen(regeln, {"welten": []}, FakeTmdb(), heute="2026-10-18")
+        titel = {(t["tmdb"], t["typ"]) for t in dok["welten"][0]["titel"]}
+        self.assertEqual(titel, {("11829", "film"), ("21220", "serie"), ("1004", "film")})
 
     def test_welt_id_wie_im_plugin(self):
         self.assertEqual(a.welt_id("Star Wars"), "star-wars")
