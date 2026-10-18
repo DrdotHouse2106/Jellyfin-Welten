@@ -102,6 +102,11 @@ class Tests(unittest.TestCase):
         self.assertEqual([t["tmdb"] for t in dok["welten"][0]["titel"]], ["671"])
         self.assertEqual(dok["welten"][0]["aliase"], ["harry-potter"])
 
+    def test_trailer_wird_uebernommen(self):
+        regeln = {"welten": [{"name": "Wizarding World", "trailer": 671, "titel": [{"tmdb": "671", "typ": "film"}]}]}
+        dok, _ = a.erzeugen(regeln, {"welten": []}, None)
+        self.assertEqual(dok["welten"][0]["trailer"], 671)
+
     def test_personen_mit_filtern(self):
         regeln = {"welten": [{"name": "Bud Spencer & Terence Hill", "tmdb": {"personen": [{"id": 15140, "ab_jahr": 1967}]}, "titel": []}]}
         dok, _ = a.erzeugen(regeln, {"welten": []}, FakeTmdb(), heute="2026-10-18")

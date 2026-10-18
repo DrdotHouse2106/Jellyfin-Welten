@@ -52,6 +52,7 @@ Dafür braucht das Repository einen **TMDB-API-Schlüssel** als Secret: **Settin
 | Feld | Bedeutung |
 |---|---|
 | `logo` | Logo oder Liste von Logos in Reihenfolge – das erste, das klappt, wird verwendet: `fanart:collection/{TMDB-Sammlung}`, `fanart:movie/{TMDB-ID}` oder `fanart:tv/{TVDB-ID}` (Logos von fanart.tv, braucht einen fanart.tv-Schlüssel in den Plugin-Einstellungen), ein Link `https://…` (z. B. TMDB-Firmenlogo) oder ein Pfad relativ zu `welten.json`. Das Plugin lädt das Bild, speichert es zwischen und liefert es an Apps aus. Marken-Logos werden bewusst nicht als Datei hier abgelegt. |
+| `trailer` | Optional: Titel, dessen lokaler Trailer (z. B. von Trailarr) im Hintergrund der Welt läuft – TMDB-ID (`"trailer": 671`) oder `{ "imdb": "tt…", "typ": "film" }`. Ohne Angabe nimmt das Plugin (ab 12.16.0) den zuletzt hinzugefügten Titel der Welt mit lokalem Trailer. |
 | `aliase` | Frühere IDs der Welt (z. B. `harry-potter` nach der Umbenennung in „Wizarding World“) – Apps und Einstellungen, die die alte ID verwenden, funktionieren weiter. |
 | `name` | Anzeigename; die ID im Plugin entsteht daraus (klein, Umlaute als ae/oe/ue/ss, Sonderzeichen als `-`) oder aus einem eigenen Feld `id`. |
 | `studios`, `sammlungen` | Regeln, die das Plugin direkt in der Bibliothek anwendet (Teil des Studio- bzw. Sammlungsnamens). |

@@ -214,6 +214,8 @@ def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
             welt["aliase"] = regel["aliase"]
         if regel.get("logo"):
             welt["logo"] = regel["logo"]
+        if regel.get("trailer"):
+            welt["trailer"] = regel["trailer"]
         welt.update({"studios": regel.get("studios", []), "sammlungen": regel.get("sammlungen", []),
                      "titel": titel, "ausschluss": regel.get("ausschluss", [])})
         welten.append(welt)
