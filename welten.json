@@ -647,6 +647,126 @@
      "tmdb": "61889",
      "typ": "serie",
      "name": "Marvel's Daredevil"
+    },
+    {
+     "tmdb": "6332",
+     "typ": "serie",
+     "name": "Hulk"
+    },
+    {
+     "tmdb": "1130",
+     "typ": "serie",
+     "name": "Silver Surfer: The Animated Series"
+    },
+    {
+     "tmdb": "10079",
+     "typ": "serie",
+     "name": "Spider-Man Unlimited"
+    },
+    {
+     "tmdb": "668",
+     "typ": "serie",
+     "name": "X-Men - Es geht weiter"
+    },
+    {
+     "tmdb": "1449",
+     "typ": "serie",
+     "name": "Mutant X"
+    },
+    {
+     "tmdb": "6549",
+     "typ": "serie",
+     "name": "Wolverine and the X-Men"
+    },
+    {
+     "tmdb": "69069",
+     "typ": "serie",
+     "name": "WHIH Newsfront"
+    },
+    {
+     "tmdb": "114695",
+     "typ": "serie",
+     "name": "Marvel Studios: Legends"
+    },
+    {
+     "tmdb": "127635",
+     "typ": "serie",
+     "name": "Spidey und seine Super Freunde"
+    },
+    {
+     "tmdb": "1010823",
+     "typ": "film",
+     "name": "Das Meisterwerk"
+    },
+    {
+     "tmdb": "1010819",
+     "typ": "film",
+     "name": "Der kleine Kerl"
+    },
+    {
+     "tmdb": "1010820",
+     "typ": "film",
+     "name": "Groot ermittelt"
+    },
+    {
+     "tmdb": "1010821",
+     "typ": "film",
+     "name": "Groot nimmt ein Bad"
+    },
+    {
+     "tmdb": "1010818",
+     "typ": "film",
+     "name": "Groots erste Schritte"
+    },
+    {
+     "tmdb": "218437",
+     "typ": "serie",
+     "name": "Voices Rising: The Music of Wakanda Forever"
+    },
+    {
+     "tmdb": "717082",
+     "typ": "film",
+     "name": "Stan Lee"
+    },
+    {
+     "tmdb": "294895",
+     "typ": "serie",
+     "name": "Meet Iron Man and His Awesome Friends"
+    },
+    {
+     "tmdb": "241388",
+     "typ": "serie",
+     "name": "Eyes of Wakanda"
+    },
+    {
+     "tmdb": "274388",
+     "typ": "serie",
+     "name": "Iron Man und seine fantastischen Freunde"
+    },
+    {
+     "tmdb": "318417",
+     "typ": "serie",
+     "name": "Daredevil: Born Again Official Podcast"
+    },
+    {
+     "tmdb": "332379",
+     "typ": "serie",
+     "name": "Countdown to Avengers: Doomsday Official Podcast"
+    },
+    {
+     "tmdb": "213375",
+     "typ": "serie",
+     "name": "VisionQuest"
+    },
+    {
+     "tmdb": "337844",
+     "typ": "serie",
+     "name": "Zodiac"
+    },
+    {
+     "tmdb": "297767",
+     "typ": "serie",
+     "name": "Marvel's Avengers: Mightiest Friends"
     }
    ],
    "ausschluss": []
@@ -1394,6 +1514,91 @@
      "tmdb": "79788",
      "typ": "serie",
      "name": "Watchmen (Serie)"
+    },
+    {
+     "tmdb": "300386",
+     "typ": "film",
+     "name": "Justice League: Secret Origins"
+    },
+    {
+     "tmdb": "268899",
+     "typ": "film",
+     "name": "Justice League: Starcrossed - The Movie"
+    },
+    {
+     "tmdb": "20077",
+     "typ": "film",
+     "name": "Batman vs. Dracula"
+    },
+    {
+     "tmdb": "19323",
+     "typ": "film",
+     "name": "Superman: Brainiac Attacks"
+    },
+    {
+     "tmdb": "16237",
+     "typ": "film",
+     "name": "Teen Titans: Trouble in Tokyo"
+    },
+    {
+     "tmdb": "16440",
+     "typ": "film",
+     "name": "Watchmen: Tales of the Black Freighter"
+    },
+    {
+     "tmdb": "251768",
+     "typ": "film",
+     "name": "JLA Adventures: Trapped in Time"
+    },
+    {
+     "tmdb": "264170",
+     "typ": "film",
+     "name": "Batman: Strange Days"
+    },
+    {
+     "tmdb": "457249",
+     "typ": "film",
+     "name": "Vixen: The Movie"
+    },
+    {
+     "tmdb": "1255345",
+     "typ": "film",
+     "name": "Ettas Mission"
+    },
+    {
+     "tmdb": "484862",
+     "typ": "film",
+     "name": "Scooby-Doo! & Batman: The Brave and the Bold"
+    },
+    {
+     "tmdb": "539626",
+     "typ": "film",
+     "name": "Freedom Fighters: The Ray"
+    },
+    {
+     "tmdb": "581997",
+     "typ": "film",
+     "name": "Batman vs. Teenage Mutant Ninja Turtles"
+    },
+    {
+     "tmdb": "834404",
+     "typ": "film",
+     "name": "Teen Titans Go! See Space Jam"
+    },
+    {
+     "tmdb": "913205",
+     "typ": "film",
+     "name": "Teen Titans Go! & DC Super Hero Girls: Mayhem in the Multiverse"
+    },
+    {
+     "tmdb": "997776",
+     "typ": "film",
+     "name": "Justice League x RWBY: Super Heroes & Huntsmen, Part One"
+    },
+    {
+     "tmdb": "1146348",
+     "typ": "film",
+     "name": "Scooby-Doo! and Krypto, Too!"
     }
    ],
    "ausschluss": [
@@ -1721,6 +1926,251 @@
      "tmdb": "16187",
      "typ": "film",
      "name": "Captain Buzz Lightyear - Star Command"
+    },
+    {
+     "tmdb": "13924",
+     "typ": "film",
+     "name": "Die Abenteuer von André und Wally B."
+    },
+    {
+     "tmdb": "13926",
+     "typ": "film",
+     "name": "Reds Traum"
+    },
+    {
+     "tmdb": "13928",
+     "typ": "film",
+     "name": "Knick Knack"
+    },
+    {
+     "tmdb": "13929",
+     "typ": "film",
+     "name": "Geri's Spiel"
+    },
+    {
+     "tmdb": "13930",
+     "typ": "film",
+     "name": "Der Vogelschreck"
+    },
+    {
+     "tmdb": "55423",
+     "typ": "film",
+     "name": "Mr. Incredible and Pals"
+    },
+    {
+     "tmdb": "13933",
+     "typ": "film",
+     "name": "Die Ein-Mann-Band"
+    },
+    {
+     "tmdb": "13934",
+     "typ": "film",
+     "name": "Hook und das Geisterlicht"
+    },
+    {
+     "tmdb": "13060",
+     "typ": "film",
+     "name": "Lifted"
+    },
+    {
+     "tmdb": "13061",
+     "typ": "film",
+     "name": "Dein Freund, die Ratte"
+    },
+    {
+     "tmdb": "56553",
+     "typ": "film",
+     "name": "Tausendsassa Hook"
+    },
+    {
+     "tmdb": "140967",
+     "typ": "film",
+     "name": "Der großartige Hook"
+    },
+    {
+     "tmdb": "39030",
+     "typ": "film",
+     "name": "El Hookador"
+    },
+    {
+     "tmdb": "24328",
+     "typ": "film",
+     "name": "Hook in Tokio"
+    },
+    {
+     "tmdb": "24589",
+     "typ": "film",
+     "name": "Dug's Sondereinsatz"
+    },
+    {
+     "tmdb": "72962",
+     "typ": "film",
+     "name": "George and A.J."
+    },
+    {
+     "tmdb": "171536",
+     "typ": "film",
+     "name": "UHO – Unbekanntes Hook Objekt"
+    },
+    {
+     "tmdb": "148605",
+     "typ": "film",
+     "name": "Monster Truck Hook"
+    },
+    {
+     "tmdb": "148607",
+     "typ": "film",
+     "name": "Heavy Metal Hook"
+    },
+    {
+     "tmdb": "148608",
+     "typ": "film",
+     "name": "Hook auf dem Mond"
+    },
+    {
+     "tmdb": "148606",
+     "typ": "film",
+     "name": "Detektei Hook"
+    },
+    {
+     "tmdb": "141423",
+     "typ": "film",
+     "name": "Die Legende von Mor'du"
+    },
+    {
+     "tmdb": "200481",
+     "typ": "film",
+     "name": "Der blaue Regenschirm"
+    },
+    {
+     "tmdb": "258152",
+     "typ": "film",
+     "name": "Die Monster Uni: Party Central"
+    },
+    {
+     "tmdb": "345637",
+     "typ": "film",
+     "name": "Sanjays Super Team"
+    },
+    {
+     "tmdb": "427004",
+     "typ": "film",
+     "name": "Findet Dorie: Interviews im Meeresbiologischen Institut"
+    },
+    {
+     "tmdb": "449621",
+     "typ": "film",
+     "name": "Dante's Lunch"
+    },
+    {
+     "tmdb": "574074",
+     "typ": "film",
+     "name": "Kitbull"
+    },
+    {
+     "tmdb": "532952",
+     "typ": "film",
+     "name": "Smash and Grab"
+    },
+    {
+     "tmdb": "532953",
+     "typ": "film",
+     "name": "Purl"
+    },
+    {
+     "tmdb": "660851",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist Geld?"
+    },
+    {
+     "tmdb": "574093",
+     "typ": "film",
+     "name": "Float"
+    },
+    {
+     "tmdb": "660855",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist ein Freund?"
+    },
+    {
+     "tmdb": "660856",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist Kunst?"
+    },
+    {
+     "tmdb": "660858",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist Zeit?"
+    },
+    {
+     "tmdb": "660859",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist Liebe?"
+    },
+    {
+     "tmdb": "660861",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist ein Computer?"
+    },
+    {
+     "tmdb": "574091",
+     "typ": "film",
+     "name": "Wind"
+    },
+    {
+     "tmdb": "660862",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist ein Anführer?"
+    },
+    {
+     "tmdb": "660866",
+     "typ": "film",
+     "name": "Forky hat eine Frage -Was ist ein Haustier?"
+    },
+    {
+     "tmdb": "660867",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist Käse?"
+    },
+    {
+     "tmdb": "574089",
+     "typ": "film",
+     "name": "Loop"
+    },
+    {
+     "tmdb": "662666",
+     "typ": "film",
+     "name": "Forky hat eine Frage - Was ist Lesen?"
+    },
+    {
+     "tmdb": "594530",
+     "typ": "film",
+     "name": "Lamp Life"
+    },
+    {
+     "tmdb": "706860",
+     "typ": "film",
+     "name": "Out"
+    },
+    {
+     "tmdb": "747059",
+     "typ": "film",
+     "name": "Burrow"
+    },
+    {
+     "tmdb": "852719",
+     "typ": "film",
+     "name": "Fast Erwachsen"
+    },
+    {
+     "tmdb": "852721",
+     "typ": "film",
+     "name": "Nona"
+    },
+    {
+     "tmdb": "979163",
+     "typ": "film",
+     "name": "Jenseits der Unendlichkeit: Buzz und die Entstehung von Lightyear"
     }
    ],
    "ausschluss": []
@@ -2356,6 +2806,501 @@
      "tmdb": "4244",
      "typ": "film",
      "name": "The Kid - Image ist alles"
+    },
+    {
+     "tmdb": "33914",
+     "typ": "film",
+     "name": "Frankenweenie"
+    },
+    {
+     "tmdb": "13155",
+     "typ": "film",
+     "name": "Oz - Eine fantastische Welt"
+    },
+    {
+     "tmdb": "10122",
+     "typ": "film",
+     "name": "Der Flug des Navigators"
+    },
+    {
+     "tmdb": "12227",
+     "typ": "film",
+     "name": "Wolfsblut"
+    },
+    {
+     "tmdb": "10249",
+     "typ": "film",
+     "name": "Rocketeer"
+    },
+    {
+     "tmdb": "15300",
+     "typ": "film",
+     "name": "Newsies - Die Zeitungsjungen"
+    },
+    {
+     "tmdb": "11158",
+     "typ": "film",
+     "name": "Liebling, jetzt haben wir ein Riesenbaby"
+    },
+    {
+     "tmdb": "10414",
+     "typ": "film",
+     "name": "Mighty Ducks - Das Superteam"
+    },
+    {
+     "tmdb": "10437",
+     "typ": "film",
+     "name": "Die Muppets Weihnachtsgeschichte"
+    },
+    {
+     "tmdb": "6878",
+     "typ": "film",
+     "name": "Zurück nach Hause: Die unglaubliche Reise"
+    },
+    {
+     "tmdb": "864",
+     "typ": "film",
+     "name": "Cool Runnings - Dabei sein ist alles"
+    },
+    {
+     "tmdb": "10057",
+     "typ": "film",
+     "name": "Die drei Musketiere"
+    },
+    {
+     "tmdb": "24767",
+     "typ": "film",
+     "name": "Iron Will - Der Wille zum Sieg"
+    },
+    {
+     "tmdb": "13962",
+     "typ": "film",
+     "name": "Mac Millionär - Zu clever für ’nen Blanko-Scheck"
+    },
+    {
+     "tmdb": "11164",
+     "typ": "film",
+     "name": "Mighty Ducks 2 - Das Superteam kehrt zurück"
+    },
+    {
+     "tmdb": "24795",
+     "typ": "film",
+     "name": "Angels - Engel gibt es wirklich"
+    },
+    {
+     "tmdb": "14819",
+     "typ": "film",
+     "name": "Pfundskerle"
+    },
+    {
+     "tmdb": "10874",
+     "typ": "film",
+     "name": "Muppets - Die Schatzinsel"
+    },
+    {
+     "tmdb": "25059",
+     "typ": "film",
+     "name": "Ein tierisches Trio - Wieder unterwegs"
+    },
+    {
+     "tmdb": "10539",
+     "typ": "film",
+     "name": "James und der Riesenpfirsich"
+    },
+    {
+     "tmdb": "10680",
+     "typ": "film",
+     "name": "Mighty Ducks 3 - Jetzt mischen sie die Highschool auf"
+    },
+    {
+     "tmdb": "9446",
+     "typ": "film",
+     "name": "Aus dem Dschungel, in den Dschungel"
+    },
+    {
+     "tmdb": "10603",
+     "typ": "film",
+     "name": "George, der aus dem Dschungel kam"
+    },
+    {
+     "tmdb": "9574",
+     "typ": "film",
+     "name": "Flubber"
+    },
+    {
+     "tmdb": "9438",
+     "typ": "film",
+     "name": "Mr. Magoo"
+    },
+    {
+     "tmdb": "9820",
+     "typ": "film",
+     "name": "Ein Zwilling kommt selten allein"
+    },
+    {
+     "tmdb": "17037",
+     "typ": "film",
+     "name": "Eine Wüste Bescherung"
+    },
+    {
+     "tmdb": "9822",
+     "typ": "film",
+     "name": "Mein großer Freund Joe"
+    },
+    {
+     "tmdb": "9849",
+     "typ": "film",
+     "name": "Der Onkel vom Mars"
+    },
+    {
+     "tmdb": "332",
+     "typ": "film",
+     "name": "Inspektor Gadget"
+    },
+    {
+     "tmdb": "10637",
+     "typ": "film",
+     "name": "Gegen jede Regel"
+    },
+    {
+     "tmdb": "19405",
+     "typ": "film",
+     "name": "Disneys Große Pause - Die geheime Mission"
+    },
+    {
+     "tmdb": "11888",
+     "typ": "film",
+     "name": "Snow Dogs - Acht Helden auf vier Pfoten"
+    },
+    {
+     "tmdb": "14635",
+     "typ": "film",
+     "name": "Die Entscheidung - Eine wahre Geschichte"
+    },
+    {
+     "tmdb": "13768",
+     "typ": "film",
+     "name": "Bis in alle Ewigkeit"
+    },
+    {
+     "tmdb": "19766",
+     "typ": "film",
+     "name": "Inspektor Gadget 2"
+    },
+    {
+     "tmdb": "18736",
+     "typ": "film",
+     "name": "Popstar auf Umwegen"
+    },
+    {
+     "tmdb": "14292",
+     "typ": "film",
+     "name": "Miracle - Das Wunder von Lake Placid"
+    },
+    {
+     "tmdb": "11132",
+     "typ": "film",
+     "name": "Bekenntnisse einer High School Diva"
+    },
+    {
+     "tmdb": "10204",
+     "typ": "film",
+     "name": "In 80 Tagen um die Welt"
+    },
+    {
+     "tmdb": "10022",
+     "typ": "film",
+     "name": "Der Babynator"
+    },
+    {
+     "tmdb": "13374",
+     "typ": "film",
+     "name": "Die Eisprinzessin"
+    },
+    {
+     "tmdb": "11451",
+     "typ": "film",
+     "name": "Herbie Fully Loaded - Ein toller Käfer startet durch"
+    },
+    {
+     "tmdb": "11459",
+     "typ": "film",
+     "name": "Sky High - Diese Highschool hebt ab!"
+    },
+    {
+     "tmdb": "15487",
+     "typ": "film",
+     "name": "Das größte Spiel seines Lebens"
+    },
+    {
+     "tmdb": "9918",
+     "typ": "film",
+     "name": "Spiel auf Sieg"
+    },
+    {
+     "tmdb": "9036",
+     "typ": "film",
+     "name": "Antarctica - Gefangen im Eis"
+    },
+    {
+     "tmdb": "10067",
+     "typ": "film",
+     "name": "Shaggy Dog - Hör mal, wer da bellt"
+    },
+    {
+     "tmdb": "9904",
+     "typ": "film",
+     "name": "Tierisch Wild"
+    },
+    {
+     "tmdb": "11652",
+     "typ": "film",
+     "name": "Unbesiegbar - Der Traum seines Lebens"
+    },
+    {
+     "tmdb": "6589",
+     "typ": "film",
+     "name": "Underdog - Unbesiegt weil er fliegt"
+    },
+    {
+     "tmdb": "13680",
+     "typ": "film",
+     "name": "Daddy ohne Plan"
+    },
+    {
+     "tmdb": "105325",
+     "typ": "film",
+     "name": "Wie man sein Heimkino installiert"
+    },
+    {
+     "tmdb": "13493",
+     "typ": "film",
+     "name": "College Road Trip"
+    },
+    {
+     "tmdb": "14405",
+     "typ": "film",
+     "name": "Beverly Hills Chihuahua"
+    },
+    {
+     "tmdb": "11887",
+     "typ": "film",
+     "name": "High School Musical 3: Senior Year"
+    },
+    {
+     "tmdb": "10202",
+     "typ": "film",
+     "name": "Bedtime Stories"
+    },
+    {
+     "tmdb": "13836",
+     "typ": "film",
+     "name": "Die Jagd zum magischen Berg"
+    },
+    {
+     "tmdb": "18126",
+     "typ": "film",
+     "name": "Hannah Montana - Der Film"
+    },
+    {
+     "tmdb": "19585",
+     "typ": "film",
+     "name": "G-Force - Agenten mit Biss"
+    },
+    {
+     "tmdb": "22949",
+     "typ": "film",
+     "name": "Old Dogs - Daddy oder Deal"
+    },
+    {
+     "tmdb": "26809",
+     "typ": "film",
+     "name": "Elfen helfen - Bahn frei für Santa Claus"
+    },
+    {
+     "tmdb": "9543",
+     "typ": "film",
+     "name": "Prince of Persia - Der Sand der Zeit"
+    },
+    {
+     "tmdb": "40619",
+     "typ": "film",
+     "name": "Day & Night"
+    },
+    {
+     "tmdb": "39486",
+     "typ": "film",
+     "name": "Secretariat - Ein Pferd wird zur Legende"
+    },
+    {
+     "tmdb": "88212",
+     "typ": "film",
+     "name": "Elfen Helfen - Mission: Santa"
+    },
+    {
+     "tmdb": "50321",
+     "typ": "film",
+     "name": "Milo und Mars"
+    },
+    {
+     "tmdb": "51588",
+     "typ": "film",
+     "name": "Prom - Die Nacht deines Lebens"
+    },
+    {
+     "tmdb": "64328",
+     "typ": "film",
+     "name": "Die Muppets"
+    },
+    {
+     "tmdb": "88096",
+     "typ": "film",
+     "name": "Elfen Helfen - Weihnachten in Gefahr"
+    },
+    {
+     "tmdb": "49529",
+     "typ": "film",
+     "name": "John Carter - Zwischen zwei Welten"
+    },
+    {
+     "tmdb": "71864",
+     "typ": "film",
+     "name": "Das wundersame Leben von Timothy Green"
+    },
+    {
+     "tmdb": "57201",
+     "typ": "film",
+     "name": "Lone Ranger"
+    },
+    {
+     "tmdb": "140823",
+     "typ": "film",
+     "name": "Saving Mr. Banks"
+    },
+    {
+     "tmdb": "145220",
+     "typ": "film",
+     "name": "Muppets Most Wanted"
+    },
+    {
+     "tmdb": "198185",
+     "typ": "film",
+     "name": "Million Dollar Arm"
+    },
+    {
+     "tmdb": "218836",
+     "typ": "film",
+     "name": "Planes 2 - Immer im Einsatz"
+    },
+    {
+     "tmdb": "218778",
+     "typ": "film",
+     "name": "Die Coopers - Schlimmer geht immer"
+    },
+    {
+     "tmdb": "224141",
+     "typ": "film",
+     "name": "Into the Woods"
+    },
+    {
+     "tmdb": "228203",
+     "typ": "film",
+     "name": "City of McFarland"
+    },
+    {
+     "tmdb": "158852",
+     "typ": "film",
+     "name": "A World Beyond"
+    },
+    {
+     "tmdb": "352812",
+     "typ": "film",
+     "name": "Tick Tock Tale"
+    },
+    {
+     "tmdb": "300673",
+     "typ": "film",
+     "name": "The Finest Hours"
+    },
+    {
+     "tmdb": "407451",
+     "typ": "film",
+     "name": "Das Zeiträtsel"
+    },
+    {
+     "tmdb": "426543",
+     "typ": "film",
+     "name": "Der Nussknacker und die vier Reiche"
+    },
+    {
+     "tmdb": "454467",
+     "typ": "film",
+     "name": "Noelle"
+    },
+    {
+     "tmdb": "606856",
+     "typ": "film",
+     "name": "Togo"
+    },
+    {
+     "tmdb": "594530",
+     "typ": "film",
+     "name": "Lamp Life"
+    },
+    {
+     "tmdb": "382748",
+     "typ": "film",
+     "name": "Stargirl: Anders ist völlig normal"
+    },
+    {
+     "tmdb": "475430",
+     "typ": "film",
+     "name": "Artemis Fowl"
+    },
+    {
+     "tmdb": "508570",
+     "typ": "film",
+     "name": "Der einzig wahre Ivan"
+    },
+    {
+     "tmdb": "662546",
+     "typ": "film",
+     "name": "Die gute Fee"
+    },
+    {
+     "tmdb": "774741",
+     "typ": "film",
+     "name": "Gregs Tagebuch: Von Idioten umzingelt!"
+    },
+    {
+     "tmdb": "759054",
+     "typ": "film",
+     "name": "Rise"
+    },
+    {
+     "tmdb": "620705",
+     "typ": "film",
+     "name": "Crater"
+    },
+    {
+     "tmdb": "774531",
+     "typ": "film",
+     "name": "Die junge Frau und das Meer"
+    },
+    {
+     "tmdb": "1603262",
+     "typ": "film",
+     "name": "Everest: The Other Side"
+    },
+    {
+     "tmdb": "1519780",
+     "typ": "film",
+     "name": "Diary of a Wimpy Kid Christmas: The Getaway"
+    },
+    {
+     "tmdb": "1559978",
+     "typ": "film",
+     "name": "Tangled"
     }
    ],
    "ausschluss": [
@@ -2687,6 +3632,196 @@
      "tmdb": "1458319",
      "typ": "film",
      "name": "Drachenzähmen leicht gemacht 2 (Realfilm)"
+    },
+    {
+     "tmdb": "26840",
+     "typ": "film",
+     "name": "Shrek in the Swamp Karaoke Dance Party"
+    },
+    {
+     "tmdb": "381690",
+     "typ": "film",
+     "name": "Sinbad and the Cyclops Island"
+    },
+    {
+     "tmdb": "25523",
+     "typ": "film",
+     "name": "Der Geist von Lord Farquaad"
+    },
+    {
+     "tmdb": "58508",
+     "typ": "film",
+     "name": "Shrek-Gesangswettbewerb im Königreich"
+    },
+    {
+     "tmdb": "10258",
+     "typ": "film",
+     "name": "Die Madagascar Pinguine in vorweihnachtlicher Mission"
+    },
+    {
+     "tmdb": "85693",
+     "typ": "film",
+     "name": "Hammys Bumerang Abenteuer"
+    },
+    {
+     "tmdb": "13394",
+     "typ": "film",
+     "name": "Shrek - Oh du Shrekliche"
+    },
+    {
+     "tmdb": "15854",
+     "typ": "film",
+     "name": "Kung Fu Panda - Die Geheimnisse der furiosen Fünf"
+    },
+    {
+     "tmdb": "53985",
+     "typ": "film",
+     "name": "Monsters vs. Aliens Mutanten Kürbisse aus dem Weltall"
+    },
+    {
+     "tmdb": "24884",
+     "typ": "film",
+     "name": "B.O.B.'s Bombastischer Durchbruch"
+    },
+    {
+     "tmdb": "25472",
+     "typ": "film",
+     "name": "Fröhliches Madagascar"
+    },
+    {
+     "tmdb": "47626",
+     "typ": "film",
+     "name": "Dragons - Die Legende des Knochenräuber-Drachen"
+    },
+    {
+     "tmdb": "48466",
+     "typ": "film",
+     "name": "Er-Shrek dich nicht!"
+    },
+    {
+     "tmdb": "50393",
+     "typ": "film",
+     "name": "Kung Fu Panda: Ein schlagfertiges Winterfest"
+    },
+    {
+     "tmdb": "51256",
+     "typ": "film",
+     "name": "Esels Weihnachtsshrektakel"
+    },
+    {
+     "tmdb": "57718",
+     "typ": "film",
+     "name": "Megamind - Der Knopf des Verderbens"
+    },
+    {
+     "tmdb": "118249",
+     "typ": "film",
+     "name": "Thriller Night"
+    },
+    {
+     "tmdb": "82530",
+     "typ": "film",
+     "name": "Shrek - Ein Schwein im Vollmond"
+    },
+    {
+     "tmdb": "118248",
+     "typ": "film",
+     "name": "Die Nacht der lebenden Karotten"
+    },
+    {
+     "tmdb": "91417",
+     "typ": "film",
+     "name": "Drachen - Ein Geschenk von Nachtschatten"
+    },
+    {
+     "tmdb": "79379",
+     "typ": "film",
+     "name": "Drachenzähmen leicht gemacht - Buch der Drachen"
+    },
+    {
+     "tmdb": "81003",
+     "typ": "film",
+     "name": "Kung Fu Panda: Die Geheimnisse der Meister"
+    },
+    {
+     "tmdb": "83201",
+     "typ": "film",
+     "name": "Der gestiefelte Kater - Die Drei Diabolos"
+    },
+    {
+     "tmdb": "128914",
+     "typ": "film",
+     "name": "Shrek Halloween Spezial - Er-Shrek dich nicht"
+    },
+    {
+     "tmdb": "161143",
+     "typ": "film",
+     "name": "Verrücktes Madagascar"
+    },
+    {
+     "tmdb": "256346",
+     "typ": "film",
+     "name": "Fast zu Hause"
+    },
+    {
+     "tmdb": "298115",
+     "typ": "film",
+     "name": "Drachenzähmen leicht gemacht: Das große Drachenrennen"
+    },
+    {
+     "tmdb": "381693",
+     "typ": "film",
+     "name": "Kung Fu Panda: Die Geheimnisse der Schriftrolle"
+    },
+    {
+     "tmdb": "484510",
+     "typ": "film",
+     "name": "Trolls: Feiern mit den Trolls"
+    },
+    {
+     "tmdb": "528644",
+     "typ": "film",
+     "name": "Bilby"
+    },
+    {
+     "tmdb": "510738",
+     "typ": "film",
+     "name": "Bird Karma"
+    },
+    {
+     "tmdb": "607386",
+     "typ": "film",
+     "name": "Marooned"
+    },
+    {
+     "tmdb": "638507",
+     "typ": "film",
+     "name": "Drachenzähmen leicht gemacht: Die guten alten Zeiten"
+    },
+    {
+     "tmdb": "654571",
+     "typ": "film",
+     "name": "How to Train Your Dragon: Snoggletog Log"
+    },
+    {
+     "tmdb": "896221",
+     "typ": "film",
+     "name": "Trolls: Harmonischer Feiertag"
+    },
+    {
+     "tmdb": "1417421",
+     "typ": "film",
+     "name": "Kleine Lügen zum Betrügen"
+    },
+    {
+     "tmdb": "1480503",
+     "typ": "film",
+     "name": "CoComelon: The Movie"
+    },
+    {
+     "tmdb": "1110132",
+     "typ": "film",
+     "name": "Donkey"
     }
    ],
    "ausschluss": []
@@ -2910,6 +4045,71 @@
      "tmdb": "1018814",
      "typ": "film",
      "name": "Post-Modern Minion"
+    },
+    {
+     "tmdb": "54559",
+     "typ": "film",
+     "name": "Einführungstag"
+    },
+    {
+     "tmdb": "125453",
+     "typ": "film",
+     "name": "Forces of Nature"
+    },
+    {
+     "tmdb": "125445",
+     "typ": "film",
+     "name": "Serenade"
+    },
+    {
+     "tmdb": "125448",
+     "typ": "film",
+     "name": "Wagon Ho!"
+    },
+    {
+     "tmdb": "366142",
+     "typ": "film",
+     "name": "Wettbewerb"
+    },
+    {
+     "tmdb": "424889",
+     "typ": "film",
+     "name": "NTV: Norman-TV"
+    },
+    {
+     "tmdb": "448450",
+     "typ": "film",
+     "name": "Gunter babysittet"
+    },
+    {
+     "tmdb": "449124",
+     "typ": "film",
+     "name": "Liebe auf den ersten Blick"
+    },
+    {
+     "tmdb": "449655",
+     "typ": "film",
+     "name": "Eddies Life-Coach"
+    },
+    {
+     "tmdb": "501102",
+     "typ": "film",
+     "name": "Minion Moments: Drenched"
+    },
+    {
+     "tmdb": "501104",
+     "typ": "film",
+     "name": "Minion Moments: Overkill"
+    },
+    {
+     "tmdb": "553903",
+     "typ": "film",
+     "name": "Minions - Auf der Flucht"
+    },
+    {
+     "tmdb": "579524",
+     "typ": "film",
+     "name": "Santa's Little Helpers"
     }
    ],
    "ausschluss": []
@@ -3365,6 +4565,51 @@
      "tmdb": "508883",
      "typ": "film",
      "name": "Der Junge und der Reiher"
+    },
+    {
+     "tmdb": "222471",
+     "typ": "film",
+     "name": "Ghiblies"
+    },
+    {
+     "tmdb": "40576",
+     "typ": "film",
+     "name": "Ghiblies: Episode 2"
+    },
+    {
+     "tmdb": "158483",
+     "typ": "film",
+     "name": "めいとこねこバス"
+    },
+    {
+     "tmdb": "222661",
+     "typ": "film",
+     "name": "星をかった日"
+    },
+    {
+     "tmdb": "222664",
+     "typ": "film",
+     "name": "水グモもんもん"
+    },
+    {
+     "tmdb": "54058",
+     "typ": "film",
+     "name": "種山ヶ原の夜"
+    },
+    {
+     "tmdb": "21534",
+     "typ": "film",
+     "name": "Iblard Jikan"
+    },
+    {
+     "tmdb": "214676",
+     "typ": "film",
+     "name": "パン種とタマゴ姫"
+    },
+    {
+     "tmdb": "188541",
+     "typ": "film",
+     "name": "Giant God Warrior Appears in Tokyo"
     }
    ],
    "ausschluss": [
