@@ -1,5 +1,7 @@
 # Jellyfin-Welten
 
+[![Buy me a coffee](https://img.shields.io/badge/☕_Buy_me_a_coffee-PayPal-0070ba?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/DrdotHouse)
+
 Disney+-like "worlds" (Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Wizarding World, Middle-earth, James Bond, Jurassic Park, Studio Ghibli) as a list for the Jellyfin plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). The plugin loads the list daily; the library is not changed.
 
 Plugin URL (default since LocalRecs 12.12.0, setting "Welten-Liste"): `https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/welten.json`
