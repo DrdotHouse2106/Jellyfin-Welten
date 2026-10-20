@@ -1,0 +1,567 @@
+{
+  "format": 1,
+  "name": "Jellyfin-Welten Profilbilder",
+  "license": "Figuren: OpenMoji (openmoji.org), Lizenz CC BY-SA 4.0",
+  "colors": [
+    "#e50914",
+    "#f5a623",
+    "#f2d53c",
+    "#21a179",
+    "#00a8a8",
+    "#2e96e0",
+    "#3f51b5",
+    "#7f76d6",
+    "#d94f9c",
+    "#8a6d3b",
+    "#4a4a55",
+    "#0b0e14"
+  ],
+  "categories": [
+    {
+      "id": "helden",
+      "name": "Helden & Fantasie",
+      "icons": [
+        {
+          "id": "superheld",
+          "name": "Superheld",
+          "file": "helden/superheld.png",
+          "openmoji": "1F9B8"
+        },
+        {
+          "id": "superheldin",
+          "name": "Superheldin",
+          "file": "helden/superheldin.png",
+          "openmoji": "1F9B8-200D-2640-FE0F"
+        },
+        {
+          "id": "schurke",
+          "name": "Schurke",
+          "file": "helden/schurke.png",
+          "openmoji": "1F9B9"
+        },
+        {
+          "id": "zauberer",
+          "name": "Zauberer",
+          "file": "helden/zauberer.png",
+          "openmoji": "1F9D9"
+        },
+        {
+          "id": "zauberin",
+          "name": "Zauberin",
+          "file": "helden/zauberin.png",
+          "openmoji": "1F9D9-200D-2640-FE0F"
+        },
+        {
+          "id": "fee",
+          "name": "Fee",
+          "file": "helden/fee.png",
+          "openmoji": "1F9DA"
+        },
+        {
+          "id": "vampir",
+          "name": "Vampir",
+          "file": "helden/vampir.png",
+          "openmoji": "1F9DB"
+        },
+        {
+          "id": "meerjungfrau",
+          "name": "Meerjungfrau",
+          "file": "helden/meerjungfrau.png",
+          "openmoji": "1F9DC-200D-2640-FE0F"
+        },
+        {
+          "id": "elf",
+          "name": "Elf",
+          "file": "helden/elf.png",
+          "openmoji": "1F9DD"
+        },
+        {
+          "id": "dschinn",
+          "name": "Dschinn",
+          "file": "helden/dschinn.png",
+          "openmoji": "1F9DE"
+        },
+        {
+          "id": "zombie",
+          "name": "Zombie",
+          "file": "helden/zombie.png",
+          "openmoji": "1F9DF"
+        },
+        {
+          "id": "ninja",
+          "name": "Ninja",
+          "file": "helden/ninja.png",
+          "openmoji": "1F977"
+        },
+        {
+          "id": "prinz",
+          "name": "Prinz",
+          "file": "helden/prinz.png",
+          "openmoji": "1F934"
+        },
+        {
+          "id": "prinzessin",
+          "name": "Prinzessin",
+          "file": "helden/prinzessin.png",
+          "openmoji": "1F478"
+        },
+        {
+          "id": "troll",
+          "name": "Troll",
+          "file": "helden/troll.png",
+          "openmoji": "1F9CC"
+        },
+        {
+          "id": "weihnachtsmann",
+          "name": "Weihnachtsmann",
+          "file": "helden/weihnachtsmann.png",
+          "openmoji": "1F385"
+        },
+        {
+          "id": "detektiv",
+          "name": "Detektiv",
+          "file": "helden/detektiv.png",
+          "openmoji": "1F575"
+        },
+        {
+          "id": "astronautin",
+          "name": "Astronautin",
+          "file": "helden/astronautin.png",
+          "openmoji": "1F469-200D-1F680"
+        },
+        {
+          "id": "feuerwehr",
+          "name": "Feuerwehr",
+          "file": "helden/feuerwehr.png",
+          "openmoji": "1F9D1-200D-1F692"
+        },
+        {
+          "id": "koch",
+          "name": "Koch",
+          "file": "helden/koch.png",
+          "openmoji": "1F9D1-200D-1F373"
+        }
+      ]
+    },
+    {
+      "id": "tiere",
+      "name": "Tiere",
+      "icons": [
+        {
+          "id": "katze",
+          "name": "Katze",
+          "file": "tiere/katze.png",
+          "openmoji": "1F431"
+        },
+        {
+          "id": "hund",
+          "name": "Hund",
+          "file": "tiere/hund.png",
+          "openmoji": "1F436"
+        },
+        {
+          "id": "fuchs",
+          "name": "Fuchs",
+          "file": "tiere/fuchs.png",
+          "openmoji": "1F98A"
+        },
+        {
+          "id": "loewe",
+          "name": "Löwe",
+          "file": "tiere/loewe.png",
+          "openmoji": "1F981"
+        },
+        {
+          "id": "tiger",
+          "name": "Tiger",
+          "file": "tiere/tiger.png",
+          "openmoji": "1F42F"
+        },
+        {
+          "id": "panda",
+          "name": "Panda",
+          "file": "tiere/panda.png",
+          "openmoji": "1F43C"
+        },
+        {
+          "id": "koala",
+          "name": "Koala",
+          "file": "tiere/koala.png",
+          "openmoji": "1F428"
+        },
+        {
+          "id": "baer",
+          "name": "Bär",
+          "file": "tiere/baer.png",
+          "openmoji": "1F43B"
+        },
+        {
+          "id": "hase",
+          "name": "Hase",
+          "file": "tiere/hase.png",
+          "openmoji": "1F430"
+        },
+        {
+          "id": "affe",
+          "name": "Affe",
+          "file": "tiere/affe.png",
+          "openmoji": "1F435"
+        },
+        {
+          "id": "frosch",
+          "name": "Frosch",
+          "file": "tiere/frosch.png",
+          "openmoji": "1F438"
+        },
+        {
+          "id": "pinguin",
+          "name": "Pinguin",
+          "file": "tiere/pinguin.png",
+          "openmoji": "1F427"
+        },
+        {
+          "id": "eule",
+          "name": "Eule",
+          "file": "tiere/eule.png",
+          "openmoji": "1F989"
+        },
+        {
+          "id": "schwein",
+          "name": "Schwein",
+          "file": "tiere/schwein.png",
+          "openmoji": "1F437"
+        },
+        {
+          "id": "maus",
+          "name": "Maus",
+          "file": "tiere/maus.png",
+          "openmoji": "1F42D"
+        },
+        {
+          "id": "hamster",
+          "name": "Hamster",
+          "file": "tiere/hamster.png",
+          "openmoji": "1F439"
+        },
+        {
+          "id": "kuh",
+          "name": "Kuh",
+          "file": "tiere/kuh.png",
+          "openmoji": "1F42E"
+        },
+        {
+          "id": "pferd",
+          "name": "Pferd",
+          "file": "tiere/pferd.png",
+          "openmoji": "1F434"
+        },
+        {
+          "id": "wolf",
+          "name": "Wolf",
+          "file": "tiere/wolf.png",
+          "openmoji": "1F43A"
+        },
+        {
+          "id": "waschbaer",
+          "name": "Waschbär",
+          "file": "tiere/waschbaer.png",
+          "openmoji": "1F99D"
+        },
+        {
+          "id": "igel",
+          "name": "Igel",
+          "file": "tiere/igel.png",
+          "openmoji": "1F994"
+        },
+        {
+          "id": "faultier",
+          "name": "Faultier",
+          "file": "tiere/faultier.png",
+          "openmoji": "1F9A5"
+        },
+        {
+          "id": "otter",
+          "name": "Otter",
+          "file": "tiere/otter.png",
+          "openmoji": "1F9A6"
+        },
+        {
+          "id": "schildkroete",
+          "name": "Schildkröte",
+          "file": "tiere/schildkroete.png",
+          "openmoji": "1F422"
+        },
+        {
+          "id": "krake",
+          "name": "Krake",
+          "file": "tiere/krake.png",
+          "openmoji": "1F419"
+        },
+        {
+          "id": "hai",
+          "name": "Hai",
+          "file": "tiere/hai.png",
+          "openmoji": "1F988"
+        },
+        {
+          "id": "delfin",
+          "name": "Delfin",
+          "file": "tiere/delfin.png",
+          "openmoji": "1F42C"
+        },
+        {
+          "id": "wal",
+          "name": "Wal",
+          "file": "tiere/wal.png",
+          "openmoji": "1F433"
+        },
+        {
+          "id": "schmetterling",
+          "name": "Schmetterling",
+          "file": "tiere/schmetterling.png",
+          "openmoji": "1F98B"
+        },
+        {
+          "id": "biene",
+          "name": "Biene",
+          "file": "tiere/biene.png",
+          "openmoji": "1F41D"
+        }
+      ]
+    },
+    {
+      "id": "fabelwesen",
+      "name": "Drachen & Dinos",
+      "icons": [
+        {
+          "id": "einhorn",
+          "name": "Einhorn",
+          "file": "fabelwesen/einhorn.png",
+          "openmoji": "1F984"
+        },
+        {
+          "id": "drache",
+          "name": "Drache",
+          "file": "fabelwesen/drache.png",
+          "openmoji": "1F409"
+        },
+        {
+          "id": "drachenkopf",
+          "name": "Drachenkopf",
+          "file": "fabelwesen/drachenkopf.png",
+          "openmoji": "1F432"
+        },
+        {
+          "id": "t-rex",
+          "name": "T-Rex",
+          "file": "fabelwesen/t-rex.png",
+          "openmoji": "1F996"
+        },
+        {
+          "id": "langhals",
+          "name": "Langhals-Dino",
+          "file": "fabelwesen/langhals.png",
+          "openmoji": "1F995"
+        },
+        {
+          "id": "phoenix",
+          "name": "Phönix",
+          "file": "fabelwesen/phoenix.png",
+          "openmoji": "1F426-200D-1F525"
+        }
+      ]
+    },
+    {
+      "id": "weltraum",
+      "name": "Weltraum & Roboter",
+      "icons": [
+        {
+          "id": "roboter",
+          "name": "Roboter",
+          "file": "weltraum/roboter.png",
+          "openmoji": "1F916"
+        },
+        {
+          "id": "alien",
+          "name": "Alien",
+          "file": "weltraum/alien.png",
+          "openmoji": "1F47D"
+        },
+        {
+          "id": "pixelmonster",
+          "name": "Pixel-Monster",
+          "file": "weltraum/pixelmonster.png",
+          "openmoji": "1F47E"
+        },
+        {
+          "id": "rakete",
+          "name": "Rakete",
+          "file": "weltraum/rakete.png",
+          "openmoji": "1F680"
+        },
+        {
+          "id": "ufo",
+          "name": "Ufo",
+          "file": "weltraum/ufo.png",
+          "openmoji": "1F6F8"
+        },
+        {
+          "id": "planet",
+          "name": "Planet",
+          "file": "weltraum/planet.png",
+          "openmoji": "1FA90"
+        },
+        {
+          "id": "astronaut",
+          "name": "Astronaut",
+          "file": "weltraum/astronaut.png",
+          "openmoji": "1F9D1-200D-1F680"
+        }
+      ]
+    },
+    {
+      "id": "spass",
+      "name": "Monster & Spaß",
+      "icons": [
+        {
+          "id": "geist",
+          "name": "Geist",
+          "file": "spass/geist.png",
+          "openmoji": "1F47B"
+        },
+        {
+          "id": "clown",
+          "name": "Clown",
+          "file": "spass/clown.png",
+          "openmoji": "1F921"
+        },
+        {
+          "id": "oger",
+          "name": "Oger",
+          "file": "spass/oger.png",
+          "openmoji": "1F479"
+        },
+        {
+          "id": "kobold",
+          "name": "Kobold",
+          "file": "spass/kobold.png",
+          "openmoji": "1F47A"
+        },
+        {
+          "id": "totenkopf",
+          "name": "Totenkopf",
+          "file": "spass/totenkopf.png",
+          "openmoji": "1F480"
+        },
+        {
+          "id": "kuerbis",
+          "name": "Kürbis",
+          "file": "spass/kuerbis.png",
+          "openmoji": "1F383"
+        },
+        {
+          "id": "cool",
+          "name": "Cool",
+          "file": "spass/cool.png",
+          "openmoji": "1F60E"
+        },
+        {
+          "id": "nerd",
+          "name": "Nerd",
+          "file": "spass/nerd.png",
+          "openmoji": "1F913"
+        },
+        {
+          "id": "cowboy",
+          "name": "Cowboy",
+          "file": "spass/cowboy.png",
+          "openmoji": "1F920"
+        },
+        {
+          "id": "party",
+          "name": "Party",
+          "file": "spass/party.png",
+          "openmoji": "1F973"
+        },
+        {
+          "id": "teufelchen",
+          "name": "Teufelchen",
+          "file": "spass/teufelchen.png",
+          "openmoji": "1F608"
+        },
+        {
+          "id": "schneemann",
+          "name": "Schneemann",
+          "file": "spass/schneemann.png",
+          "openmoji": "26C4"
+        },
+        {
+          "id": "haufen",
+          "name": "Häufchen",
+          "file": "spass/haufen.png",
+          "openmoji": "1F4A9"
+        }
+      ]
+    },
+    {
+      "id": "hobbys",
+      "name": "Hobbys",
+      "icons": [
+        {
+          "id": "fussball",
+          "name": "Fußball",
+          "file": "hobbys/fussball.png",
+          "openmoji": "26BD"
+        },
+        {
+          "id": "basketball",
+          "name": "Basketball",
+          "file": "hobbys/basketball.png",
+          "openmoji": "1F3C0"
+        },
+        {
+          "id": "gamepad",
+          "name": "Gamepad",
+          "file": "hobbys/gamepad.png",
+          "openmoji": "1F3AE"
+        },
+        {
+          "id": "gitarre",
+          "name": "Gitarre",
+          "file": "hobbys/gitarre.png",
+          "openmoji": "1F3B8"
+        },
+        {
+          "id": "kopfhoerer",
+          "name": "Kopfhörer",
+          "file": "hobbys/kopfhoerer.png",
+          "openmoji": "1F3A7"
+        },
+        {
+          "id": "skateboard",
+          "name": "Skateboard",
+          "file": "hobbys/skateboard.png",
+          "openmoji": "1F6F9"
+        },
+        {
+          "id": "popcorn",
+          "name": "Popcorn",
+          "file": "hobbys/popcorn.png",
+          "openmoji": "1F37F"
+        },
+        {
+          "id": "pizza",
+          "name": "Pizza",
+          "file": "hobbys/pizza.png",
+          "openmoji": "1F355"
+        },
+        {
+          "id": "filmklappe",
+          "name": "Filmklappe",
+          "file": "hobbys/filmklappe.png",
+          "openmoji": "1F3AC"
+        }
+      ]
+    }
+  ]
+}

@@ -27,3 +27,8 @@ Then my other project might be just right for you: **[ZockerDB](https://zockerdb
 collection in one place. Track games, consoles and accessories (including barcode scanning with your
 phone), rate and manage them, with price history, editions and PAL/USK details. Use it directly at
 [zockerdb.de](https://zockerdb.de) or self-host [ZockerDB Basis](https://github.com/DrdotHouse2106/ZockerDBBasis) on your own server.
+
+## Profile images (icons/)
+
+[`icons/icons.json`](icons/icons.json) is the default catalog for profile images in LocalRecs 12.22.0+ (`https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/icons/icons.json`): a fixed color palette (`colors`) and categories of figures (`id`, `name`, `file` relative to the catalog or `url`, optional `fit` `contain`/`cover`). About 85 figures from [OpenMoji](https://openmoji.org/), CC BY-SA 4.0 – see [`icons/LIZENZ.md`](icons/LIZENZ.md). Please only add images that may be redistributed freely.
+

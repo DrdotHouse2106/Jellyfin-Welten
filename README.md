@@ -20,6 +20,7 @@ https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/welten.jso
 | [`welten.json`](welten.json) | Fertige Liste für das Plugin | Nein – wird automatisch erzeugt |
 | [`scripts/aktualisieren.py`](scripts/aktualisieren.py) | Erzeugt `welten.json` aus `regeln.json` und TMDB | – |
 | [`logos/`](logos/) | Selbst gestaltete Logos für Welten ohne passendes Marken-Logo (Bud Spencer & Terence Hill, Horror-Klassiker), erzeugt mit [`make_logos.py`](logos/make_logos.py) aus OFL-Schriften – siehe [`LIZENZ-Schriften.txt`](logos/LIZENZ-Schriften.txt) | bei Bedarf neu erzeugen |
+| [`icons/`](icons/) | **Profilbild-Figuren** (rund 85, nach Kategorien) mit Katalog [`icons.json`](icons/icons.json) und Farbpalette – Standard für „Profilbild wählen“ in LocalRecs ab 12.22.0. Figuren von [OpenMoji](https://openmoji.org/), CC BY-SA 4.0 – siehe [`icons/LIZENZ.md`](icons/LIZENZ.md) | Ja – Figuren ergänzen, Eintrag in `icons.json` |
 
 **Von Hand gepflegte Einträge gehen nie verloren:** Sie stehen in `regeln.json`, und das Skript liest diese Datei nur. Außerdem bleibt jeder Titel, der einmal in `welten.json` steht, dort – auch wenn er bei TMDB später unter die Stimmen-Schwelle rutscht. Entfernt wird ein Titel nur über einen Eintrag unter `ausschluss`.
 
@@ -97,3 +98,18 @@ Dann ist vielleicht mein anderes Projekt genau das Richtige für dich: **[Zocker
 deine Spielesammlung an einem Platz. Spiele, Konsolen und Zubehör erfassen (auch per Barcode-Scan mit
 dem Handy), bewerten und verwalten, mit Preisverlauf, Editionen und PAL/USK-Angaben. Direkt auf
 [zockerdb.de](https://zockerdb.de) nutzen oder als [ZockerDB Basis](https://github.com/DrdotHouse2106/ZockerDBBasis) auf dem eigenen Server hosten.
+
+## Profilbilder (icons/)
+
+Der Katalog [`icons/icons.json`](icons/icons.json) ist der Standard für die Profilbilder im Plugin (Einstellung „Katalog der Profilbilder“):
+
+```
+https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/icons/icons.json
+```
+
+- `colors` – feste Farbpalette für den Hintergrund
+- `categories` – Kategorien mit `id`, `name` und `icons`; jedes Icon mit `id`, `name` und `file` (Pfad relativ zu `icons.json`) oder `url`; optional `fit`: `contain` (Standard) oder `cover`
+- Bilder: PNG mit transparentem Hintergrund, 256 × 256, höchstens 2 MB
+
+**Neue Figur:** PNG in den passenden Ordner legen und in `icons.json` eintragen. Bitte nur Bilder verwenden, die frei weitergegeben werden dürfen, und die Quelle in [`icons/LIZENZ.md`](icons/LIZENZ.md) nennen.
+
