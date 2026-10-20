@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/welten.jso
 | [`welten.json`](welten.json) | Fertige Liste für das Plugin | Nein – wird automatisch erzeugt |
 | [`scripts/aktualisieren.py`](scripts/aktualisieren.py) | Erzeugt `welten.json` aus `regeln.json` und TMDB | – |
 | [`logos/`](logos/) | Selbst gestaltete Logos für Welten ohne passendes Marken-Logo (Bud Spencer & Terence Hill, Horror-Klassiker), erzeugt mit [`make_logos.py`](logos/make_logos.py) aus OFL-Schriften – siehe [`LIZENZ-Schriften.txt`](logos/LIZENZ-Schriften.txt) | bei Bedarf neu erzeugen |
-| [`icons/`](icons/) | **Profilbild-Figuren** (rund 85, nach Kategorien) mit Katalog [`icons.json`](icons/icons.json) und Farbpalette – Standard für „Profilbild wählen“ in LocalRecs ab 12.22.0. Figuren von [OpenMoji](https://openmoji.org/), CC BY-SA 4.0 – siehe [`icons/LIZENZ.md`](icons/LIZENZ.md) | Ja – Figuren ergänzen, Eintrag in `icons.json` |
+| [`icons/`](icons/) | **Profilbild-Figuren** (rund 100, nach Kategorien) mit Katalog [`icons.json`](icons/icons.json) und Farbpalette – Standard für „Profilbild wählen“ in LocalRecs ab 12.22.0. Figuren von [OpenMoji](https://openmoji.org/) und eigene Zeichnungen, CC BY-SA 4.0 – siehe [`icons/LIZENZ.md`](icons/LIZENZ.md) | Ja – Figuren ergänzen, Eintrag in `icons.json` |
 
 **Von Hand gepflegte Einträge gehen nie verloren:** Sie stehen in `regeln.json`, und das Skript liest diese Datei nur. Außerdem bleibt jeder Titel, der einmal in `welten.json` steht, dort – auch wenn er bei TMDB später unter die Stimmen-Schwelle rutscht. Entfernt wird ein Titel nur über einen Eintrag unter `ausschluss`.
 
@@ -110,6 +110,8 @@ https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/icons/icon
 - `colors` – feste Farbpalette für den Hintergrund
 - `categories` – Kategorien mit `id`, `name` und `icons`; jedes Icon mit `id`, `name` und `file` (Pfad relativ zu `icons.json`) oder `url`; optional `fit`: `contain` (Standard) oder `cover`
 - Bilder: PNG mit transparentem Hintergrund, 256 × 256, höchstens 2 MB
+
+**Eigene Zeichnungen:** Die Kategorien Superhelden, Märchen & Magie und Weltraum-Abenteuer zeichnet DrdotHouse2106 selbst, ebenfalls unter CC BY-SA 4.0. Die Quelle ist [`icons/quellen/zeichnen.py`](icons/quellen/zeichnen.py) und erzeugt SVGs in `icons/quellen/svg/`. Die Figuren erinnern nur an bekannte Welten. Es sind keine offiziellen Figuren, sie haben keine Logos und keine Namen.
 
 **Neue Figur:** PNG in den passenden Ordner legen und in `icons.json` eintragen. Bitte nur Bilder verwenden, die frei weitergegeben werden dürfen, und die Quelle in [`icons/LIZENZ.md`](icons/LIZENZ.md) nennen.
 

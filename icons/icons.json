@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "Jellyfin-Welten Profilbilder",
-  "license": "Figuren: OpenMoji (openmoji.org), Lizenz CC BY-SA 4.0",
+  "license": "Figuren: OpenMoji (openmoji.org) und eigene Zeichnungen von DrdotHouse2106, Lizenz CC BY-SA 4.0",
   "colors": [
     "#e50914",
     "#f5a623",
@@ -560,6 +560,138 @@
           "name": "Filmklappe",
           "file": "hobbys/filmklappe.png",
           "openmoji": "1F3AC"
+        }
+      ]
+    },
+    {
+      "id": "superhelden",
+      "name": "Superhelden",
+      "icons": [
+        {
+          "id": "netz-held",
+          "name": "Netz-Held",
+          "file": "superhelden/netz-held.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "fledermaus-held",
+          "name": "Fledermaus-Held",
+          "file": "superhelden/fledermaus-held.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "sternen-schild",
+          "name": "Sternenschild",
+          "file": "superhelden/sternen-schild.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "kriegerin",
+          "name": "Kriegerin",
+          "file": "superhelden/kriegerin.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "gruener-riese",
+          "name": "Grüner Riese",
+          "file": "superhelden/gruener-riese.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "blitz-held",
+          "name": "Blitz-Held",
+          "file": "superhelden/blitz-held.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "donner-held",
+          "name": "Donner-Held",
+          "file": "superhelden/donner-held.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "eisen-held",
+          "name": "Eisen-Held",
+          "file": "superhelden/eisen-held.png",
+          "quelle": "eigen"
+        }
+      ]
+    },
+    {
+      "id": "maerchen",
+      "name": "Märchen & Magie",
+      "icons": [
+        {
+          "id": "eis-prinzessin",
+          "name": "Eisprinzessin",
+          "file": "maerchen/eis-prinzessin.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "meerjungfrau",
+          "name": "Meerjungfrau",
+          "file": "maerchen/meerjungfrau.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "zauberer",
+          "name": "Zauberer",
+          "file": "maerchen/zauberer.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "fee",
+          "name": "Fee",
+          "file": "maerchen/fee.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "loewen-koenig",
+          "name": "Löwenkönig",
+          "file": "maerchen/loewen-koenig.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "schneemann",
+          "name": "Schneemann",
+          "file": "maerchen/schneemann.png",
+          "quelle": "eigen"
+        }
+      ]
+    },
+    {
+      "id": "weltraum-abenteuer",
+      "name": "Weltraum-Abenteuer",
+      "icons": [
+        {
+          "id": "lichtschwert-ritter",
+          "name": "Lichtschwert-Ritter",
+          "file": "weltraum-abenteuer/lichtschwert-ritter.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "droide",
+          "name": "Droide",
+          "file": "weltraum-abenteuer/droide.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "kopfgeldjaeger",
+          "name": "Kopfgeldjäger",
+          "file": "weltraum-abenteuer/kopfgeldjaeger.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "gruener-weiser",
+          "name": "Grüner Weiser",
+          "file": "weltraum-abenteuer/gruener-weiser.png",
+          "quelle": "eigen"
+        },
+        {
+          "id": "astronautin",
+          "name": "Astronautin",
+          "file": "weltraum-abenteuer/astronautin.png",
+          "quelle": "eigen"
         }
       ]
     }

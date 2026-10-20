@@ -30,5 +30,5 @@ phone), rate and manage them, with price history, editions and PAL/USK details. 
 
 ## Profile images (icons/)
 
-[`icons/icons.json`](icons/icons.json) is the default catalog for profile images in LocalRecs 12.22.0+ (`https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/icons/icons.json`): a fixed color palette (`colors`) and categories of figures (`id`, `name`, `file` relative to the catalog or `url`, optional `fit` `contain`/`cover`). About 85 figures from [OpenMoji](https://openmoji.org/), CC BY-SA 4.0 – see [`icons/LIZENZ.md`](icons/LIZENZ.md). Please only add images that may be redistributed freely.
+[`icons/icons.json`](icons/icons.json) is the default catalog for profile images in LocalRecs 12.22.0+ (`https://raw.githubusercontent.com/DrdotHouse2106/Jellyfin-Welten/main/icons/icons.json`): a fixed color palette (`colors`) and categories of figures (`id`, `name`, `file` relative to the catalog or `url`, optional `fit` `contain`/`cover`). About 85 figures from [OpenMoji](https://openmoji.org/) plus 19 original drawings by DrdotHouse2106 (superheroes, fairy tales, space adventures – they only evoke well-known worlds, not official characters; source `icons/quellen/zeichnen.py`), all CC BY-SA 4.0 – see [`icons/LIZENZ.md`](icons/LIZENZ.md). Please only add images that may be redistributed freely.
 

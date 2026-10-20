@@ -1,0 +1,113 @@
+{
+ "kategorien": [
+  [
+   "superhelden",
+   "Superhelden"
+  ],
+  [
+   "maerchen",
+   "Märchen & Magie"
+  ],
+  [
+   "weltraum",
+   "Weltraum-Abenteuer"
+  ]
+ ],
+ "icons": [
+  {
+   "id": "netz-held",
+   "kategorie": "superhelden",
+   "name": "Netz-Held"
+  },
+  {
+   "id": "fledermaus-held",
+   "kategorie": "superhelden",
+   "name": "Fledermaus-Held"
+  },
+  {
+   "id": "sternen-schild",
+   "kategorie": "superhelden",
+   "name": "Sternenschild"
+  },
+  {
+   "id": "kriegerin",
+   "kategorie": "superhelden",
+   "name": "Kriegerin"
+  },
+  {
+   "id": "gruener-riese",
+   "kategorie": "superhelden",
+   "name": "Grüner Riese"
+  },
+  {
+   "id": "blitz-held",
+   "kategorie": "superhelden",
+   "name": "Blitz-Held"
+  },
+  {
+   "id": "donner-held",
+   "kategorie": "superhelden",
+   "name": "Donner-Held"
+  },
+  {
+   "id": "eisen-held",
+   "kategorie": "superhelden",
+   "name": "Eisen-Held"
+  },
+  {
+   "id": "eis-prinzessin",
+   "kategorie": "maerchen",
+   "name": "Eisprinzessin"
+  },
+  {
+   "id": "meerjungfrau",
+   "kategorie": "maerchen",
+   "name": "Meerjungfrau"
+  },
+  {
+   "id": "zauberer",
+   "kategorie": "maerchen",
+   "name": "Zauberer"
+  },
+  {
+   "id": "fee",
+   "kategorie": "maerchen",
+   "name": "Fee"
+  },
+  {
+   "id": "loewen-koenig",
+   "kategorie": "maerchen",
+   "name": "Löwenkönig"
+  },
+  {
+   "id": "schneemann",
+   "kategorie": "maerchen",
+   "name": "Schneemann"
+  },
+  {
+   "id": "lichtschwert-ritter",
+   "kategorie": "weltraum",
+   "name": "Lichtschwert-Ritter"
+  },
+  {
+   "id": "droide",
+   "kategorie": "weltraum",
+   "name": "Droide"
+  },
+  {
+   "id": "kopfgeldjaeger",
+   "kategorie": "weltraum",
+   "name": "Kopfgeldjäger"
+  },
+  {
+   "id": "gruener-weiser",
+   "kategorie": "weltraum",
+   "name": "Grüner Weiser"
+  },
+  {
+   "id": "astronautin",
+   "kategorie": "weltraum",
+   "name": "Astronautin"
+  }
+ ]
+}
