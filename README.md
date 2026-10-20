@@ -4,7 +4,7 @@
 
 *[English version](README.en.md)*
 
-„Welten“ wie bei Disney+ – Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Wizarding World, Mittelerde, James Bond, Jurassic Park, Studio Ghibli, Bud Spencer & Terence Hill, Star Trek, Alien & Predator, Horror-Klassiker – als Liste für das Jellyfin-Plugin [Local Recommendations](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin). Das Plugin lädt die Liste täglich und zeigt die Welten in Apps wie Quallenkino persönlich sortiert an. Die Jellyfin-Bibliothek wird dabei nicht verändert.
+„Welten“ wie bei Disney+ – Marvel, Star Wars, DC, Pixar, Disney, DreamWorks, Illumination, Wizarding World, Mittelerde, James Bond, Jurassic Park, Studio Ghibli, Bud Spencer & Terence Hill, Star Trek, Alien & Predator, Horror-Klassiker – als Liste für das Jellyfin-Plugin [Quallenkinoplugin für Jellyfin](https://github.com/DrdotHouse2106/Lokal-Vorschlag-Jellyfin) (früher „Local Recommendations“). Das Plugin lädt die Liste täglich und zeigt die Welten in Apps wie Quallenkino persönlich sortiert an. Die Jellyfin-Bibliothek wird dabei nicht verändert.
 
 **Adresse für das Plugin** (Standard ab LocalRecs 12.12.0, Einstellung „Welten-Liste“):
 
