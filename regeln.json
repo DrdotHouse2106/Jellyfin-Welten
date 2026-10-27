@@ -1,5 +1,5 @@
 {
- "beschreibung": "Von Hand gepflegte Regeln für die Welten. Das Skript scripts/aktualisieren.py liest diese Datei und schreibt daraus welten.json – diese Datei hier wird nie automatisch verändert. \"studios\"/\"sammlungen\" sind die Regeln, die das Plugin direkt in der Jellyfin-Bibliothek anwendet. \"tmdb\" sagt dem Skript, wo es Titel bei TMDB findet (Firmen-IDs mit Mindestzahl an Stimmen, Serien-Firmen, TMDB-Sammlungen, Muster für Titel, die nicht übernommen werden). \"titel\" sind von Hand ergänzte Titel, \"ausschluss\" Titel, die nie dazugehören (auch nicht, wenn TMDB sie liefert). \"logo\" ist ein Logo oder eine Liste von Logos in Reihenfolge (\"fanart:collection/{TMDB-Sammlung}\", \"fanart:movie/{TMDB-ID}\", \"fanart:tv/{TVDB-ID}\" – braucht einen fanart.tv-Schlüssel im Plugin – oder ein Link (https, z. B. ein TMDB-Firmenlogo) oder ein Pfad relativ zu welten.json; Marken-Logos werden bewusst nicht als Datei im Repository abgelegt. \"aliase\" sind frühere IDs einer Welt (z. B. nach einer Umbenennung).",
+ "beschreibung": "Von Hand gepflegte Regeln für die Welten. Das Skript scripts/aktualisieren.py liest diese Datei und schreibt daraus welten.json – diese Datei hier wird nie automatisch verändert. \"studios\"/\"sammlungen\" sind die Regeln, die das Plugin direkt in der Jellyfin-Bibliothek anwendet. \"tmdb\" sagt dem Skript, wo es Titel bei TMDB findet (Firmen-IDs mit Mindestzahl an Stimmen, Serien-Firmen, TMDB-Sammlungen, Muster für Titel, die nicht übernommen werden). \"titel\" sind von Hand ergänzte Titel, \"ausschluss\" Titel, die nie dazugehören (auch nicht, wenn TMDB sie liefert). \"logo\" ist ein Logo oder eine Liste von Logos in Reihenfolge (\"fanart:collection/{TMDB-Sammlung}\", \"fanart:movie/{TMDB-ID}\", \"fanart:tv/{TVDB-ID}\" – braucht einen fanart.tv-Schlüssel im Plugin – oder ein Link (https, z. B. ein TMDB-Firmenlogo) oder ein Pfad relativ zu welten.json; Marken-Logos werden bewusst nicht als Datei im Repository abgelegt. \"aliase\" sind frühere IDs einer Welt (z. B. nach einer Umbenennung). \"chronologie\" (optional) ist die Reihenfolge nach Handlungszeit: Abschnitte ({\"abschnitt\"}) und Titel ({\"tmdb\", \"typ\", \"label\", \"staffeln\"}); dieselbe Serie darf mit verschiedenen Staffeln mehrfach vorkommen.",
  "welten": [
   {
    "name": "Marvel",
@@ -957,9 +957,191 @@
      "tmdb": "1992",
      "typ": "serie",
      "name": "Die Enterprise (Zeichentrick)"
+    },
+    {
+     "tmdb": "1114894",
+     "typ": "film",
+     "name": "Star Trek: Sektion 31"
+    },
+    {
+     "tmdb": "828023",
+     "typ": "film",
+     "name": "Star Trek: Horizon (Fanfilm)"
+    },
+    {
+     "tmdb": "1239828",
+     "typ": "film",
+     "name": "Die Star Trek Physik (Doku)"
     }
    ],
-   "ausschluss": []
+   "ausschluss": [],
+   "chronologie": [
+    {
+     "abschnitt": "Hauptzeitlinie"
+    },
+    {
+     "tmdb": "314",
+     "typ": "serie",
+     "label": "2151"
+    },
+    {
+     "tmdb": "828023",
+     "typ": "film",
+     "label": "um 2160"
+    },
+    {
+     "tmdb": "67198",
+     "typ": "serie",
+     "label": "2256–2258",
+     "staffeln": [
+      1,
+      2
+     ]
+    },
+    {
+     "tmdb": "103516",
+     "typ": "serie",
+     "label": "2259"
+    },
+    {
+     "abschnitt": "Kelvin-Zeitlinie (alternativ)"
+    },
+    {
+     "tmdb": "13475",
+     "typ": "film",
+     "label": "2233/2258"
+    },
+    {
+     "tmdb": "54138",
+     "typ": "film",
+     "label": "2259"
+    },
+    {
+     "tmdb": "188927",
+     "typ": "film",
+     "label": "2263"
+    },
+    {
+     "abschnitt": "Hauptzeitlinie (Fortsetzung)"
+    },
+    {
+     "tmdb": "253",
+     "typ": "serie",
+     "label": "2265"
+    },
+    {
+     "tmdb": "1992",
+     "typ": "serie",
+     "label": "2269"
+    },
+    {
+     "tmdb": "152",
+     "typ": "film",
+     "label": "2273"
+    },
+    {
+     "tmdb": "154",
+     "typ": "film",
+     "label": "2285"
+    },
+    {
+     "tmdb": "157",
+     "typ": "film",
+     "label": "2285"
+    },
+    {
+     "tmdb": "168",
+     "typ": "film",
+     "label": "2286"
+    },
+    {
+     "tmdb": "172",
+     "typ": "film",
+     "label": "2287"
+    },
+    {
+     "tmdb": "174",
+     "typ": "film",
+     "label": "2293"
+    },
+    {
+     "tmdb": "1114894",
+     "typ": "film",
+     "label": "2320er"
+    },
+    {
+     "tmdb": "655",
+     "typ": "serie",
+     "label": "2364"
+    },
+    {
+     "tmdb": "580",
+     "typ": "serie",
+     "label": "2369"
+    },
+    {
+     "tmdb": "1855",
+     "typ": "serie",
+     "label": "2371"
+    },
+    {
+     "tmdb": "193",
+     "typ": "film",
+     "label": "2371 (Prolog 2293)"
+    },
+    {
+     "tmdb": "199",
+     "typ": "film",
+     "label": "2373"
+    },
+    {
+     "tmdb": "200",
+     "typ": "film",
+     "label": "2375"
+    },
+    {
+     "tmdb": "201",
+     "typ": "film",
+     "label": "2379"
+    },
+    {
+     "tmdb": "85948",
+     "typ": "serie",
+     "label": "2380"
+    },
+    {
+     "tmdb": "106393",
+     "typ": "serie",
+     "label": "2383"
+    },
+    {
+     "tmdb": "85949",
+     "typ": "serie",
+     "label": "2399"
+    },
+    {
+     "tmdb": "67198",
+     "typ": "serie",
+     "label": "3188",
+     "staffeln": [
+      3,
+      4,
+      5
+     ]
+    },
+    {
+     "tmdb": "223530",
+     "typ": "serie",
+     "label": "3190er"
+    },
+    {
+     "abschnitt": "Ohne Handlungszeit"
+    },
+    {
+     "tmdb": "1239828",
+     "typ": "film"
+    }
+   ]
   },
   {
    "name": "Alien & Predator",

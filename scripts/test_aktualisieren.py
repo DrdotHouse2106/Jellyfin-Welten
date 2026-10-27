@@ -128,5 +128,18 @@ class Tests(unittest.TestCase):
             self.assertGreaterEqual(len(w["titel"]), vorher - sum(1 for x in w["ausschluss"] if x.get("tmdb")), w["name"])
 
 
+class ChronologieTest(unittest.TestCase):
+    def test_chronologie_wird_uebernommen(self):
+        regeln = {"welten": [{"name": "Star Trek", "titel": [{"tmdb": "314", "typ": "serie", "name": "Enterprise"}],
+                              "chronologie": [{"abschnitt": "Kelvin-Zeitlinie"},
+                                              {"tmdb": "67198", "typ": "serie", "label": "2256–2258", "staffeln": [1, 2]}]}]}
+        dok, _ = a.erzeugen(regeln, {"welten": []}, tmdb=None, heute="2026-10-27")
+        self.assertEqual(dok["welten"][0]["chronologie"], regeln["welten"][0]["chronologie"])
+
+    def test_ohne_chronologie_kein_feld(self):
+        dok, _ = a.erzeugen({"welten": [{"name": "Pixar", "studios": ["Pixar"]}]}, {"welten": []}, tmdb=None, heute="2026-10-27")
+        self.assertNotIn("chronologie", dok["welten"][0])
+
+
 if __name__ == "__main__":
     unittest.main()

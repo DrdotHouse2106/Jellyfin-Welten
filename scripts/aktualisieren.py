@@ -44,7 +44,9 @@ BESCHREIBUNG = (
     "Ein Titel gehört zu einer Welt, wenn ein Studio oder der Name einer Jellyfin-Sammlung passt "
     "(Teil des Namens genügt) oder wenn er unter \"titel\" steht; Titel unter \"ausschluss\" gehören nie dazu. "
     "Die Titel-Listen sind vollständig aus TMDB (auch angekündigte Titel) und sagen nichts über eine "
-    "bestimmte Bibliothek aus."
+    "bestimmte Bibliothek aus. \"chronologie\" (optional) ist die Reihenfolge nach Handlungszeit: Abschnitte "
+    "({\"abschnitt\"}) und Titel ({\"tmdb\", \"typ\", \"label\", \"staffeln\"}), dieselbe Serie auch mehrfach mit "
+    "verschiedenen Staffeln."
 )
 QUELLE = "Daten: TMDB (https://www.themoviedb.org). Dieses Produkt nutzt die TMDB-API, ist aber nicht von TMDB unterstützt oder zertifiziert."
 
@@ -216,6 +218,8 @@ def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
             welt["logo"] = regel["logo"]
         if regel.get("trailer"):
             welt["trailer"] = regel["trailer"]
+        if regel.get("chronologie"):
+            welt["chronologie"] = regel["chronologie"]   # Reihenfolge nach Handlungszeit, unverändert übernommen
         welt.update({"studios": regel.get("studios", []), "sammlungen": regel.get("sammlungen", []),
                      "titel": titel, "ausschluss": regel.get("ausschluss", [])})
         welten.append(welt)

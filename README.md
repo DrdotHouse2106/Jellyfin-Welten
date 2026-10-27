@@ -66,6 +66,7 @@ Dafür braucht das Repository einen **TMDB-API-Schlüssel** als Secret: **Settin
 | `tmdb.ausschluss_muster` | Reguläre Ausdrücke: neue TMDB-Titel mit passendem Namen werden nicht übernommen (z. B. Making-ofs). |
 | `titel` | Von Hand ergänzte Titel (`tmdb` + `typ`, oder `imdb`, oder `tvdb`). |
 | `ausschluss` | Titel, die nie dazugehören – auch wenn TMDB oder eine Regel sie liefert. Statt einer ID geht `"sammlung": "…"` (ganze Jellyfin-Sammlung). |
+| `chronologie` | Optional: Reihenfolge nach Handlungszeit, z. B. für Star Trek. Liste aus Abschnitten (`{ "abschnitt": "Kelvin-Zeitlinie (alternativ)" }`) und Titeln (`{ "tmdb": "67198", "typ": "serie", "label": "2256–2258", "staffeln": [1, 2] }`). Dieselbe Serie darf mehrfach vorkommen (andere Staffeln). Das Plugin (ab 12.55.0) ordnet die Titel der Bibliothek zu und bietet damit „Chronologisch (Handlungszeit)“ an; ohne Liste gibt es den Schalter nicht. |
 
 `typ` ist bei TMDB-IDs wichtig (`film` oder `serie`), weil sich die IDs von Filmen und Serien überschneiden. `name` dient nur der Lesbarkeit.
 

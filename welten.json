@@ -1,5 +1,5 @@
 {
- "beschreibung": "Welten für das Jellyfin-Plugin Local Recommendations (LocalRecs). Diese Datei wird von scripts/aktualisieren.py aus regeln.json und TMDB erzeugt – Änderungen bitte in regeln.json. Ein Titel gehört zu einer Welt, wenn ein Studio oder der Name einer Jellyfin-Sammlung passt (Teil des Namens genügt) oder wenn er unter \"titel\" steht; Titel unter \"ausschluss\" gehören nie dazu. Die Titel-Listen sind vollständig aus TMDB (auch angekündigte Titel) und sagen nichts über eine bestimmte Bibliothek aus.",
+ "beschreibung": "Welten für das Jellyfin-Plugin Local Recommendations (LocalRecs). Diese Datei wird von scripts/aktualisieren.py aus regeln.json und TMDB erzeugt – Änderungen bitte in regeln.json. Ein Titel gehört zu einer Welt, wenn ein Studio oder der Name einer Jellyfin-Sammlung passt (Teil des Namens genügt) oder wenn er unter \"titel\" steht; Titel unter \"ausschluss\" gehören nie dazu. Die Titel-Listen sind vollständig aus TMDB (auch angekündigte Titel) und sagen nichts über eine bestimmte Bibliothek aus. \"chronologie\" (optional) ist die Reihenfolge nach Handlungszeit: Abschnitte ({\"abschnitt\"}) und Titel ({\"tmdb\", \"typ\", \"label\", \"staffeln\"}), dieselbe Serie auch mehrfach mit verschiedenen Staffeln.",
  "quelle": "Daten: TMDB (https://www.themoviedb.org). Dieses Produkt nutzt die TMDB-API, ist aber nicht von TMDB unterstützt oder zertifiziert.",
  "version": 2,
  "welten": [
@@ -5117,6 +5117,173 @@
     "fanart:collection/151",
     "fanart:collection/115575"
    ],
+   "chronologie": [
+    {
+     "abschnitt": "Hauptzeitlinie"
+    },
+    {
+     "tmdb": "314",
+     "typ": "serie",
+     "label": "2151"
+    },
+    {
+     "tmdb": "828023",
+     "typ": "film",
+     "label": "um 2160"
+    },
+    {
+     "tmdb": "67198",
+     "typ": "serie",
+     "label": "2256–2258",
+     "staffeln": [
+      1,
+      2
+     ]
+    },
+    {
+     "tmdb": "103516",
+     "typ": "serie",
+     "label": "2259"
+    },
+    {
+     "abschnitt": "Kelvin-Zeitlinie (alternativ)"
+    },
+    {
+     "tmdb": "13475",
+     "typ": "film",
+     "label": "2233/2258"
+    },
+    {
+     "tmdb": "54138",
+     "typ": "film",
+     "label": "2259"
+    },
+    {
+     "tmdb": "188927",
+     "typ": "film",
+     "label": "2263"
+    },
+    {
+     "abschnitt": "Hauptzeitlinie (Fortsetzung)"
+    },
+    {
+     "tmdb": "253",
+     "typ": "serie",
+     "label": "2265"
+    },
+    {
+     "tmdb": "1992",
+     "typ": "serie",
+     "label": "2269"
+    },
+    {
+     "tmdb": "152",
+     "typ": "film",
+     "label": "2273"
+    },
+    {
+     "tmdb": "154",
+     "typ": "film",
+     "label": "2285"
+    },
+    {
+     "tmdb": "157",
+     "typ": "film",
+     "label": "2285"
+    },
+    {
+     "tmdb": "168",
+     "typ": "film",
+     "label": "2286"
+    },
+    {
+     "tmdb": "172",
+     "typ": "film",
+     "label": "2287"
+    },
+    {
+     "tmdb": "174",
+     "typ": "film",
+     "label": "2293"
+    },
+    {
+     "tmdb": "1114894",
+     "typ": "film",
+     "label": "2320er"
+    },
+    {
+     "tmdb": "655",
+     "typ": "serie",
+     "label": "2364"
+    },
+    {
+     "tmdb": "580",
+     "typ": "serie",
+     "label": "2369"
+    },
+    {
+     "tmdb": "1855",
+     "typ": "serie",
+     "label": "2371"
+    },
+    {
+     "tmdb": "193",
+     "typ": "film",
+     "label": "2371 (Prolog 2293)"
+    },
+    {
+     "tmdb": "199",
+     "typ": "film",
+     "label": "2373"
+    },
+    {
+     "tmdb": "200",
+     "typ": "film",
+     "label": "2375"
+    },
+    {
+     "tmdb": "201",
+     "typ": "film",
+     "label": "2379"
+    },
+    {
+     "tmdb": "85948",
+     "typ": "serie",
+     "label": "2380"
+    },
+    {
+     "tmdb": "106393",
+     "typ": "serie",
+     "label": "2383"
+    },
+    {
+     "tmdb": "85949",
+     "typ": "serie",
+     "label": "2399"
+    },
+    {
+     "tmdb": "67198",
+     "typ": "serie",
+     "label": "3188",
+     "staffeln": [
+      3,
+      4,
+      5
+     ]
+    },
+    {
+     "tmdb": "223530",
+     "typ": "serie",
+     "label": "3190er"
+    },
+    {
+     "abschnitt": "Ohne Handlungszeit"
+    },
+    {
+     "tmdb": "1239828",
+     "typ": "film"
+    }
+   ],
    "studios": [],
    "sammlungen": [
     "Star Trek",
@@ -5247,6 +5414,21 @@
      "tmdb": "188927",
      "typ": "film",
      "name": "Star Trek Beyond"
+    },
+    {
+     "tmdb": "1114894",
+     "typ": "film",
+     "name": "Star Trek: Sektion 31"
+    },
+    {
+     "tmdb": "828023",
+     "typ": "film",
+     "name": "Star Trek: Horizon (Fanfilm)"
+    },
+    {
+     "tmdb": "1239828",
+     "typ": "film",
+     "name": "Die Star Trek Physik (Doku)"
     }
    ],
    "ausschluss": []
