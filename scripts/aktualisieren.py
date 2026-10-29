@@ -191,6 +191,51 @@ def welt_zusammenfuehren(regel, alt, neu):
     return ergebnis, neu_hinzu
 
 
+def chronologie_pruefen(name, chronologie, titel, tmdb=None):
+    """Prüft die Chronologie einer Welt.
+
+    Formfehler (kein Abschnitt und keine ID, falscher Typ, ungültige Staffeln) brechen mit ValueError ab.
+    Inhaltliche Auffälligkeiten kommen als Warnungen zurück: Titel, die nicht zur Welt gehören (das Plugin
+    würde sie nie anzeigen), und – mit TMDB – Staffeln, die es bei der Serie nicht gibt.
+    """
+    if not isinstance(chronologie, list):
+        raise ValueError(f"{name}: chronologie muss eine Liste sein")
+    bekannt = {schluessel(e) for e in titel}
+    warnungen, staffelzahl = [], {}
+    for nr, eintrag in enumerate(chronologie, 1):
+        ort = f"{name}, chronologie Eintrag {nr}"
+        if not isinstance(eintrag, dict):
+            raise ValueError(f"{ort}: Objekt erwartet")
+        if "abschnitt" in eintrag:
+            if not str(eintrag["abschnitt"]).strip() or schluessel(eintrag):
+                raise ValueError(f"{ort}: Abschnitt braucht einen Namen und keine ID")
+            continue
+        if not schluessel(eintrag):
+            raise ValueError(f"{ort}: weder abschnitt noch tmdb/imdb/tvdb")
+        if eintrag.get("typ") not in ("film", "serie"):
+            raise ValueError(f"{ort}: typ muss film oder serie sein")
+        staffeln = eintrag.get("staffeln")
+        if staffeln is not None:
+            if eintrag["typ"] != "serie":
+                raise ValueError(f"{ort}: staffeln nur bei Serien")
+            if not isinstance(staffeln, list) or not staffeln or any(
+                    not isinstance(n, int) or isinstance(n, bool) or n < 1 for n in staffeln):
+                raise ValueError(f"{ort}: staffeln muss eine Liste positiver Zahlen sein")
+        bezeichnung = eintrag.get("label") or eintrag.get("tmdb") or eintrag.get("imdb") or eintrag.get("tvdb")
+        if schluessel(eintrag) not in bekannt:
+            warnungen.append(f"{ort} ({bezeichnung}): Titel gehört nicht zur Welt und wird nie angezeigt")
+        if staffeln and tmdb and eintrag.get("tmdb"):
+            tid = str(eintrag["tmdb"])
+            if tid not in staffelzahl:
+                try:
+                    staffelzahl[tid] = int(tmdb.get("/tv/" + tid).get("number_of_seasons") or 0)
+                except Exception:  # noqa: BLE001 – ohne Antwort nicht prüfbar
+                    staffelzahl[tid] = 0
+            if staffelzahl[tid] and max(staffeln) > staffelzahl[tid]:
+                warnungen.append(f"{ort} ({bezeichnung}): Staffel {max(staffeln)} gibt es nicht (TMDB: {staffelzahl[tid]})")
+    return warnungen
+
+
 def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
     """Erzeugt den Inhalt von welten.json. Gibt (dokument, bericht) zurück."""
     heute = heute or datetime.date.today().isoformat()
@@ -219,7 +264,10 @@ def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
         if regel.get("trailer"):
             welt["trailer"] = regel["trailer"]
         if regel.get("chronologie"):
-            welt["chronologie"] = regel["chronologie"]   # Reihenfolge nach Handlungszeit, unverändert übernommen
+            # Reihenfolge nach Handlungszeit: geprüft, dann unverändert übernommen
+            for warnung in chronologie_pruefen(regel["name"], regel["chronologie"], titel, tmdb):
+                print("::warning::" + warnung)
+            welt["chronologie"] = regel["chronologie"]
         welt.update({"studios": regel.get("studios", []), "sammlungen": regel.get("sammlungen", []),
                      "titel": titel, "ausschluss": regel.get("ausschluss", [])})
         welten.append(welt)

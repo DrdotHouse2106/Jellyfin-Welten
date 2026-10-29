@@ -140,6 +140,32 @@ class ChronologieTest(unittest.TestCase):
         dok, _ = a.erzeugen({"welten": [{"name": "Pixar", "studios": ["Pixar"]}]}, {"welten": []}, tmdb=None, heute="2026-10-27")
         self.assertNotIn("chronologie", dok["welten"][0])
 
+    def test_pruefen_formfehler(self):
+        titel = [{"tmdb": "67198", "typ": "serie"}, {"tmdb": "13475", "typ": "film"}]
+        for falsch in ([{"label": "2151"}],
+                       [{"abschnitt": ""}],
+                       [{"tmdb": "67198", "label": "x"}],
+                       [{"tmdb": "13475", "typ": "film", "staffeln": [1]}],
+                       [{"tmdb": "67198", "typ": "serie", "staffeln": [0]}],
+                       [{"tmdb": "67198", "typ": "serie", "staffeln": "1"}],
+                       [{"tmdb": "67198", "typ": "serie", "staffeln": []}]):
+            with self.assertRaises(ValueError, msg=str(falsch)):
+                a.chronologie_pruefen("Star Trek", falsch, titel)
+
+    def test_pruefen_warnt_bei_fremdem_titel_und_staffeln(self):
+        class FakeTmdb:
+            def get(self, pfad, **params):
+                return {"number_of_seasons": 5} if pfad == "/tv/67198" else {}
+
+        titel = [{"tmdb": "67198", "typ": "serie"}]
+        ok = [{"abschnitt": "Hauptzeitlinie"}, {"tmdb": "67198", "typ": "serie", "label": "3188", "staffeln": [3, 4, 5]}]
+        self.assertEqual(a.chronologie_pruefen("Star Trek", ok, titel, FakeTmdb()), [])
+        warn = a.chronologie_pruefen("Star Trek", [{"tmdb": "999", "typ": "film", "label": "2400"},
+                                                   {"tmdb": "67198", "typ": "serie", "staffeln": [6]}], titel, FakeTmdb())
+        self.assertEqual(len(warn), 2)
+        self.assertIn("gehört nicht zur Welt", warn[0])
+        self.assertIn("Staffel 6", warn[1])
+
 
 if __name__ == "__main__":
     unittest.main()
