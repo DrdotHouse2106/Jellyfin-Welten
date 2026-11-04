@@ -158,7 +158,8 @@
      "name": "Marvel Cinematic Universe",
      "firmen": [
       420
-     ]
+     ],
+     "ab_jahr": 2008
     },
     {
      "name": "X-Men",
@@ -1038,7 +1039,8 @@
        "jahr": 2026,
        "typ": "film"
       }
-     ]
+     ],
+     "zuerst": true
     },
     {
      "name": "Abenteuer und Fantasy",

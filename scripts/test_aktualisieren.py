@@ -258,9 +258,17 @@ class AbschnitteTest(unittest.TestCase):
     def test_je_reihe_und_leere_abschnitte_fallen_weg(self):
         titel = self.titel()[5:]
         abschnitte = a.abschnitte_zuordnen([{"name": "Reihen", "je_reihe": True}, {"name": "Leer", "typ": "serie"}, {"name": "Einzelne Klassiker"}], titel)
-        self.assertEqual([x["name"] for x in abschnitte], ["Halloween Collection", "Friday the 13th Collection", "Einzelne Klassiker"],
-                         "Reihen nach erstem Jahr, leere Abschnitte entfallen")
+        self.assertEqual([x["name"] for x in abschnitte], ["Halloween", "Einzelne Klassiker"],
+                         "Reihen ab zwei Titeln, ohne „Collection“; einzelne Filme einer Reihe zu den Klassikern")
+        self.assertEqual({t["name"]: t["abschnitt"] for t in titel}["Freitag der 13."], "Einzelne Klassiker")
         self.assertEqual({t["name"]: t["abschnitt"] for t in titel}["Psycho"], "Einzelne Klassiker")
+
+    def test_zuerst_prueft_vorher_ohne_reihenfolge_zu_aendern(self):
+        titel = [{"tmdb": "3", "typ": "film", "name": "Der König der Löwen", "jahr": 2019, "genres": [12, 16]},
+                 {"tmdb": "1", "typ": "film", "name": "Bambi", "jahr": 1942, "genres": [16]}]
+        abschnitte = a.abschnitte_zuordnen([{"name": "Animation", "genres": [16]}, {"name": "Realverfilmungen", "tmdb": ["3"], "zuerst": True}], titel)
+        self.assertEqual([x["name"] for x in abschnitte], ["Animation", "Realverfilmungen"])
+        self.assertEqual([t["abschnitt"] for t in titel], ["Realverfilmungen", "Animation"])
 
     def test_name_muster_und_jahre(self):
         titel = [{"tmdb": "10", "typ": "film", "name": "Batman", "jahr": 1989, "genres": [28]},

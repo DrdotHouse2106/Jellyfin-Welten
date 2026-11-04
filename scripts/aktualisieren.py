@@ -293,13 +293,21 @@ def anreichern(tmdb, titel, parallel=8):
     return len(offen)
 
 
+def reihen_name(name):
+    """Name einer Filmreihe ohne „Filmreihe“/„Collection“: „Halloween Filmreihe“ → „Halloween“."""
+    if not name:
+        return name
+    return re.sub(r"\s*[-–]?\s*(Filmreihe|Collection|Reihe)\s*$", "", name, flags=re.I).strip() or name
+
+
 def abschnitte_zuordnen(regeln_abschnitte, titel, tmdb=None, meldungen=None):
     """Ordnet jedem Titel genau einen Abschnitt zu (erste passende Regel gewinnt).
 
     Bedingungen einer Regel (alle müssen passen): "typ", "genres" (eines davon), "ohne_genres", "ab_jahr", "bis_jahr",
     "reihen" (TMDB-Sammlungs-IDs), "reihen_suche" (Namen), "firmen", "name_muster" (regulärer Ausdruck),
     "tmdb" (IDs), "titel_suche" ({"titel", "jahr", "typ"}). "je_reihe": true legt je Filmreihe einen eigenen
-    Abschnitt an (Name der Reihe). Gibt die Abschnitte in Anzeigereihenfolge zurück: [{"name", "min_stimmen_fehlend"?}].
+    Abschnitt an (Name der Reihe, ab "min_titel" Titeln, Standard 2). "zuerst": true prüft die Regel vor den anderen,
+    ohne die Anzeigereihenfolge zu ändern. Gibt die Abschnitte in Anzeigereihenfolge zurück: [{"name", "min_stimmen_fehlend"?}].
     """
     meldungen = meldungen if meldungen is not None else []
     regeln = []
@@ -349,16 +357,22 @@ def abschnitte_zuordnen(regeln_abschnitte, titel, tmdb=None, meldungen=None):
             return False
         return True
 
-    reihenfolge, je_reihe = [], {}
-    for r in regeln:
-        if not r.get("je_reihe"):
-            reihenfolge.append(r["name"])
+    # Prüfreihenfolge: Regeln mit "zuerst" vor den anderen (die Anzeigereihenfolge bleibt die der Liste)
+    pruefen = [r for r in regeln if r.get("zuerst")] + [r for r in regeln if not r.get("zuerst")]
+    # Eigener Abschnitt je Filmreihe erst ab "min_titel" Titeln (Standard 2), sonst greifen die folgenden Regeln
+    reihen_zahl = {}
+    for t in titel:
+        if t.get("reihe"):
+            reihen_zahl[t["reihe"]] = reihen_zahl.get(t["reihe"], 0) + 1
+    je_reihe = {}
     for t in titel:
         t.pop("abschnitt", None)
-        for r in regeln:
+        for r in pruefen:
+            if r.get("je_reihe") and reihen_zahl.get(t.get("reihe"), 0) < r.get("min_titel", 2):
+                continue
             if passt(r, t):
                 if r.get("je_reihe"):
-                    name = t.get("reihe_name") or r["name"]
+                    name = reihen_name(t.get("reihe_name")) or r["name"]
                     je_reihe.setdefault(r["name"], {}).setdefault(name, []).append(t.get("jahr") or 9999)
                     t["abschnitt"] = name
                 else:
