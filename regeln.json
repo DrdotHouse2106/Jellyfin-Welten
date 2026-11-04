@@ -56,6 +56,93 @@
      "(?i)expanding the universe",
      "(?i)assembling a universe",
      "(?i)heroic years"
+    ],
+    "suche": [
+     {
+      "titel": "Spider-Man",
+      "jahr": 2002,
+      "typ": "film"
+     },
+     {
+      "titel": "Spider-Man 2",
+      "jahr": 2004,
+      "typ": "film"
+     },
+     {
+      "titel": "X-Men",
+      "jahr": 2000,
+      "typ": "film"
+     },
+     {
+      "titel": "X2",
+      "jahr": 2003,
+      "typ": "film"
+     },
+     {
+      "titel": "Blade",
+      "jahr": 1998,
+      "typ": "film"
+     },
+     {
+      "titel": "Blade II",
+      "jahr": 2002,
+      "typ": "film"
+     },
+     {
+      "titel": "Daredevil",
+      "jahr": 2003,
+      "typ": "film"
+     },
+     {
+      "titel": "Elektra",
+      "jahr": 2005,
+      "typ": "film"
+     },
+     {
+      "titel": "Morbius",
+      "jahr": 2022,
+      "typ": "film"
+     },
+     {
+      "titel": "Madame Web",
+      "jahr": 2024,
+      "typ": "film"
+     },
+     {
+      "titel": "Kraven the Hunter",
+      "jahr": 2024,
+      "typ": "film"
+     },
+     {
+      "titel": "Legion",
+      "jahr": 2017,
+      "typ": "serie"
+     },
+     {
+      "titel": "The Gifted",
+      "jahr": 2017,
+      "typ": "serie"
+     },
+     {
+      "titel": "Runaways",
+      "jahr": 2017,
+      "typ": "serie"
+     },
+     {
+      "titel": "Inhumans",
+      "jahr": 2017,
+      "typ": "serie"
+     },
+     {
+      "titel": "Cloak & Dagger",
+      "jahr": 2018,
+      "typ": "serie"
+     },
+     {
+      "titel": "Helstrom",
+      "jahr": 2020,
+      "typ": "serie"
+     }
     ]
    },
    "titel": [],
@@ -74,6 +161,48 @@
    "tmdb": {
     "sammlungen": [
      10
+    ],
+    "suche": [
+     {
+      "titel": "Star Wars: The Clone Wars",
+      "jahr": 2008,
+      "typ": "film"
+     },
+     {
+      "titel": "The Ewok Adventure",
+      "jahr": 1984,
+      "typ": "film"
+     },
+     {
+      "titel": "Ewoks: The Battle for Endor",
+      "jahr": 1985,
+      "typ": "film"
+     },
+     {
+      "titel": "The Star Wars Holiday Special",
+      "jahr": 1978,
+      "typ": "film"
+     },
+     {
+      "titel": "Star Wars: Starfighter",
+      "jahr": 2027,
+      "typ": "film"
+     },
+     {
+      "titel": "Star Wars: Ewoks",
+      "jahr": 1985,
+      "typ": "serie"
+     },
+     {
+      "titel": "Star Wars: Droids",
+      "jahr": 1985,
+      "typ": "serie"
+     },
+     {
+      "titel": "Star Wars: Young Jedi Adventures",
+      "jahr": 2023,
+      "typ": "serie"
+     }
     ]
    },
    "titel": [],
@@ -127,6 +256,118 @@
      "(?i)\\blego\\b",
      "(?i)dc showcase",
      "(?i)batman unlimited"
+    ],
+    "suche": [
+     {
+      "titel": "Batman",
+      "jahr": 1989,
+      "typ": "film"
+     },
+     {
+      "titel": "Batman Returns",
+      "jahr": 1992,
+      "typ": "film"
+     },
+     {
+      "titel": "Batman Forever",
+      "jahr": 1995,
+      "typ": "film"
+     },
+     {
+      "titel": "Batman & Robin",
+      "jahr": 1997,
+      "typ": "film"
+     },
+     {
+      "titel": "Superman",
+      "jahr": 1978,
+      "typ": "film"
+     },
+     {
+      "titel": "Superman II",
+      "jahr": 1980,
+      "typ": "film"
+     },
+     {
+      "titel": "Superman III",
+      "jahr": 1983,
+      "typ": "film"
+     },
+     {
+      "titel": "Superman IV: The Quest for Peace",
+      "jahr": 1987,
+      "typ": "film"
+     },
+     {
+      "titel": "Joker: Folie à Deux",
+      "jahr": 2024,
+      "typ": "film"
+     },
+     {
+      "titel": "V for Vendetta",
+      "jahr": 2006,
+      "typ": "film"
+     },
+     {
+      "titel": "Catwoman",
+      "jahr": 2004,
+      "typ": "film"
+     },
+     {
+      "titel": "Supergirl",
+      "jahr": 1984,
+      "typ": "film"
+     },
+     {
+      "titel": "Clayface",
+      "jahr": 2026,
+      "typ": "film"
+     },
+     {
+      "titel": "Smallville",
+      "jahr": 2001,
+      "typ": "serie"
+     },
+     {
+      "titel": "Supergirl",
+      "jahr": 2015,
+      "typ": "serie"
+     },
+     {
+      "titel": "DC's Legends of Tomorrow",
+      "jahr": 2016,
+      "typ": "serie"
+     },
+     {
+      "titel": "Black Lightning",
+      "jahr": 2018,
+      "typ": "serie"
+     },
+     {
+      "titel": "Young Justice",
+      "jahr": 2010,
+      "typ": "serie"
+     },
+     {
+      "titel": "Stargirl",
+      "jahr": 2020,
+      "typ": "serie"
+     },
+     {
+      "titel": "Batwoman",
+      "jahr": 2019,
+      "typ": "serie"
+     },
+     {
+      "titel": "Justice League",
+      "jahr": 2001,
+      "typ": "serie"
+     },
+     {
+      "titel": "Batman",
+      "jahr": 1966,
+      "typ": "serie"
+     }
     ]
    },
    "titel": [],
@@ -192,6 +433,350 @@
       "id": 2,
       "min_stimmen": 300
      }
+    ],
+    "suche": [
+     {
+      "titel": "Snow White and the Seven Dwarfs",
+      "jahr": 1937,
+      "typ": "film"
+     },
+     {
+      "titel": "Pinocchio",
+      "jahr": 1940,
+      "typ": "film"
+     },
+     {
+      "titel": "Fantasia",
+      "jahr": 1940,
+      "typ": "film"
+     },
+     {
+      "titel": "Dumbo",
+      "jahr": 1941,
+      "typ": "film"
+     },
+     {
+      "titel": "Bambi",
+      "jahr": 1942,
+      "typ": "film"
+     },
+     {
+      "titel": "Saludos Amigos",
+      "jahr": 1942,
+      "typ": "film"
+     },
+     {
+      "titel": "The Three Caballeros",
+      "jahr": 1944,
+      "typ": "film"
+     },
+     {
+      "titel": "Make Mine Music",
+      "jahr": 1946,
+      "typ": "film"
+     },
+     {
+      "titel": "Fun and Fancy Free",
+      "jahr": 1947,
+      "typ": "film"
+     },
+     {
+      "titel": "Melody Time",
+      "jahr": 1948,
+      "typ": "film"
+     },
+     {
+      "titel": "The Adventures of Ichabod and Mr. Toad",
+      "jahr": 1949,
+      "typ": "film"
+     },
+     {
+      "titel": "Cinderella",
+      "jahr": 1950,
+      "typ": "film"
+     },
+     {
+      "titel": "Alice in Wonderland",
+      "jahr": 1951,
+      "typ": "film"
+     },
+     {
+      "titel": "Peter Pan",
+      "jahr": 1953,
+      "typ": "film"
+     },
+     {
+      "titel": "Lady and the Tramp",
+      "jahr": 1955,
+      "typ": "film"
+     },
+     {
+      "titel": "Sleeping Beauty",
+      "jahr": 1959,
+      "typ": "film"
+     },
+     {
+      "titel": "One Hundred and One Dalmatians",
+      "jahr": 1961,
+      "typ": "film"
+     },
+     {
+      "titel": "The Sword in the Stone",
+      "jahr": 1963,
+      "typ": "film"
+     },
+     {
+      "titel": "Mary Poppins",
+      "jahr": 1964,
+      "typ": "film"
+     },
+     {
+      "titel": "The Jungle Book",
+      "jahr": 1967,
+      "typ": "film"
+     },
+     {
+      "titel": "The Aristocats",
+      "jahr": 1970,
+      "typ": "film"
+     },
+     {
+      "titel": "Bedknobs and Broomsticks",
+      "jahr": 1971,
+      "typ": "film"
+     },
+     {
+      "titel": "Robin Hood",
+      "jahr": 1973,
+      "typ": "film"
+     },
+     {
+      "titel": "The Many Adventures of Winnie the Pooh",
+      "jahr": 1977,
+      "typ": "film"
+     },
+     {
+      "titel": "The Rescuers",
+      "jahr": 1977,
+      "typ": "film"
+     },
+     {
+      "titel": "The Fox and the Hound",
+      "jahr": 1981,
+      "typ": "film"
+     },
+     {
+      "titel": "The Black Cauldron",
+      "jahr": 1985,
+      "typ": "film"
+     },
+     {
+      "titel": "The Great Mouse Detective",
+      "jahr": 1986,
+      "typ": "film"
+     },
+     {
+      "titel": "Oliver & Company",
+      "jahr": 1988,
+      "typ": "film"
+     },
+     {
+      "titel": "The Little Mermaid",
+      "jahr": 1989,
+      "typ": "film"
+     },
+     {
+      "titel": "The Rescuers Down Under",
+      "jahr": 1990,
+      "typ": "film"
+     },
+     {
+      "titel": "Beauty and the Beast",
+      "jahr": 1991,
+      "typ": "film"
+     },
+     {
+      "titel": "Aladdin",
+      "jahr": 1992,
+      "typ": "film"
+     },
+     {
+      "titel": "The Nightmare Before Christmas",
+      "jahr": 1993,
+      "typ": "film"
+     },
+     {
+      "titel": "The Lion King",
+      "jahr": 1994,
+      "typ": "film"
+     },
+     {
+      "titel": "Pocahontas",
+      "jahr": 1995,
+      "typ": "film"
+     },
+     {
+      "titel": "The Hunchback of Notre Dame",
+      "jahr": 1996,
+      "typ": "film"
+     },
+     {
+      "titel": "Hercules",
+      "jahr": 1997,
+      "typ": "film"
+     },
+     {
+      "titel": "Mulan",
+      "jahr": 1998,
+      "typ": "film"
+     },
+     {
+      "titel": "Tarzan",
+      "jahr": 1999,
+      "typ": "film"
+     },
+     {
+      "titel": "Fantasia 2000",
+      "jahr": 1999,
+      "typ": "film"
+     },
+     {
+      "titel": "Dinosaur",
+      "jahr": 2000,
+      "typ": "film"
+     },
+     {
+      "titel": "The Emperor's New Groove",
+      "jahr": 2000,
+      "typ": "film"
+     },
+     {
+      "titel": "Atlantis: The Lost Empire",
+      "jahr": 2001,
+      "typ": "film"
+     },
+     {
+      "titel": "Lilo & Stitch",
+      "jahr": 2002,
+      "typ": "film"
+     },
+     {
+      "titel": "Treasure Planet",
+      "jahr": 2002,
+      "typ": "film"
+     },
+     {
+      "titel": "Brother Bear",
+      "jahr": 2003,
+      "typ": "film"
+     },
+     {
+      "titel": "Home on the Range",
+      "jahr": 2004,
+      "typ": "film"
+     },
+     {
+      "titel": "Chicken Little",
+      "jahr": 2005,
+      "typ": "film"
+     },
+     {
+      "titel": "Meet the Robinsons",
+      "jahr": 2007,
+      "typ": "film"
+     },
+     {
+      "titel": "Bolt",
+      "jahr": 2008,
+      "typ": "film"
+     },
+     {
+      "titel": "The Princess and the Frog",
+      "jahr": 2009,
+      "typ": "film"
+     },
+     {
+      "titel": "Tangled",
+      "jahr": 2010,
+      "typ": "film"
+     },
+     {
+      "titel": "Winnie the Pooh",
+      "jahr": 2011,
+      "typ": "film"
+     },
+     {
+      "titel": "Wreck-It Ralph",
+      "jahr": 2012,
+      "typ": "film"
+     },
+     {
+      "titel": "Frozen",
+      "jahr": 2013,
+      "typ": "film"
+     },
+     {
+      "titel": "Big Hero 6",
+      "jahr": 2014,
+      "typ": "film"
+     },
+     {
+      "titel": "Zootopia",
+      "jahr": 2016,
+      "typ": "film"
+     },
+     {
+      "titel": "Moana",
+      "jahr": 2016,
+      "typ": "film"
+     },
+     {
+      "titel": "Ralph Breaks the Internet",
+      "jahr": 2018,
+      "typ": "film"
+     },
+     {
+      "titel": "Frozen II",
+      "jahr": 2019,
+      "typ": "film"
+     },
+     {
+      "titel": "Raya and the Last Dragon",
+      "jahr": 2021,
+      "typ": "film"
+     },
+     {
+      "titel": "Encanto",
+      "jahr": 2021,
+      "typ": "film"
+     },
+     {
+      "titel": "Strange World",
+      "jahr": 2022,
+      "typ": "film"
+     },
+     {
+      "titel": "Wish",
+      "jahr": 2023,
+      "typ": "film"
+     },
+     {
+      "titel": "Moana 2",
+      "jahr": 2024,
+      "typ": "film"
+     },
+     {
+      "titel": "Zootopia 2",
+      "jahr": 2025,
+      "typ": "film"
+     }
+    ],
+    "firmen_suche": [
+     {
+      "name": "Walt Disney Productions",
+      "min_stimmen": 100,
+      "angekuendigte": false
+     }
     ]
    },
    "titel": [],
@@ -224,6 +809,21 @@
     {
      "sammlung": "Cars",
      "name": "Cars gehört zu Pixar"
+    },
+    {
+     "tmdb": "33914",
+     "typ": "film",
+     "name": "Frankenweenie (Kurzfilm 1984, doppelt neben dem Film von 2012)"
+    },
+    {
+     "tmdb": "40619",
+     "typ": "film",
+     "name": "Day & Night (Pixar)"
+    },
+    {
+     "tmdb": "594530",
+     "typ": "film",
+     "name": "Lamp Life (Pixar)"
     }
    ]
   },
@@ -302,6 +902,18 @@
     "sammlungen": [
      1241,
      435259
+    ],
+    "suche": [
+     {
+      "titel": "Harry Potter 20th Anniversary: Return to Hogwarts",
+      "jahr": 2022,
+      "typ": "film"
+     },
+     {
+      "titel": "Harry Potter",
+      "jahr": 2027,
+      "typ": "serie"
+     }
     ]
    },
    "titel": [],
@@ -1160,6 +1772,13 @@
      1434946,
      399,
      115762
+    ],
+    "suche": [
+     {
+      "titel": "Predator: Killer of Killers",
+      "jahr": 2025,
+      "typ": "film"
+     }
     ]
    },
    "titel": [
@@ -1196,6 +1815,93 @@
      2602,
      8864,
      397842
+    ],
+    "suche": [
+     {
+      "titel": "Night of the Living Dead",
+      "jahr": 1968,
+      "typ": "film"
+     },
+     {
+      "titel": "Dawn of the Dead",
+      "jahr": 1978,
+      "typ": "film"
+     },
+     {
+      "titel": "Day of the Dead",
+      "jahr": 1985,
+      "typ": "film"
+     },
+     {
+      "titel": "Psycho",
+      "jahr": 1960,
+      "typ": "film"
+     },
+     {
+      "titel": "The Shining",
+      "jahr": 1980,
+      "typ": "film"
+     },
+     {
+      "titel": "Rosemary's Baby",
+      "jahr": 1968,
+      "typ": "film"
+     },
+     {
+      "titel": "Carrie",
+      "jahr": 1976,
+      "typ": "film"
+     },
+     {
+      "titel": "The Thing",
+      "jahr": 1982,
+      "typ": "film"
+     },
+     {
+      "titel": "Suspiria",
+      "jahr": 1977,
+      "typ": "film"
+     },
+     {
+      "titel": "The Ring",
+      "jahr": 2002,
+      "typ": "film"
+     },
+     {
+      "titel": "The Blair Witch Project",
+      "jahr": 1999,
+      "typ": "film"
+     },
+     {
+      "titel": "The Birds",
+      "jahr": 1963,
+      "typ": "film"
+     },
+     {
+      "titel": "Nosferatu",
+      "jahr": 1922,
+      "typ": "film"
+     }
+    ],
+    "sammlungen_suche": [
+     "Halloween Collection",
+     "Friday the 13th Collection",
+     "A Nightmare on Elm Street Collection",
+     "The Texas Chainsaw Massacre Collection",
+     "The Exorcist Collection",
+     "The Omen Collection",
+     "Hellraiser Collection",
+     "Poltergeist Collection",
+     "Child's Play Collection",
+     "The Evil Dead Collection",
+     "Saw Collection",
+     "Candyman Collection",
+     "The Conjuring Collection",
+     "Annabelle Collection",
+     "The Nun Collection",
+     "Insidious Collection",
+     "Jaws Collection",
+     "It Collection"
     ]
    },
    "titel": [],

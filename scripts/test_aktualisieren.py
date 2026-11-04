@@ -122,7 +122,8 @@ class Tests(unittest.TestCase):
         regeln = json.loads((root / "regeln.json").read_text(encoding="utf-8"))
         welten = json.loads((root / "welten.json").read_text(encoding="utf-8"))
         dok, _ = a.erzeugen(regeln, welten, None)
-        alt = {a.welt_id(w["name"]): len(w["titel"]) for w in welten["welten"]}
+        # Platzhalter („Untitled …“) fallen absichtlich weg
+        alt = {a.welt_id(w["name"]): sum(1 for t in w["titel"] if not a.ist_platzhalter(t)) for w in welten["welten"]}
         for w in dok["welten"]:
             vorher = max([alt.get(a.welt_id(w["name"]), 0)] + [alt.get(x, 0) for x in w.get("aliase", [])])
             self.assertGreaterEqual(len(w["titel"]), vorher - sum(1 for x in w["ausschluss"] if x.get("tmdb")), w["name"])
@@ -165,6 +166,60 @@ class ChronologieTest(unittest.TestCase):
         self.assertEqual(len(warn), 2)
         self.assertIn("gehört nicht zur Welt", warn[0])
         self.assertIn("Staffel 6", warn[1])
+
+
+class SucheTest(unittest.TestCase):
+    class FakeTmdb:
+        def __init__(self):
+            self.aufrufe = []
+
+        def get(self, pfad, **params):
+            self.aufrufe.append((pfad, params))
+            if pfad == "/search/movie" and params["query"] == "Psycho":
+                if params.get("primary_release_year") == 1960:
+                    return {"results": [{"id": 539, "title": "Psycho", "release_date": "1960-06-22"}]}
+                return {"results": [{"id": 11252, "title": "Psycho", "release_date": "1998-12-04"}]}
+            if pfad == "/search/tv" and params["query"] == "Smallville":
+                return {"results": [{"id": 4604, "name": "Smallville", "first_air_date": "2001-10-16"}]}
+            if pfad == "/search/collection":
+                treffer = {"Halloween": [{"id": 999, "name": "Halloween (Rob Zombie) Collection"}, {"id": 91361, "name": "Halloween"}]}
+                return {"results": treffer.get(params["query"], [])}
+            if pfad == "/collection/91361":
+                return {"parts": [{"id": 948, "title": "Halloween", "release_date": "1978-10-24"},
+                                  {"id": 1, "title": "Untitled Halloween Sequel", "release_date": ""}]}
+            if pfad == "/search/company":
+                return {"results": [{"id": 3166, "name": "Walt Disney Productions"}]}
+            if pfad.startswith("/discover/"):
+                return {"results": [{"id": 12, "title": "Schneewittchen und die sieben Zwerge", "release_date": "1937-12-21"}], "total_pages": 1}
+            return {"results": []}
+
+        def discover(self, art, **params):
+            return self.get("/discover/" + art, **params)["results"]
+
+    def test_namenssuche_titel_sammlung_firma(self):
+        tmdb = self.FakeTmdb()
+        meldungen = []
+        quelle = {"suche": [{"titel": "Psycho", "jahr": 1960, "typ": "film"}, {"titel": "Smallville", "jahr": 2001, "typ": "serie"},
+                            {"titel": "Gibt es nicht", "jahr": 1999, "typ": "film"}],
+                  "sammlungen_suche": ["Halloween", "Unbekannt"],
+                  "firmen_suche": [{"name": "Walt Disney Productions", "min_stimmen": 100, "angekuendigte": False}]}
+        titel = a.tmdb_titel(tmdb, quelle, "2026-11-04", meldungen)
+        ids = {(t["tmdb"], t["typ"]) for t in titel}
+        self.assertIn(("539", "film"), ids, "Psycho von 1960, nicht das Remake")
+        self.assertNotIn(("11252", "film"), ids)
+        self.assertIn(("4604", "serie"), ids)
+        self.assertIn(("948", "film"), ids, "genauer Sammlungsname vor erstem Treffer")
+        self.assertIn(("12", "film"), ids, "Firma über den Namen")
+        self.assertTrue(any("Titel nicht gefunden: Gibt es nicht" in m for m in meldungen))
+        self.assertTrue(any("Sammlung nicht gefunden: Unbekannt" in m for m in meldungen))
+
+    def test_platzhalter_fallen_weg_auch_aus_alten_eintraegen(self):
+        regel = {"name": "X"}
+        alt = [{"tmdb": "1", "typ": "film", "name": "Untitled X-Men Film"}, {"tmdb": "2", "typ": "film", "name": "X-Men"}]
+        neu = [{"tmdb": "3", "typ": "film", "name": "Untitled Sequel", "datum": "2028-01-01"}]
+        titel, neu_hinzu = a.welt_zusammenfuehren(regel, alt, neu)
+        self.assertEqual([t["tmdb"] for t in titel], ["2"])
+        self.assertEqual(neu_hinzu, [])
 
 
 if __name__ == "__main__":

@@ -37,6 +37,8 @@ API = "https://api.themoviedb.org/3"
 MAX_SEITEN = 25
 OHNE_GENRES = {99, 10763, 10764, 10767}  # Dokumentation, Nachrichten, Reality, Talk
 SELBST = re.compile(r"(?i)\b(himself|herself|self|sich selbst|se stesso)\b")
+# Angekündigte Titel ohne echten Namen („Untitled X-Men Film“) – nie in die Listen
+PLATZHALTER = re.compile(r"(?i)^\s*untitled\b")
 
 BESCHREIBUNG = (
     "Welten für das Jellyfin-Plugin Local Recommendations (LocalRecs). Diese Datei wird von "
@@ -126,10 +128,76 @@ class Tmdb:
         return ergebnisse
 
 
-def tmdb_titel(tmdb, quelle, heute):
-    """Sammelt die Titel einer Welt aus TMDB: [{tmdb, typ, name, datum}]."""
+def ist_platzhalter(eintrag):
+    """Platzhalter-Titel („Untitled …“) gehören nie in eine Welt."""
+    return bool(PLATZHALTER.search(eintrag.get("name") or ""))
+
+
+def jahr_passt(datum, jahr):
+    """TMDB-Datum (JJJJ-MM-TT) im gesuchten Jahr oder ein Jahr daneben (Festival- bzw. Länder-Termine)."""
+    return bool(datum) and abs(int(datum[:4]) - int(jahr)) <= 1
+
+
+def suche_titel(tmdb, eintrag):
+    """Löst {"titel", "jahr", "typ"} über die TMDB-Suche auf: erster Treffer im passenden Jahr, sonst None."""
+    serie = eintrag.get("typ") == "serie"
+    params = {"query": eintrag["titel"]}
+    if eintrag.get("jahr"):
+        params["first_air_date_year" if serie else "primary_release_year"] = eintrag["jahr"]
+    treffer = tmdb.get("/search/tv" if serie else "/search/movie", **params).get("results", [])
+    if not treffer and eintrag.get("jahr"):
+        # Ohne Jahresfilter erneut, dann Jahr ±1 prüfen
+        treffer = tmdb.get("/search/tv" if serie else "/search/movie", query=eintrag["titel"]).get("results", [])
+    for t in treffer:
+        datum = (t.get("first_air_date") if serie else t.get("release_date")) or ""
+        if not eintrag.get("jahr") or jahr_passt(datum, eintrag["jahr"]):
+            return {"tmdb": str(t["id"]), "typ": "serie" if serie else "film",
+                    "name": (t.get("name") if serie else t.get("title")) or t.get("original_title") or t.get("original_name"),
+                    "datum": datum}
+    return None
+
+
+def suche_id(tmdb, art, name):
+    """Sucht eine Sammlung bzw. Firma nach Namen: genauer Name zuerst, sonst der erste Treffer."""
+    treffer = tmdb.get("/search/" + art, query=name, language="en-US").get("results", [])
+    genau = [t for t in treffer if (t.get("name") or "").strip().lower() == name.strip().lower()]
+    wahl = (genau or treffer or [None])[0]
+    return (wahl["id"], wahl.get("name")) if wahl else (None, None)
+
+
+def tmdb_titel(tmdb, quelle, heute, meldungen=None):
+    """Sammelt die Titel einer Welt aus TMDB: [{tmdb, typ, name, datum}].
+
+    Neben IDs („firmen“, „serien_firmen“, „sammlungen“, „personen“) gehen auch Namen, die über die TMDB-Suche
+    aufgelöst werden: „firmen_suche“ ({"name", "min_stimmen"}), „sammlungen_suche“ (Namen, englisch wie bei TMDB)
+    und „suche“ ({"titel", "jahr", "typ"}). Was dabei gefunden bzw. nicht gefunden wird, landet in „meldungen“.
+    """
+    meldungen = meldungen if meldungen is not None else []
     gefunden = []
-    for firma in quelle.get("firmen", []):
+    firmen = list(quelle.get("firmen", []))
+    for firma in quelle.get("firmen_suche", []):
+        fid, fname = suche_id(tmdb, "company", firma["name"])
+        if fid is None:
+            meldungen.append("Firma nicht gefunden: " + firma["name"])
+            continue
+        meldungen.append(f"Firma „{firma['name']}“ → {fname} ({fid})")
+        firmen.append({**firma, "id": fid})
+    sammlungen = list(quelle.get("sammlungen", []))
+    for name in quelle.get("sammlungen_suche", []):
+        sid, sname = suche_id(tmdb, "collection", name)
+        if sid is None:
+            meldungen.append("Sammlung nicht gefunden: " + name)
+            continue
+        meldungen.append(f"Sammlung „{name}“ → {sname} ({sid})")
+        sammlungen.append(sid)
+    for eintrag in quelle.get("suche", []):
+        treffer = suche_titel(tmdb, eintrag)
+        if treffer is None:
+            meldungen.append(f"Titel nicht gefunden: {eintrag['titel']} ({eintrag.get('jahr', '?')})")
+            continue
+        meldungen.append(f"Titel „{eintrag['titel']}“ → {treffer['name']} ({treffer['datum'][:4]}, {treffer['tmdb']})")
+        gefunden.append(treffer)
+    for firma in firmen:
         filme = tmdb.discover("movie", with_companies=firma["id"], sort_by="popularity.desc",
                               **{"vote_count.gte": firma.get("min_stimmen", 0)})
         if firma.get("angekuendigte", True):
@@ -157,7 +225,7 @@ def tmdb_titel(tmdb, quelle, heute):
             gefunden.append({"tmdb": str(c["id"]), "typ": "serie" if serie else "film",
                              "name": (c.get("name") if serie else c.get("title")) or c.get("original_title") or c.get("original_name"),
                              "datum": datum})
-    for sammlung in quelle.get("sammlungen", []):
+    for sammlung in sammlungen:
         teile = tmdb.get("/collection/" + str(sammlung)).get("parts", [])
         gefunden += [{"tmdb": str(t["id"]), "typ": "film", "name": t.get("title") or t.get("original_title"),
                       "datum": t.get("release_date") or ""} for t in teile]
@@ -172,7 +240,7 @@ def welt_zusammenfuehren(regel, alt, neu):
 
     def hinzu(eintrag, filtern):
         k = schluessel(eintrag)
-        if k is None or k in gesehen or ist_ausgeschlossen(eintrag, ausschluss):
+        if k is None or k in gesehen or ist_ausgeschlossen(eintrag, ausschluss) or ist_platzhalter(eintrag):
             return False
         if filtern and any(m.search(eintrag.get("name") or "") for m in muster):
             return False
@@ -250,7 +318,10 @@ def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
         kandidaten = [regel.get("id"), welt_id(regel["name"])] + list(regel.get("aliase", []))
         alt_welt = next((alt_nach_id[welt_id(k)] for k in kandidaten if k and welt_id(k) in alt_nach_id), {})
         alt = alt_welt.get("titel", [])
-        neu = tmdb_titel(tmdb, regel.get("tmdb", {}), heute) if tmdb else []
+        meldungen = []
+        neu = tmdb_titel(tmdb, regel.get("tmdb", {}), heute, meldungen) if tmdb else []
+        for meldung in meldungen:
+            print(("::warning::" if "nicht gefunden" in meldung else "") + regel["name"] + ": " + meldung)
         titel, neu_hinzu = welt_zusammenfuehren(regel, alt, neu)
         entfernt = [e for e in alt if ist_ausgeschlossen(e, regel.get("ausschluss", []))]
         bericht.append((regel["name"], len(titel), neu_hinzu, entfernt))
