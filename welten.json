@@ -17,7 +17,11 @@
      "name": "Spider-Man (Sony)"
     },
     {
-     "name": "Serien und Sonstiges",
+     "name": "Weitere Filme",
+     "min_stimmen_fehlend": 50
+    },
+    {
+     "name": "Serien",
      "min_stimmen_fehlend": 50
     }
    ],
@@ -788,7 +792,7 @@
       216248
      ],
      "stimmen": 6744,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "102899",
@@ -866,7 +870,7 @@
       133789
      ],
      "stimmen": 8666,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "1003598",
@@ -1040,7 +1044,7 @@
       420
      ],
      "stimmen": 360,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "253980",
@@ -1241,7 +1245,7 @@
       420
      ],
      "stimmen": 336,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "13647",
@@ -1263,7 +1267,7 @@
       7505
      ],
      "stimmen": 276,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "394355",
@@ -1322,7 +1326,7 @@
       176762
      ],
      "stimmen": 0,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "569094",
@@ -1656,7 +1660,7 @@
       7505
      ],
      "stimmen": 4243,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "166424",
@@ -1680,7 +1684,7 @@
       22213
      ],
      "stimmen": 6611,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "567604",
@@ -1871,7 +1875,7 @@
       42209
      ],
      "stimmen": 4526,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "9738",
@@ -1894,7 +1898,7 @@
       47
      ],
      "stimmen": 10327,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "1927",
@@ -1915,7 +1919,7 @@
       11533
      ],
      "stimmen": 6540,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "85271",
@@ -2269,7 +2273,7 @@
       38679
      ],
      "stimmen": 2765,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "62126",
@@ -2288,7 +2292,7 @@
       19366
      ],
      "stimmen": 2126,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "62127",
@@ -2308,7 +2312,7 @@
       19366
      ],
      "stimmen": 2782,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "1403",
@@ -2328,7 +2332,7 @@
       38679
      ],
      "stimmen": 3943,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "61550",
@@ -2347,7 +2351,7 @@
       92828
      ],
      "stimmen": 2078,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "220102",
@@ -2371,7 +2375,7 @@
       296514
      ],
      "stimmen": 927,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "62285",
@@ -2392,7 +2396,7 @@
       156962
      ],
      "stimmen": 1752,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "67178",
@@ -2412,7 +2416,7 @@
       156964
      ],
      "stimmen": 3427,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "61889",
@@ -2433,7 +2437,7 @@
       38679
      ],
      "stimmen": 5483,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "6332",
@@ -2455,7 +2459,7 @@
       160251
      ],
      "stimmen": 89,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "1130",
@@ -2476,7 +2480,7 @@
       160251
      ],
      "stimmen": 106,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "10079",
@@ -2496,7 +2500,7 @@
       420
      ],
      "stimmen": 264,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "668",
@@ -2517,7 +2521,7 @@
       420
      ],
      "stimmen": 552,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "1449",
@@ -2539,7 +2543,7 @@
       219610
      ],
      "stimmen": 125,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "6549",
@@ -2884,7 +2888,7 @@
       176762
      ],
      "stimmen": 0,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "297767",
@@ -2903,7 +2907,7 @@
       177195
      ],
      "stimmen": 0,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "36647",
@@ -2922,7 +2926,7 @@
       11321
      ],
      "stimmen": 7077,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "36657",
@@ -2964,7 +2968,7 @@
       11321
      ],
      "stimmen": 5484,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "557",
@@ -3004,7 +3008,7 @@
       25
      ],
      "stimmen": 5664,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "558",
@@ -3046,7 +3050,7 @@
       25
      ],
      "stimmen": 2784,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Weitere Filme"
     },
     {
      "tmdb": "67195",
@@ -3069,7 +3073,7 @@
       15990
      ],
      "stimmen": 1633,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "68716",
@@ -3090,7 +3094,7 @@
       17596
      ],
      "stimmen": 806,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "69629",
@@ -3113,7 +3117,7 @@
       28788
      ],
      "stimmen": 1622,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "67466",
@@ -3133,7 +3137,7 @@
       76871
      ],
      "stimmen": 1012,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "66190",
@@ -3153,7 +3157,7 @@
       156963
      ],
      "stimmen": 693,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "88987",
@@ -3173,7 +3177,7 @@
       166621
      ],
      "stimmen": 264,
-     "abschnitt": "Serien und Sonstiges"
+     "abschnitt": "Serien"
     },
     {
      "tmdb": "526896",
