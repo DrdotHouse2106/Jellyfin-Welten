@@ -152,6 +152,28 @@
      "typ": "film",
      "name": "„X2: United Colors of X“ – Fehltreffer der Suche, nicht der Kinofilm von 2003"
     }
+   ],
+   "abschnitte": [
+    {
+     "name": "Marvel Cinematic Universe",
+     "firmen": [
+      420
+     ]
+    },
+    {
+     "name": "X-Men",
+     "typ": "film",
+     "name_muster": "(?i)x-men|wolverine|deadpool|logan|new mutants|dark phoenix"
+    },
+    {
+     "name": "Spider-Man (Sony)",
+     "typ": "film",
+     "name_muster": "(?i)spider|venom|morbius|madame web|kraven"
+    },
+    {
+     "name": "Serien und Sonstiges",
+     "min_stimmen_fehlend": 50
+    }
    ]
   },
   {
@@ -216,6 +238,23 @@
     {
      "sammlung": "Indiana Jones",
      "name": "Indiana Jones ist auch von Lucasfilm, gehört aber nicht zu Star Wars"
+    }
+   ],
+   "abschnitte": [
+    {
+     "name": "Skywalker-Saga",
+     "typ": "film",
+     "reihen": [
+      10
+     ]
+    },
+    {
+     "name": "Weitere Filme",
+     "typ": "film"
+    },
+    {
+     "name": "Serien",
+     "typ": "serie"
     }
    ]
   },
@@ -387,6 +426,30 @@
      "tmdb": "146216",
      "typ": "film",
      "name": "R.E.D. 2"
+    }
+   ],
+   "abschnitte": [
+    {
+     "name": "Animation",
+     "genres": [
+      16
+     ],
+     "min_stimmen_fehlend": 100
+    },
+    {
+     "name": "DCU und DCEU",
+     "typ": "film",
+     "ab_jahr": 2013
+    },
+    {
+     "name": "Batman, Superman & Co. (klassisch)",
+     "typ": "film",
+     "bis_jahr": 2012
+    },
+    {
+     "name": "Serien",
+     "typ": "serie",
+     "min_stimmen_fehlend": 50
     }
    ]
   },
@@ -830,6 +893,172 @@
      "tmdb": "594530",
      "typ": "film",
      "name": "Lamp Life (Pixar)"
+    }
+   ],
+   "abschnitte": [
+    {
+     "name": "Animations-Klassiker und neue Disney-Animation",
+     "typ": "film",
+     "genres": [
+      16
+     ]
+    },
+    {
+     "name": "Realverfilmungen",
+     "typ": "film",
+     "min_stimmen_fehlend": 300,
+     "titel_suche": [
+      {
+       "titel": "The Jungle Book",
+       "jahr": 1994,
+       "typ": "film"
+      },
+      {
+       "titel": "101 Dalmatians",
+       "jahr": 1996,
+       "typ": "film"
+      },
+      {
+       "titel": "102 Dalmatians",
+       "jahr": 2000,
+       "typ": "film"
+      },
+      {
+       "titel": "Alice in Wonderland",
+       "jahr": 2010,
+       "typ": "film"
+      },
+      {
+       "titel": "Maleficent",
+       "jahr": 2014,
+       "typ": "film"
+      },
+      {
+       "titel": "Cinderella",
+       "jahr": 2015,
+       "typ": "film"
+      },
+      {
+       "titel": "The Jungle Book",
+       "jahr": 2016,
+       "typ": "film"
+      },
+      {
+       "titel": "Alice Through the Looking Glass",
+       "jahr": 2016,
+       "typ": "film"
+      },
+      {
+       "titel": "Pete's Dragon",
+       "jahr": 2016,
+       "typ": "film"
+      },
+      {
+       "titel": "Beauty and the Beast",
+       "jahr": 2017,
+       "typ": "film"
+      },
+      {
+       "titel": "Christopher Robin",
+       "jahr": 2018,
+       "typ": "film"
+      },
+      {
+       "titel": "Dumbo",
+       "jahr": 2019,
+       "typ": "film"
+      },
+      {
+       "titel": "Aladdin",
+       "jahr": 2019,
+       "typ": "film"
+      },
+      {
+       "titel": "The Lion King",
+       "jahr": 2019,
+       "typ": "film"
+      },
+      {
+       "titel": "Maleficent: Mistress of Evil",
+       "jahr": 2019,
+       "typ": "film"
+      },
+      {
+       "titel": "Lady and the Tramp",
+       "jahr": 2019,
+       "typ": "film"
+      },
+      {
+       "titel": "Mulan",
+       "jahr": 2020,
+       "typ": "film"
+      },
+      {
+       "titel": "Cruella",
+       "jahr": 2021,
+       "typ": "film"
+      },
+      {
+       "titel": "Pinocchio",
+       "jahr": 2022,
+       "typ": "film"
+      },
+      {
+       "titel": "Peter Pan & Wendy",
+       "jahr": 2023,
+       "typ": "film"
+      },
+      {
+       "titel": "The Little Mermaid",
+       "jahr": 2023,
+       "typ": "film"
+      },
+      {
+       "titel": "Haunted Mansion",
+       "jahr": 2023,
+       "typ": "film"
+      },
+      {
+       "titel": "Mufasa: The Lion King",
+       "jahr": 2024,
+       "typ": "film"
+      },
+      {
+       "titel": "Snow White",
+       "jahr": 2025,
+       "typ": "film"
+      },
+      {
+       "titel": "Lilo & Stitch",
+       "jahr": 2025,
+       "typ": "film"
+      },
+      {
+       "titel": "Moana",
+       "jahr": 2026,
+       "typ": "film"
+      }
+     ]
+    },
+    {
+     "name": "Abenteuer und Fantasy",
+     "typ": "film",
+     "genres": [
+      12,
+      14,
+      878
+     ],
+     "min_stimmen_fehlend": 300
+    },
+    {
+     "name": "Familienfilme und Sonstiges",
+     "typ": "film",
+     "min_stimmen_fehlend": 300
+    },
+    {
+     "name": "Serien",
+     "typ": "serie",
+     "min_stimmen_fehlend": 100
     }
    ]
   },
@@ -1756,6 +1985,16 @@
      "tmdb": "1239828",
      "typ": "film"
     }
+   ],
+   "abschnitte": [
+    {
+     "name": "Serien",
+     "typ": "serie"
+    },
+    {
+     "name": "Filme",
+     "typ": "film"
+    }
    ]
   },
   {
@@ -1804,7 +2043,16 @@
      "name": "Alien: Earth"
     }
    ],
-   "ausschluss": []
+   "ausschluss": [],
+   "abschnitte": [
+    {
+     "name": "Reihen",
+     "je_reihe": true
+    },
+    {
+     "name": "Weitere"
+    }
+   ]
   },
   {
    "name": "Horror-Klassiker",
@@ -1926,7 +2174,18 @@
     ]
    },
    "titel": [],
-   "ausschluss": []
+   "ausschluss": [],
+   "abschnitte": [
+    {
+     "name": "Reihen",
+     "je_reihe": true,
+     "min_stimmen_fehlend": 300
+    },
+    {
+     "name": "Einzelne Klassiker",
+     "min_stimmen_fehlend": 300
+    }
+   ]
   }
  ]
 }

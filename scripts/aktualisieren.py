@@ -19,6 +19,7 @@ Daten: TMDB (https://www.themoviedb.org). Dieses Produkt nutzt die TMDB-API, ist
 von TMDB unterstützt oder zertifiziert.
 """
 import argparse
+import concurrent.futures
 import datetime
 import json
 import os
@@ -246,6 +247,8 @@ def welt_zusammenfuehren(regel, alt, neu):
             return False
         gesehen.add(k)
         ergebnis.append({f: eintrag[f] for f in ("tmdb", "imdb", "tvdb", "typ", "name") if eintrag.get(f)})
+        # Angaben für die Abschnitte (einmal von TMDB geholt) bleiben erhalten
+        ergebnis[-1].update({f: eintrag[f] for f in INFO_FELDER if f in eintrag})
         return True
 
     for eintrag in alt:                      # 1. was schon drin ist, bleibt (Reihenfolge bleibt)
@@ -257,6 +260,121 @@ def welt_zusammenfuehren(regel, alt, neu):
         if hinzu(eintrag, True):
             neu_hinzu.append(eintrag)
     return ergebnis, neu_hinzu
+
+
+INFO_FELDER = ("jahr", "genres", "reihe", "reihe_name", "firmen", "stimmen", "abschnitt")
+
+
+def titel_info(tmdb, eintrag):
+    """Holt Jahr, Genres, Filmreihe, Firmen und Stimmen eines Titels von TMDB (für die Abschnitte)."""
+    serie = eintrag.get("typ") == "serie"
+    daten = tmdb.get(("/tv/" if serie else "/movie/") + str(eintrag["tmdb"]))
+    datum = (daten.get("first_air_date") if serie else daten.get("release_date")) or ""
+    reihe = daten.get("belongs_to_collection") or {}
+    return {"jahr": int(datum[:4]) if datum[:4].isdigit() else None,
+            "genres": [g["id"] for g in daten.get("genres", []) if "id" in g],
+            "reihe": reihe.get("id"), "reihe_name": reihe.get("name"),
+            "firmen": [f["id"] for f in daten.get("production_companies", []) if "id" in f],
+            "stimmen": daten.get("vote_count") or 0}
+
+
+def anreichern(tmdb, titel, parallel=8):
+    """Ergänzt fehlende Angaben (INFO_FELDER) für Titel mit TMDB-ID – nur einmal je Titel, danach stehen sie in welten.json."""
+    offen = [t for t in titel if t.get("tmdb") and t.get("typ") in ("film", "serie") and "jahr" not in t]
+    def hole(eintrag):
+        try:
+            return eintrag, titel_info(tmdb, eintrag)
+        except Exception:  # noqa: BLE001 – ohne Antwort beim nächsten Lauf erneut
+            return eintrag, None
+    with concurrent.futures.ThreadPoolExecutor(max_workers=parallel) as pool:
+        for eintrag, info in pool.map(hole, offen):
+            if info is not None:
+                eintrag.update(info)
+    return len(offen)
+
+
+def abschnitte_zuordnen(regeln_abschnitte, titel, tmdb=None, meldungen=None):
+    """Ordnet jedem Titel genau einen Abschnitt zu (erste passende Regel gewinnt).
+
+    Bedingungen einer Regel (alle müssen passen): "typ", "genres" (eines davon), "ohne_genres", "ab_jahr", "bis_jahr",
+    "reihen" (TMDB-Sammlungs-IDs), "reihen_suche" (Namen), "firmen", "name_muster" (regulärer Ausdruck),
+    "tmdb" (IDs), "titel_suche" ({"titel", "jahr", "typ"}). "je_reihe": true legt je Filmreihe einen eigenen
+    Abschnitt an (Name der Reihe). Gibt die Abschnitte in Anzeigereihenfolge zurück: [{"name", "min_stimmen_fehlend"?}].
+    """
+    meldungen = meldungen if meldungen is not None else []
+    regeln = []
+    for r in regeln_abschnitte:
+        r = dict(r)
+        ids = {str(x) for x in r.get("tmdb", [])}
+        if tmdb:
+            for e in r.get("titel_suche", []):
+                treffer = suche_titel(tmdb, e)
+                if treffer:
+                    ids.add(treffer["tmdb"])
+                else:
+                    meldungen.append(f"Abschnitt „{r['name']}“: Titel nicht gefunden: {e['titel']} ({e.get('jahr', '?')})")
+            reihen = set(r.get("reihen", []))
+            for name in r.get("reihen_suche", []):
+                rid, _ = suche_id(tmdb, "collection", name)
+                if rid is None:
+                    meldungen.append(f"Abschnitt „{r['name']}“: Sammlung nicht gefunden: {name}")
+                else:
+                    reihen.add(rid)
+            r["reihen"] = sorted(reihen)
+        r["_ids"] = ids
+        regeln.append(r)
+
+    def passt(r, t):
+        if r.get("typ") and t.get("typ") != r["typ"]:
+            return False
+        g = set(t.get("genres") or [])
+        if r.get("genres") and not g & set(r["genres"]):
+            return False
+        if r.get("ohne_genres") and g & set(r["ohne_genres"]):
+            return False
+        jahr = t.get("jahr")
+        if r.get("ab_jahr") and (jahr is None or jahr < r["ab_jahr"]):
+            return False
+        if r.get("bis_jahr") and (jahr is None or jahr > r["bis_jahr"]):
+            return False
+        if r.get("reihen") and t.get("reihe") not in r["reihen"]:
+            return False
+        if r.get("je_reihe") and not t.get("reihe"):
+            return False
+        if r.get("firmen") and not set(t.get("firmen") or []) & set(r["firmen"]):
+            return False
+        if r.get("name_muster") and not re.search(r["name_muster"], t.get("name") or ""):
+            return False
+        if (r["_ids"] or r.get("titel_suche")) and str(t.get("tmdb")) not in r["_ids"]:
+            return False
+        return True
+
+    reihenfolge, je_reihe = [], {}
+    for r in regeln:
+        if not r.get("je_reihe"):
+            reihenfolge.append(r["name"])
+    for t in titel:
+        t.pop("abschnitt", None)
+        for r in regeln:
+            if passt(r, t):
+                if r.get("je_reihe"):
+                    name = t.get("reihe_name") or r["name"]
+                    je_reihe.setdefault(r["name"], {}).setdefault(name, []).append(t.get("jahr") or 9999)
+                    t["abschnitt"] = name
+                else:
+                    t["abschnitt"] = r["name"]
+                break
+    # Abschnitte je Filmreihe an der Stelle ihrer Regel, nach dem ersten Erscheinungsjahr
+    ergebnis = []
+    for r in regeln:
+        namen = sorted(je_reihe.get(r["name"], {}).items(), key=lambda kv: (min(kv[1]), kv[0])) if r.get("je_reihe") else [(r["name"], None)]
+        for name, _ in namen:
+            if any(t.get("abschnitt") == name for t in titel) and name not in [a["name"] for a in ergebnis]:
+                eintrag = {"name": name}
+                if r.get("min_stimmen_fehlend"):
+                    eintrag["min_stimmen_fehlend"] = r["min_stimmen_fehlend"]
+                ergebnis.append(eintrag)
+    return ergebnis
 
 
 def chronologie_pruefen(name, chronologie, titel, tmdb=None):
@@ -323,6 +441,10 @@ def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
         for meldung in meldungen:
             print(("::warning::" if "nicht gefunden" in meldung else "") + regel["name"] + ": " + meldung)
         titel, neu_hinzu = welt_zusammenfuehren(regel, alt, neu)
+        if tmdb and regel.get("abschnitte"):
+            angereichert = anreichern(tmdb, titel)
+            if angereichert:
+                print(f"{regel['name']}: {angereichert} Titel mit Genres, Filmreihe und Jahr ergänzt")
         entfernt = [e for e in alt if ist_ausgeschlossen(e, regel.get("ausschluss", []))]
         bericht.append((regel["name"], len(titel), neu_hinzu, entfernt))
         welt = {"name": regel["name"]}
@@ -339,6 +461,14 @@ def erzeugen(regeln, alt_welten, tmdb=None, heute=None):
             for warnung in chronologie_pruefen(regel["name"], regel["chronologie"], titel, tmdb):
                 print("::warning::" + warnung)
             welt["chronologie"] = regel["chronologie"]
+        if regel.get("abschnitte") and not tmdb:
+            # Ohne TMDB lassen sich Suchen nicht auflösen: bisherige Zuordnung behalten
+            welt["abschnitte"] = alt_welt.get("abschnitte", [])
+        elif regel.get("abschnitte"):
+            abschnitt_meldungen = []
+            welt["abschnitte"] = abschnitte_zuordnen(regel["abschnitte"], titel, tmdb, abschnitt_meldungen)
+            for meldung in abschnitt_meldungen:
+                print("::warning::" + regel["name"] + ": " + meldung)
         welt.update({"studios": regel.get("studios", []), "sammlungen": regel.get("sammlungen", []),
                      "titel": titel, "ausschluss": regel.get("ausschluss", [])})
         welten.append(welt)

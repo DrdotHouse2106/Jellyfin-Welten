@@ -222,5 +222,61 @@ class SucheTest(unittest.TestCase):
         self.assertEqual(neu_hinzu, [])
 
 
+class AbschnitteTest(unittest.TestCase):
+    TITEL = [
+        {"tmdb": "1", "typ": "film", "name": "Bambi", "jahr": 1942, "genres": [16, 10751]},
+        {"tmdb": "2", "typ": "film", "name": "Fluch der Karibik", "jahr": 2003, "genres": [12, 14, 28]},
+        {"tmdb": "3", "typ": "film", "name": "Der König der Löwen", "jahr": 2019, "genres": [12, 18]},
+        {"tmdb": "4", "typ": "film", "name": "Santa Clause", "jahr": 1994, "genres": [35, 10751]},
+        {"tmdb": "5", "typ": "serie", "name": "Andor", "jahr": 2022, "genres": [10765]},
+        {"tmdb": "6", "typ": "film", "name": "Halloween", "jahr": 1978, "genres": [27], "reihe": 91361, "reihe_name": "Halloween Collection"},
+        {"tmdb": "7", "typ": "film", "name": "Halloween II", "jahr": 1981, "genres": [27], "reihe": 91361, "reihe_name": "Halloween Collection"},
+        {"tmdb": "8", "typ": "film", "name": "Freitag der 13.", "jahr": 1980, "genres": [27], "reihe": 9735, "reihe_name": "Friday the 13th Collection"},
+        {"tmdb": "9", "typ": "film", "name": "Psycho", "jahr": 1960, "genres": [27]},
+    ]
+
+    def titel(self):
+        return [dict(t) for t in self.TITEL]
+
+    def test_erste_passende_regel_gewinnt_rest_faengt_alles(self):
+        titel = self.titel()[:5]
+        regeln = [{"name": "Animation", "typ": "film", "genres": [16]},
+                  {"name": "Realverfilmungen", "tmdb": ["3"], "min_stimmen_fehlend": 300},
+                  {"name": "Abenteuer und Fantasy", "typ": "film", "genres": [12, 14, 878]},
+                  {"name": "Serien", "typ": "serie"},
+                  {"name": "Familienfilme und Sonstiges"}]
+        abschnitte = a.abschnitte_zuordnen(regeln, titel)
+        zuordnung = {t["name"]: t["abschnitt"] for t in titel}
+        self.assertEqual(zuordnung["Bambi"], "Animation")
+        self.assertEqual(zuordnung["Der König der Löwen"], "Realverfilmungen", "Liste vor Genre")
+        self.assertEqual(zuordnung["Fluch der Karibik"], "Abenteuer und Fantasy")
+        self.assertEqual(zuordnung["Andor"], "Serien")
+        self.assertEqual(zuordnung["Santa Clause"], "Familienfilme und Sonstiges")
+        self.assertEqual([x["name"] for x in abschnitte], ["Animation", "Realverfilmungen", "Abenteuer und Fantasy", "Serien", "Familienfilme und Sonstiges"])
+        self.assertEqual(abschnitte[1]["min_stimmen_fehlend"], 300)
+
+    def test_je_reihe_und_leere_abschnitte_fallen_weg(self):
+        titel = self.titel()[5:]
+        abschnitte = a.abschnitte_zuordnen([{"name": "Reihen", "je_reihe": True}, {"name": "Leer", "typ": "serie"}, {"name": "Einzelne Klassiker"}], titel)
+        self.assertEqual([x["name"] for x in abschnitte], ["Halloween Collection", "Friday the 13th Collection", "Einzelne Klassiker"],
+                         "Reihen nach erstem Jahr, leere Abschnitte entfallen")
+        self.assertEqual({t["name"]: t["abschnitt"] for t in titel}["Psycho"], "Einzelne Klassiker")
+
+    def test_name_muster_und_jahre(self):
+        titel = [{"tmdb": "10", "typ": "film", "name": "Batman", "jahr": 1989, "genres": [28]},
+                 {"tmdb": "11", "typ": "film", "name": "The Batman", "jahr": 2022, "genres": [28]},
+                 {"tmdb": "12", "typ": "film", "name": "Batman: Year One", "jahr": 2011, "genres": [16]}]
+        a.abschnitte_zuordnen([{"name": "Animation", "genres": [16]}, {"name": "Klassisch", "typ": "film", "bis_jahr": 2012},
+                               {"name": "DCU", "typ": "film", "ab_jahr": 2013, "name_muster": "(?i)batman"}], titel)
+        self.assertEqual([t["abschnitt"] for t in titel], ["Klassisch", "DCU", "Animation"])
+
+    def test_ohne_tmdb_bleibt_die_bisherige_zuordnung(self):
+        regeln = {"welten": [{"name": "Disney", "titel": [{"tmdb": "1", "typ": "film"}], "abschnitte": [{"name": "Animation", "titel_suche": [{"titel": "Bambi", "jahr": 1942, "typ": "film"}]}]}]}
+        alt = {"welten": [{"name": "Disney", "abschnitte": [{"name": "Animation"}], "titel": [{"tmdb": "1", "typ": "film", "name": "Bambi", "jahr": 1942, "abschnitt": "Animation"}]}]}
+        dok, _ = a.erzeugen(regeln, alt, tmdb=None, heute="2026-11-05")
+        self.assertEqual(dok["welten"][0]["abschnitte"], [{"name": "Animation"}])
+        self.assertEqual(dok["welten"][0]["titel"][0]["abschnitt"], "Animation")
+
+
 if __name__ == "__main__":
     unittest.main()
