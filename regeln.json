@@ -172,7 +172,17 @@
      "name_muster": "(?i)spider|venom|morbius|madame web|kraven"
     },
     {
-     "name": "Serien und Sonstiges",
+     "name": "Weitere Filme",
+     "typ": "film",
+     "min_stimmen_fehlend": 50
+    },
+    {
+     "name": "Serien",
+     "typ": "serie",
+     "min_stimmen_fehlend": 50
+    },
+    {
+     "name": "Sonstiges",
      "min_stimmen_fehlend": 50
     }
    ]
