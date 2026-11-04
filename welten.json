@@ -779,11 +779,6 @@
      "name": "Daredevil"
     },
     {
-     "tmdb": "1530375",
-     "typ": "film",
-     "name": "X2: United Colors of X"
-    },
-    {
      "tmdb": "558",
      "typ": "film",
      "name": "Spider-Man 2"
@@ -837,9 +832,20 @@
      "tmdb": "539972",
      "typ": "film",
      "name": "Kraven: The Hunter"
+    },
+    {
+     "tmdb": "36658",
+     "typ": "film",
+     "name": "X-Men 2"
     }
    ],
-   "ausschluss": []
+   "ausschluss": [
+    {
+     "tmdb": "1530375",
+     "typ": "film",
+     "name": "„X2: United Colors of X“ – Fehltreffer der Suche, nicht der Kinofilm von 2003"
+    }
+   ]
   },
   {
    "name": "Star Wars",
