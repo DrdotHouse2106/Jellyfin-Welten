@@ -74,7 +74,7 @@
       "typ": "film"
      },
      {
-      "titel": "X2",
+      "titel": "X2: X-Men United",
       "jahr": 2003,
       "typ": "film"
      },
@@ -146,7 +146,13 @@
     ]
    },
    "titel": [],
-   "ausschluss": []
+   "ausschluss": [
+    {
+     "tmdb": "1530375",
+     "typ": "film",
+     "name": "„X2: United Colors of X“ – Fehltreffer der Suche, nicht der Kinofilm von 2003"
+    }
+   ]
   },
   {
    "name": "Star Wars",
@@ -1885,11 +1891,6 @@
      {
       "titel": "The Texas Chain Saw Massacre",
       "jahr": 1974,
-      "typ": "film"
-     },
-     {
-      "titel": "The Evil Dead",
-      "jahr": 1981,
       "typ": "film"
      },
      {
