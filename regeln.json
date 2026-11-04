@@ -189,12 +189,12 @@
       "typ": "film"
      },
      {
-      "titel": "Star Wars: Ewoks",
+      "titel": "Ewoks",
       "jahr": 1985,
       "typ": "serie"
      },
      {
-      "titel": "Star Wars: Droids",
+      "titel": "Droids",
       "jahr": 1985,
       "typ": "serie"
      },
@@ -516,7 +516,7 @@
       "typ": "film"
      },
      {
-      "titel": "One Hundred and One Dalmatians",
+      "titel": "101 Dalmatians",
       "jahr": 1961,
       "typ": "film"
      },
@@ -1881,19 +1881,39 @@
       "titel": "Nosferatu",
       "jahr": 1922,
       "typ": "film"
+     },
+     {
+      "titel": "The Texas Chain Saw Massacre",
+      "jahr": 1974,
+      "typ": "film"
+     },
+     {
+      "titel": "The Evil Dead",
+      "jahr": 1981,
+      "typ": "film"
+     },
+     {
+      "titel": "Evil Dead II",
+      "jahr": 1987,
+      "typ": "film"
+     },
+     {
+      "titel": "Army of Darkness",
+      "jahr": 1992,
+      "typ": "film"
      }
     ],
     "sammlungen_suche": [
      "Halloween Collection",
      "Friday the 13th Collection",
      "A Nightmare on Elm Street Collection",
-     "The Texas Chainsaw Massacre Collection",
+     "Texas Chainsaw Massacre",
      "The Exorcist Collection",
      "The Omen Collection",
      "Hellraiser Collection",
      "Poltergeist Collection",
      "Child's Play Collection",
-     "The Evil Dead Collection",
+     "Evil Dead",
      "Saw Collection",
      "Candyman Collection",
      "The Conjuring Collection",
