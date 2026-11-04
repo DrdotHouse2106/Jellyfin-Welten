@@ -711,7 +711,7 @@
       5
      ],
      "stimmen": 15978,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Spider-Man (Sony)"
     },
     {
      "tmdb": "10195",
@@ -788,7 +788,7 @@
       216248
      ],
      "stimmen": 6744,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "102899",
@@ -866,7 +866,7 @@
       133789
      ],
      "stimmen": 8666,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "1003598",
@@ -1040,7 +1040,7 @@
       420
      ],
      "stimmen": 360,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "253980",
@@ -1241,7 +1241,7 @@
       420
      ],
      "stimmen": 336,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "13647",
@@ -1263,7 +1263,7 @@
       7505
      ],
      "stimmen": 276,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "394355",
@@ -1322,7 +1322,7 @@
       176762
      ],
      "stimmen": 0,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "569094",
@@ -2455,7 +2455,7 @@
       160251
      ],
      "stimmen": 89,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "1130",
@@ -2476,7 +2476,7 @@
       160251
      ],
      "stimmen": 106,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "10079",
@@ -2496,7 +2496,7 @@
       420
      ],
      "stimmen": 264,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "668",
@@ -2517,7 +2517,7 @@
       420
      ],
      "stimmen": 552,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "1449",
@@ -2539,7 +2539,7 @@
       219610
      ],
      "stimmen": 125,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "6549",
@@ -2884,7 +2884,7 @@
       176762
      ],
      "stimmen": 0,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "297767",
@@ -2903,7 +2903,7 @@
       177195
      ],
      "stimmen": 0,
-     "abschnitt": "Marvel Cinematic Universe"
+     "abschnitt": "Serien und Sonstiges"
     },
     {
      "tmdb": "36647",
@@ -8909,7 +8909,7 @@
       7297
      ],
      "stimmen": 11000,
-     "abschnitt": "Animations-Klassiker und neue Disney-Animation"
+     "abschnitt": "Realverfilmungen"
     },
     {
      "tmdb": "762509",
@@ -8927,7 +8927,7 @@
       2
      ],
      "stimmen": 2824,
-     "abschnitt": "Animations-Klassiker und neue Disney-Animation"
+     "abschnitt": "Realverfilmungen"
     },
     {
      "tmdb": "150689",
@@ -16650,19 +16650,16 @@
    ],
    "abschnitte": [
     {
-     "name": "Alien Filmreihe"
+     "name": "Alien"
     },
     {
-     "name": "Predator Filmreihe"
+     "name": "Predator"
     },
     {
-     "name": "Alien vs. Predator Filmreihe"
+     "name": "Alien vs. Predator"
     },
     {
-     "name": "Prometheus Filmreihe"
-    },
-    {
-     "name": "Alien Romulus Filmreihe"
+     "name": "Prometheus"
     },
     {
      "name": "Weitere"
@@ -16693,7 +16690,7 @@
       840
      ],
      "stimmen": 8108,
-     "abschnitt": "Predator Filmreihe"
+     "abschnitt": "Predator"
     },
     {
      "tmdb": "1242898",
@@ -16715,7 +16712,7 @@
       22213
      ],
      "stimmen": 3885,
-     "abschnitt": "Predator Filmreihe"
+     "abschnitt": "Predator"
     },
     {
      "tmdb": "157239",
@@ -16753,7 +16750,7 @@
       276267
      ],
      "stimmen": 17085,
-     "abschnitt": "Alien Filmreihe"
+     "abschnitt": "Alien"
     },
     {
      "tmdb": "679",
@@ -16773,7 +16770,7 @@
       401
      ],
      "stimmen": 11346,
-     "abschnitt": "Alien Filmreihe"
+     "abschnitt": "Alien"
     },
     {
      "tmdb": "106",
@@ -16797,7 +16794,7 @@
       5264
      ],
      "stimmen": 9650,
-     "abschnitt": "Predator Filmreihe"
+     "abschnitt": "Predator"
     },
     {
      "tmdb": "169",
@@ -16818,7 +16815,7 @@
       25
      ],
      "stimmen": 4078,
-     "abschnitt": "Predator Filmreihe"
+     "abschnitt": "Predator"
     },
     {
      "tmdb": "8077",
@@ -16837,7 +16834,7 @@
       401
      ],
      "stimmen": 6690,
-     "abschnitt": "Alien Filmreihe"
+     "abschnitt": "Alien"
     },
     {
      "tmdb": "8078",
@@ -16856,7 +16853,7 @@
       401
      ],
      "stimmen": 5850,
-     "abschnitt": "Alien Filmreihe"
+     "abschnitt": "Alien"
     },
     {
      "tmdb": "395",
@@ -16882,7 +16879,7 @@
       401
      ],
      "stimmen": 5215,
-     "abschnitt": "Alien vs. Predator Filmreihe"
+     "abschnitt": "Alien vs. Predator"
     },
     {
      "tmdb": "440",
@@ -16904,7 +16901,7 @@
       401
      ],
      "stimmen": 3488,
-     "abschnitt": "Alien vs. Predator Filmreihe"
+     "abschnitt": "Alien vs. Predator"
     },
     {
      "tmdb": "34851",
@@ -16925,7 +16922,7 @@
       10807
      ],
      "stimmen": 4842,
-     "abschnitt": "Predator Filmreihe"
+     "abschnitt": "Predator"
     },
     {
      "tmdb": "70981",
@@ -16946,7 +16943,7 @@
       221347
      ],
      "stimmen": 13777,
-     "abschnitt": "Prometheus Filmreihe"
+     "abschnitt": "Prometheus"
     },
     {
      "tmdb": "126889",
@@ -16965,7 +16962,7 @@
       221347
      ],
      "stimmen": 9791,
-     "abschnitt": "Prometheus Filmreihe"
+     "abschnitt": "Prometheus"
     },
     {
      "tmdb": "346910",
@@ -16985,7 +16982,7 @@
       25
      ],
      "stimmen": 5329,
-     "abschnitt": "Predator Filmreihe"
+     "abschnitt": "Predator"
     },
     {
      "tmdb": "945961",
@@ -17005,7 +17002,7 @@
       22213
      ],
      "stimmen": 5036,
-     "abschnitt": "Alien Romulus Filmreihe"
+     "abschnitt": "Weitere"
     },
     {
      "tmdb": "1376434",
@@ -17038,123 +17035,91 @@
    "logo": "logos/horror-klassiker.png",
    "abschnitte": [
     {
-     "name": "Psycho Filmreihe",
+     "name": "Living Dead",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Die Vögel Filmreihe",
+     "name": "Der Exorzist",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Living Dead Filmreihe",
+     "name": "Texas Chainsaw Massacre",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Rosemary's Baby Filmreihe",
+     "name": "Der weiße Hai",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Der Exorzist Filmreihe",
+     "name": "Das Omen",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Texas Chainsaw Massacre Filmreihe",
+     "name": "Halloween",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Der weiße Hai Filmreihe",
+     "name": "Amityville",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Carrie Filmreihe",
+     "name": "Freitag der 13.",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Das Omen Filmreihe",
+     "name": "Poltergeist",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Halloween Filmreihe",
+     "name": "Tanz der Teufel",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Amityville Filmreihe",
+     "name": "Nightmare",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Freitag der 13. Filmreihe",
+     "name": "Hellraiser",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Shining Filmreihe",
+     "name": "Chucky",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Das Ding Filmreihe",
+     "name": "Candyman",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Poltergeist Filmreihe",
+     "name": "Scream",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Tanz der Teufel Filmreihe",
+     "name": "Final Destination",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Nightmare Filmreihe",
+     "name": "Saw",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Hellraiser Filmreihe",
+     "name": "Insidious",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Chucky Filmreihe",
+     "name": "Conjuring",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Candyman Filmreihe",
+     "name": "Annabelle",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Scream Filmreihe",
+     "name": "Es",
      "min_stimmen_fehlend": 300
     },
     {
-     "name": "Blair Witch Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "Final Destination Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "Ring Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "Saw Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "Insidious Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "Conjuring Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "Annabelle Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "Es Filmreihe",
-     "min_stimmen_fehlend": 300
-    },
-    {
-     "name": "The Nun Filmreihe",
+     "name": "The Nun",
      "min_stimmen_fehlend": 300
     },
     {
@@ -17183,7 +17148,7 @@
       9266
      ],
      "stimmen": 1090,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "16235",
@@ -17201,7 +17166,7 @@
       5153
      ],
      "stimmen": 426,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "27214",
@@ -17217,7 +17182,7 @@
       10308
      ],
      "stimmen": 262,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "55377",
@@ -17235,7 +17200,7 @@
       35872
      ],
      "stimmen": 148,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "41848",
@@ -17252,7 +17217,7 @@
       4899
      ],
      "stimmen": 130,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "41671",
@@ -17269,7 +17234,7 @@
       35872
      ],
      "stimmen": 156,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "33519",
@@ -17285,7 +17250,7 @@
       36394
      ],
      "stimmen": 116,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "52263",
@@ -17303,7 +17268,7 @@
       28277
      ],
      "stimmen": 132,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "4232",
@@ -17322,7 +17287,7 @@
       163562
      ],
      "stimmen": 8389,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "4233",
@@ -17341,7 +17306,7 @@
       1600
      ],
      "stimmen": 4993,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "4234",
@@ -17360,7 +17325,7 @@
       1600
      ],
      "stimmen": 4247,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "9532",
@@ -17377,7 +17342,7 @@
       12
      ],
      "stimmen": 7066,
-     "abschnitt": "Final Destination Filmreihe"
+     "abschnitt": "Final Destination"
     },
     {
      "tmdb": "9358",
@@ -17395,7 +17360,7 @@
       3169
      ],
      "stimmen": 5119,
-     "abschnitt": "Final Destination Filmreihe"
+     "abschnitt": "Final Destination"
     },
     {
      "tmdb": "10065",
@@ -17414,7 +17379,7 @@
       350
      ],
      "stimmen": 2449,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "9286",
@@ -17435,7 +17400,7 @@
       12067
      ],
      "stimmen": 4817,
-     "abschnitt": "Final Destination Filmreihe"
+     "abschnitt": "Final Destination"
     },
     {
      "tmdb": "19912",
@@ -17455,7 +17420,7 @@
       3478
      ],
      "stimmen": 4115,
-     "abschnitt": "Final Destination Filmreihe"
+     "abschnitt": "Final Destination"
     },
     {
      "tmdb": "41446",
@@ -17474,7 +17439,7 @@
       6738
      ],
      "stimmen": 4369,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "55779",
@@ -17493,7 +17458,7 @@
       48788
      ],
      "stimmen": 4308,
-     "abschnitt": "Final Destination Filmreihe"
+     "abschnitt": "Final Destination"
     },
     {
      "tmdb": "203835",
@@ -17512,7 +17477,7 @@
       49206
      ],
      "stimmen": 1131,
-     "abschnitt": "Amityville Filmreihe"
+     "abschnitt": "Amityville"
     },
     {
      "tmdb": "646385",
@@ -17532,7 +17497,7 @@
       143790
      ],
      "stimmen": 4090,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "934433",
@@ -17553,7 +17518,7 @@
       4
      ],
      "stimmen": 3398,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "574475",
@@ -17574,7 +17539,7 @@
       216687
      ],
      "stimmen": 3243,
-     "abschnitt": "Final Destination Filmreihe"
+     "abschnitt": "Final Destination"
     },
     {
      "tmdb": "1159559",
@@ -17594,7 +17559,7 @@
       130448
      ],
      "stimmen": 1421,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "1505252",
@@ -17615,7 +17580,7 @@
       216687
      ],
      "stimmen": 0,
-     "abschnitt": "Final Destination Filmreihe"
+     "abschnitt": "Final Destination"
     },
     {
      "tmdb": "1650066",
@@ -17638,7 +17603,7 @@
       130448
      ],
      "stimmen": 0,
-     "abschnitt": "Scream Filmreihe"
+     "abschnitt": "Scream"
     },
     {
      "tmdb": "653",
@@ -17673,7 +17638,7 @@
       10717
      ],
      "stimmen": 11412,
-     "abschnitt": "Psycho Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "571",
@@ -17690,7 +17655,7 @@
       10715
      ],
      "stimmen": 4635,
-     "abschnitt": "Die Vögel Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "805",
@@ -17709,7 +17674,7 @@
       4
      ],
      "stimmen": 4567,
-     "abschnitt": "Rosemary's Baby Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "10331",
@@ -17726,7 +17691,7 @@
       14121
      ],
      "stimmen": 2884,
-     "abschnitt": "Living Dead Filmreihe"
+     "abschnitt": "Living Dead"
     },
     {
      "tmdb": "9552",
@@ -17743,7 +17708,7 @@
       174
      ],
      "stimmen": 9010,
-     "abschnitt": "Der Exorzist Filmreihe"
+     "abschnitt": "Der Exorzist"
     },
     {
      "tmdb": "578",
@@ -17762,7 +17727,7 @@
       33
      ],
      "stimmen": 11999,
-     "abschnitt": "Der weiße Hai Filmreihe"
+     "abschnitt": "Der weiße Hai"
     },
     {
      "tmdb": "794",
@@ -17781,7 +17746,7 @@
       276266
      ],
      "stimmen": 2546,
-     "abschnitt": "Das Omen Filmreihe"
+     "abschnitt": "Das Omen"
     },
     {
      "tmdb": "7340",
@@ -17798,7 +17763,7 @@
       60
      ],
      "stimmen": 4579,
-     "abschnitt": "Carrie Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "11906",
@@ -17831,7 +17796,7 @@
       174
      ],
      "stimmen": 832,
-     "abschnitt": "Der Exorzist Filmreihe"
+     "abschnitt": "Der Exorzist"
     },
     {
      "tmdb": "10766",
@@ -17850,7 +17815,7 @@
       3399
      ],
      "stimmen": 876,
-     "abschnitt": "Das Omen Filmreihe"
+     "abschnitt": "Das Omen"
     },
     {
      "tmdb": "579",
@@ -17868,7 +17833,7 @@
       1865
      ],
      "stimmen": 2216,
-     "abschnitt": "Der weiße Hai Filmreihe"
+     "abschnitt": "Der weiße Hai"
     },
     {
      "tmdb": "923",
@@ -17886,7 +17851,7 @@
       2483
      ],
      "stimmen": 2416,
-     "abschnitt": "Living Dead Filmreihe"
+     "abschnitt": "Living Dead"
     },
     {
      "tmdb": "948",
@@ -17904,7 +17869,7 @@
       22814
      ],
      "stimmen": 6507,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "4488",
@@ -17921,7 +17886,7 @@
       16779
      ],
      "stimmen": 3577,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "694",
@@ -17941,7 +17906,7 @@
       734
      ],
      "stimmen": 19641,
-     "abschnitt": "Shining Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "10768",
@@ -17961,7 +17926,7 @@
       2767
      ],
      "stimmen": 682,
-     "abschnitt": "Das Omen Filmreihe"
+     "abschnitt": "Das Omen"
     },
     {
      "tmdb": "9725",
@@ -17978,7 +17943,7 @@
       4
      ],
      "stimmen": 2033,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "11281",
@@ -17995,7 +17960,7 @@
       10308
      ],
      "stimmen": 2368,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "609",
@@ -18012,7 +17977,7 @@
       396
      ],
      "stimmen": 3514,
-     "abschnitt": "Poltergeist Filmreihe"
+     "abschnitt": "Poltergeist"
     },
     {
      "tmdb": "1091",
@@ -18031,7 +17996,7 @@
       662
      ],
      "stimmen": 8419,
-     "abschnitt": "Das Ding Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "9728",
@@ -18051,7 +18016,7 @@
       216761
      ],
      "stimmen": 1701,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "10676",
@@ -18070,7 +18035,7 @@
       10308
      ],
      "stimmen": 1622,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "17692",
@@ -18089,7 +18054,7 @@
       4904
      ],
      "stimmen": 1473,
-     "abschnitt": "Der weiße Hai Filmreihe"
+     "abschnitt": "Der weiße Hai"
     },
     {
      "tmdb": "9730",
@@ -18108,7 +18073,7 @@
       17611
      ],
      "stimmen": 1606,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "377",
@@ -18128,7 +18093,7 @@
       176294
      ],
      "stimmen": 6056,
-     "abschnitt": "Nightmare Filmreihe"
+     "abschnitt": "Nightmare"
     },
     {
      "tmdb": "9731",
@@ -18147,7 +18112,7 @@
       242345
      ],
      "stimmen": 1369,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "8408",
@@ -18166,7 +18131,7 @@
       95947
      ],
      "stimmen": 1476,
-     "abschnitt": "Living Dead Filmreihe"
+     "abschnitt": "Living Dead"
     },
     {
      "tmdb": "10014",
@@ -18185,7 +18150,7 @@
       18329
      ],
      "stimmen": 2236,
-     "abschnitt": "Nightmare Filmreihe"
+     "abschnitt": "Nightmare"
     },
     {
      "tmdb": "11133",
@@ -18202,7 +18167,7 @@
       21
      ],
      "stimmen": 818,
-     "abschnitt": "Poltergeist Filmreihe"
+     "abschnitt": "Poltergeist"
     },
     {
      "tmdb": "10225",
@@ -18221,7 +18186,7 @@
       242345
      ],
      "stimmen": 1443,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "10072",
@@ -18241,7 +18206,7 @@
       3772
      ],
      "stimmen": 2159,
-     "abschnitt": "Nightmare Filmreihe"
+     "abschnitt": "Nightmare"
     },
     {
      "tmdb": "580",
@@ -18259,7 +18224,7 @@
       33
      ],
      "stimmen": 1230,
-     "abschnitt": "Der weiße Hai Filmreihe"
+     "abschnitt": "Der weiße Hai"
     },
     {
      "tmdb": "9003",
@@ -18279,7 +18244,7 @@
       15340
      ],
      "stimmen": 3070,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "10281",
@@ -18297,7 +18262,7 @@
       17611
      ],
      "stimmen": 1285,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "10306",
@@ -18314,7 +18279,7 @@
       21
      ],
      "stimmen": 596,
-     "abschnitt": "Poltergeist Filmreihe"
+     "abschnitt": "Poltergeist"
     },
     {
      "tmdb": "10131",
@@ -18333,7 +18298,7 @@
       1531
      ],
      "stimmen": 1721,
-     "abschnitt": "Nightmare Filmreihe"
+     "abschnitt": "Nightmare"
     },
     {
      "tmdb": "11357",
@@ -18351,7 +18316,7 @@
       167282
      ],
      "stimmen": 2143,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "10585",
@@ -18368,7 +18333,7 @@
       11050
      ],
      "stimmen": 3558,
-     "abschnitt": "Chucky Filmreihe"
+     "abschnitt": "Chucky"
     },
     {
      "tmdb": "9064",
@@ -18388,7 +18353,7 @@
       20607
      ],
      "stimmen": 1325,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "10283",
@@ -18405,7 +18370,7 @@
       62948
      ],
      "stimmen": 1283,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "10160",
@@ -18424,7 +18389,7 @@
       1531
      ],
      "stimmen": 1509,
-     "abschnitt": "Nightmare Filmreihe"
+     "abschnitt": "Nightmare"
     },
     {
      "tmdb": "11361",
@@ -18443,7 +18408,7 @@
       167282
      ],
      "stimmen": 1406,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "11587",
@@ -18459,7 +18424,7 @@
       10210
      ],
      "stimmen": 919,
-     "abschnitt": "Der Exorzist Filmreihe"
+     "abschnitt": "Der Exorzist"
     },
     {
      "tmdb": "11186",
@@ -18476,7 +18441,7 @@
       11050
      ],
      "stimmen": 2138,
-     "abschnitt": "Chucky Filmreihe"
+     "abschnitt": "Chucky"
     },
     {
      "tmdb": "17792",
@@ -18498,7 +18463,7 @@
       25
      ],
      "stimmen": 302,
-     "abschnitt": "Das Omen Filmreihe"
+     "abschnitt": "Das Omen"
     },
     {
      "tmdb": "11187",
@@ -18514,7 +18479,7 @@
       33
      ],
      "stimmen": 1846,
-     "abschnitt": "Chucky Filmreihe"
+     "abschnitt": "Chucky"
     },
     {
      "tmdb": "11284",
@@ -18531,7 +18496,7 @@
       12
      ],
      "stimmen": 1550,
-     "abschnitt": "Nightmare Filmreihe"
+     "abschnitt": "Nightmare"
     },
     {
      "tmdb": "11569",
@@ -18552,7 +18517,7 @@
       14
      ],
      "stimmen": 899,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "9529",
@@ -18572,7 +18537,7 @@
       159993
      ],
      "stimmen": 1910,
-     "abschnitt": "Candyman Filmreihe"
+     "abschnitt": "Candyman"
     },
     {
      "tmdb": "10285",
@@ -18589,7 +18554,7 @@
       17611
      ],
      "stimmen": 1165,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "11596",
@@ -18607,7 +18572,7 @@
       12
      ],
      "stimmen": 1682,
-     "abschnitt": "Nightmare Filmreihe"
+     "abschnitt": "Nightmare"
     },
     {
      "tmdb": "10824",
@@ -18626,7 +18591,7 @@
       37
      ],
      "stimmen": 442,
-     "abschnitt": "Candyman Filmreihe"
+     "abschnitt": "Candyman"
     },
     {
      "tmdb": "10987",
@@ -18646,7 +18611,7 @@
       7405
      ],
      "stimmen": 1300,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "8766",
@@ -18665,7 +18630,7 @@
       15343
      ],
      "stimmen": 641,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "11675",
@@ -18685,7 +18650,7 @@
       14
      ],
      "stimmen": 1916,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "11932",
@@ -18704,7 +18669,7 @@
       11050
      ],
      "stimmen": 2215,
-     "abschnitt": "Chucky Filmreihe"
+     "abschnitt": "Chucky"
     },
     {
      "tmdb": "12485",
@@ -18722,7 +18687,7 @@
       2188
      ],
      "stimmen": 287,
-     "abschnitt": "Candyman Filmreihe"
+     "abschnitt": "Candyman"
     },
     {
      "tmdb": "2667",
@@ -18740,7 +18705,7 @@
       2188
      ],
      "stimmen": 5771,
-     "abschnitt": "Blair Witch Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "12597",
@@ -18759,7 +18724,7 @@
       7405
      ],
      "stimmen": 561,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "11470",
@@ -18777,7 +18742,7 @@
       17611
      ],
      "stimmen": 1595,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "11442",
@@ -18797,7 +18762,7 @@
       14
      ],
      "stimmen": 1490,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "11246",
@@ -18817,7 +18782,7 @@
       15344
      ],
      "stimmen": 427,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "565",
@@ -18836,7 +18801,7 @@
       384
      ],
      "stimmen": 6962,
-     "abschnitt": "Ring Filmreihe"
+     "abschnitt": "Einzelne Klassiker"
     },
     {
      "tmdb": "6466",
@@ -18857,7 +18822,7 @@
       17611
      ],
      "stimmen": 2996,
-     "abschnitt": "Freitag der 13. Filmreihe"
+     "abschnitt": "Freitag der 13."
     },
     {
      "tmdb": "11026",
@@ -18874,7 +18839,7 @@
       10210
      ],
      "stimmen": 941,
-     "abschnitt": "Der Exorzist Filmreihe"
+     "abschnitt": "Der Exorzist"
     },
     {
      "tmdb": "176",
@@ -18892,7 +18857,7 @@
       2061
      ],
      "stimmen": 10466,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "11249",
@@ -18910,7 +18875,7 @@
       31038
      ],
      "stimmen": 1830,
-     "abschnitt": "Chucky Filmreihe"
+     "abschnitt": "Chucky"
     },
     {
      "tmdb": "12700",
@@ -18926,7 +18891,7 @@
       10210
      ],
      "stimmen": 444,
-     "abschnitt": "Der Exorzist Filmreihe"
+     "abschnitt": "Der Exorzist"
     },
     {
      "tmdb": "17455",
@@ -18946,7 +18911,7 @@
       1370
      ],
      "stimmen": 404,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "12699",
@@ -18966,7 +18931,7 @@
       7405
      ],
      "stimmen": 412,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "215",
@@ -18982,7 +18947,7 @@
       2061
      ],
      "stimmen": 6134,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "214",
@@ -19000,7 +18965,7 @@
       2061
      ],
      "stimmen": 5149,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "663",
@@ -19018,7 +18983,7 @@
       2061
      ],
      "stimmen": 4288,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "11917",
@@ -19037,7 +19002,7 @@
       771
      ],
      "stimmen": 3966,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "22804",
@@ -19055,7 +19020,7 @@
       5855
      ],
      "stimmen": 3653,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "41439",
@@ -19074,7 +19039,7 @@
       5855
      ],
      "stimmen": 3437,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "49018",
@@ -19094,7 +19059,7 @@
       7263
      ],
      "stimmen": 7745,
-     "abschnitt": "Insidious Filmreihe"
+     "abschnitt": "Insidious"
     },
     {
      "tmdb": "70584",
@@ -19114,7 +19079,7 @@
       7405
      ],
      "stimmen": 387,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "138843",
@@ -19133,7 +19098,7 @@
       12
      ],
      "stimmen": 13270,
-     "abschnitt": "Conjuring Filmreihe"
+     "abschnitt": "Conjuring"
     },
     {
      "tmdb": "91586",
@@ -19154,7 +19119,7 @@
       206395
      ],
      "stimmen": 4842,
-     "abschnitt": "Insidious Filmreihe"
+     "abschnitt": "Insidious"
     },
     {
      "tmdb": "167032",
@@ -19171,7 +19136,7 @@
       17009
      ],
      "stimmen": 1777,
-     "abschnitt": "Chucky Filmreihe"
+     "abschnitt": "Chucky"
     },
     {
      "tmdb": "250546",
@@ -19190,7 +19155,7 @@
       41624
      ],
      "stimmen": 6715,
-     "abschnitt": "Annabelle Filmreihe"
+     "abschnitt": "Annabelle"
     },
     {
      "tmdb": "280092",
@@ -19208,7 +19173,7 @@
       8147
      ],
      "stimmen": 3824,
-     "abschnitt": "Insidious Filmreihe"
+     "abschnitt": "Insidious"
     },
     {
      "tmdb": "259693",
@@ -19227,7 +19192,7 @@
       41624
      ],
      "stimmen": 9535,
-     "abschnitt": "Conjuring Filmreihe"
+     "abschnitt": "Conjuring"
     },
     {
      "tmdb": "396422",
@@ -19246,7 +19211,7 @@
       41624
      ],
      "stimmen": 6153,
-     "abschnitt": "Annabelle Filmreihe"
+     "abschnitt": "Annabelle"
     },
     {
      "tmdb": "346364",
@@ -19267,7 +19232,7 @@
       87671
      ],
      "stimmen": 20857,
-     "abschnitt": "Es Filmreihe"
+     "abschnitt": "Es"
     },
     {
      "tmdb": "393345",
@@ -19284,7 +19249,7 @@
       11050
      ],
      "stimmen": 1467,
-     "abschnitt": "Chucky Filmreihe"
+     "abschnitt": "Chucky"
     },
     {
      "tmdb": "298250",
@@ -19304,7 +19269,7 @@
       6680
      ],
      "stimmen": 4104,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "406563",
@@ -19324,7 +19289,7 @@
       206395
      ],
      "stimmen": 3341,
-     "abschnitt": "Insidious Filmreihe"
+     "abschnitt": "Insidious"
     },
     {
      "tmdb": "444149",
@@ -19341,7 +19306,7 @@
       7405
      ],
      "stimmen": 387,
-     "abschnitt": "Hellraiser Filmreihe"
+     "abschnitt": "Hellraiser"
     },
     {
      "tmdb": "439079",
@@ -19359,7 +19324,7 @@
       11565
      ],
      "stimmen": 7382,
-     "abschnitt": "The Nun Filmreihe"
+     "abschnitt": "The Nun"
     },
     {
      "tmdb": "424139",
@@ -19380,7 +19345,7 @@
       14
      ],
      "stimmen": 5240,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "521029",
@@ -19398,7 +19363,7 @@
       12
      ],
      "stimmen": 3971,
-     "abschnitt": "Annabelle Filmreihe"
+     "abschnitt": "Annabelle"
     },
     {
      "tmdb": "474350",
@@ -19419,7 +19384,7 @@
       12
      ],
      "stimmen": 9967,
-     "abschnitt": "Es Filmreihe"
+     "abschnitt": "Es"
     },
     {
      "tmdb": "602734",
@@ -19439,7 +19404,7 @@
       157697
      ],
      "stimmen": 2416,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "423108",
@@ -19459,7 +19424,7 @@
       76907
      ],
      "stimmen": 6789,
-     "abschnitt": "Conjuring Filmreihe"
+     "abschnitt": "Conjuring"
     },
     {
      "tmdb": "565028",
@@ -19479,7 +19444,7 @@
       33
      ],
      "stimmen": 1871,
-     "abschnitt": "Candyman Filmreihe"
+     "abschnitt": "Candyman"
     },
     {
      "tmdb": "610253",
@@ -19498,7 +19463,7 @@
       15822
      ],
      "stimmen": 3049,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "616820",
@@ -19519,7 +19484,7 @@
       15822
      ],
      "stimmen": 2142,
-     "abschnitt": "Halloween Filmreihe"
+     "abschnitt": "Halloween"
     },
     {
      "tmdb": "614479",
@@ -19539,7 +19504,7 @@
       206395
      ],
      "stimmen": 2190,
-     "abschnitt": "Insidious Filmreihe"
+     "abschnitt": "Insidious"
     },
     {
      "tmdb": "968051",
@@ -19557,7 +19522,7 @@
       11565
      ],
      "stimmen": 2630,
-     "abschnitt": "The Nun Filmreihe"
+     "abschnitt": "The Nun"
     },
     {
      "tmdb": "951491",
@@ -19577,7 +19542,7 @@
       299164
      ],
      "stimmen": 2536,
-     "abschnitt": "Saw Filmreihe"
+     "abschnitt": "Saw"
     },
     {
      "tmdb": "807172",
@@ -19596,7 +19561,7 @@
       20848
      ],
      "stimmen": 1354,
-     "abschnitt": "Der Exorzist Filmreihe"
+     "abschnitt": "Der Exorzist"
     },
     {
      "tmdb": "437342",
@@ -19613,7 +19578,7 @@
       127928
      ],
      "stimmen": 1435,
-     "abschnitt": "Das Omen Filmreihe"
+     "abschnitt": "Das Omen"
     },
     {
      "tmdb": "1038392",
@@ -19632,7 +19597,7 @@
       76907
      ],
      "stimmen": 2232,
-     "abschnitt": "Conjuring Filmreihe"
+     "abschnitt": "Conjuring"
     },
     {
      "tmdb": "1291595",
@@ -19654,7 +19619,7 @@
       206395
      ],
      "stimmen": 1023,
-     "abschnitt": "Insidious Filmreihe"
+     "abschnitt": "Insidious"
     },
     {
      "tmdb": "30497",
@@ -19673,7 +19638,7 @@
       81081
      ],
      "stimmen": 4057,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     },
     {
      "tmdb": "764",
@@ -19689,7 +19654,7 @@
       467
      ],
      "stimmen": 4806,
-     "abschnitt": "Tanz der Teufel Filmreihe"
+     "abschnitt": "Tanz der Teufel"
     },
     {
      "tmdb": "16337",
@@ -19707,7 +19672,7 @@
       13549
      ],
      "stimmen": 1089,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     },
     {
      "tmdb": "765",
@@ -19727,7 +19692,7 @@
       10308
      ],
      "stimmen": 3731,
-     "abschnitt": "Tanz der Teufel Filmreihe"
+     "abschnitt": "Tanz der Teufel"
     },
     {
      "tmdb": "25018",
@@ -19744,7 +19709,7 @@
       33306
      ],
      "stimmen": 681,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     },
     {
      "tmdb": "766",
@@ -19764,7 +19729,7 @@
       19737
      ],
      "stimmen": 3745,
-     "abschnitt": "Tanz der Teufel Filmreihe"
+     "abschnitt": "Tanz der Teufel"
     },
     {
      "tmdb": "16780",
@@ -19783,7 +19748,7 @@
       210390
      ],
      "stimmen": 790,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     },
     {
      "tmdb": "76617",
@@ -19803,7 +19768,7 @@
       210480
      ],
      "stimmen": 1886,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     },
     {
      "tmdb": "300665",
@@ -19824,7 +19789,7 @@
       48738
      ],
      "stimmen": 1482,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     },
     {
      "tmdb": "632727",
@@ -19843,7 +19808,7 @@
       17393
      ],
      "stimmen": 1740,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     },
     {
      "tmdb": "1452181",
@@ -19863,7 +19828,7 @@
       175171
      ],
      "stimmen": 0,
-     "abschnitt": "Texas Chainsaw Massacre Filmreihe"
+     "abschnitt": "Texas Chainsaw Massacre"
     }
    ],
    "ausschluss": []
