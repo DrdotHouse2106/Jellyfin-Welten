@@ -1004,27 +1004,6 @@
      "label": "2259"
     },
     {
-     "abschnitt": "Kelvin-Zeitlinie (alternativ)"
-    },
-    {
-     "tmdb": "13475",
-     "typ": "film",
-     "label": "2233/2258"
-    },
-    {
-     "tmdb": "54138",
-     "typ": "film",
-     "label": "2259"
-    },
-    {
-     "tmdb": "188927",
-     "typ": "film",
-     "label": "2263"
-    },
-    {
-     "abschnitt": "Hauptzeitlinie (Fortsetzung)"
-    },
-    {
      "tmdb": "253",
      "typ": "serie",
      "label": "2265"
@@ -1133,6 +1112,24 @@
      "tmdb": "223530",
      "typ": "serie",
      "label": "3190er"
+    },
+    {
+     "abschnitt": "Kelvin-Zeitlinie (alternativ)"
+    },
+    {
+     "tmdb": "13475",
+     "typ": "film",
+     "label": "2233/2258"
+    },
+    {
+     "tmdb": "54138",
+     "typ": "film",
+     "label": "2259"
+    },
+    {
+     "tmdb": "188927",
+     "typ": "film",
+     "label": "2263"
     },
     {
      "abschnitt": "Ohne Handlungszeit"
