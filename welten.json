@@ -344,11 +344,6 @@
      "name": "Ultimate Avengers 2 - Rise of the Panther"
     },
     {
-     "tmdb": "1293690",
-     "typ": "film",
-     "name": "Untitled X-Men Film"
-    },
-    {
      "tmdb": "13647",
      "typ": "film",
      "name": "The Invincible Iron Man"
@@ -362,16 +357,6 @@
      "tmdb": "1386618",
      "typ": "film",
      "name": "Black Panther 3"
-    },
-    {
-     "tmdb": "1737233",
-     "typ": "film",
-     "name": "Untitled Shang-Chi Sequel"
-    },
-    {
-     "tmdb": "1474568",
-     "typ": "film",
-     "name": "Untitled Deadpool/X-Men Teamup Film"
     },
     {
      "tmdb": "1731190",
@@ -767,6 +752,91 @@
      "tmdb": "297767",
      "typ": "serie",
      "name": "Marvel's Avengers: Mightiest Friends"
+    },
+    {
+     "tmdb": "36647",
+     "typ": "film",
+     "name": "Blade"
+    },
+    {
+     "tmdb": "36657",
+     "typ": "film",
+     "name": "X-Men"
+    },
+    {
+     "tmdb": "36586",
+     "typ": "film",
+     "name": "Blade II"
+    },
+    {
+     "tmdb": "557",
+     "typ": "film",
+     "name": "Spider-Man"
+    },
+    {
+     "tmdb": "9480",
+     "typ": "film",
+     "name": "Daredevil"
+    },
+    {
+     "tmdb": "1530375",
+     "typ": "film",
+     "name": "X2: United Colors of X"
+    },
+    {
+     "tmdb": "558",
+     "typ": "film",
+     "name": "Spider-Man 2"
+    },
+    {
+     "tmdb": "9947",
+     "typ": "film",
+     "name": "Elektra"
+    },
+    {
+     "tmdb": "67195",
+     "typ": "serie",
+     "name": "Legion"
+    },
+    {
+     "tmdb": "68716",
+     "typ": "serie",
+     "name": "Marvel's Inhumans"
+    },
+    {
+     "tmdb": "69629",
+     "typ": "serie",
+     "name": "The Gifted"
+    },
+    {
+     "tmdb": "67466",
+     "typ": "serie",
+     "name": "Marvel's Runaways"
+    },
+    {
+     "tmdb": "66190",
+     "typ": "serie",
+     "name": "Marvel's Cloak & Dagger"
+    },
+    {
+     "tmdb": "88987",
+     "typ": "serie",
+     "name": "Helstrom"
+    },
+    {
+     "tmdb": "526896",
+     "typ": "film",
+     "name": "Morbius"
+    },
+    {
+     "tmdb": "634492",
+     "typ": "film",
+     "name": "Madame Web"
+    },
+    {
+     "tmdb": "539972",
+     "typ": "film",
+     "name": "Kraven: The Hunter"
     }
    ],
    "ausschluss": []
@@ -921,6 +991,46 @@
      "tmdb": "289219",
      "typ": "serie",
      "name": "Maul - Shadow Lord"
+    },
+    {
+     "tmdb": "74849",
+     "typ": "film",
+     "name": "The Star Wars Holiday Special"
+    },
+    {
+     "tmdb": "1884",
+     "typ": "film",
+     "name": "Die Ewoks - Karawane der Tapferen"
+    },
+    {
+     "tmdb": "3478",
+     "typ": "serie",
+     "name": "Die Ewoks"
+    },
+    {
+     "tmdb": "25",
+     "typ": "serie",
+     "name": "Star Wars - Freunde im All"
+    },
+    {
+     "tmdb": "10372",
+     "typ": "film",
+     "name": "Kampf um Endor"
+    },
+    {
+     "tmdb": "12180",
+     "typ": "film",
+     "name": "Star Wars: The Clone Wars"
+    },
+    {
+     "tmdb": "202998",
+     "typ": "serie",
+     "name": "Star Wars: Die Abenteuer der jungen Jedi"
+    },
+    {
+     "tmdb": "1417668",
+     "typ": "film",
+     "name": "Star Wars: Starfighter"
     }
    ],
    "ausschluss": [
@@ -1599,6 +1709,116 @@
      "tmdb": "1146348",
      "typ": "film",
      "name": "Scooby-Doo! and Krypto, Too!"
+    },
+    {
+     "tmdb": "2287",
+     "typ": "serie",
+     "name": "Batman"
+    },
+    {
+     "tmdb": "1924",
+     "typ": "film",
+     "name": "Superman"
+    },
+    {
+     "tmdb": "8536",
+     "typ": "film",
+     "name": "Superman II - Allein gegen alle"
+    },
+    {
+     "tmdb": "9531",
+     "typ": "film",
+     "name": "Superman III - Der stählerne Blitz"
+    },
+    {
+     "tmdb": "9651",
+     "typ": "film",
+     "name": "Supergirl"
+    },
+    {
+     "tmdb": "11411",
+     "typ": "film",
+     "name": "Superman IV - Die Welt am Abgrund"
+    },
+    {
+     "tmdb": "268",
+     "typ": "film",
+     "name": "Batman"
+    },
+    {
+     "tmdb": "364",
+     "typ": "film",
+     "name": "Batmans Rückkehr"
+    },
+    {
+     "tmdb": "414",
+     "typ": "film",
+     "name": "Batman Forever"
+    },
+    {
+     "tmdb": "415",
+     "typ": "film",
+     "name": "Batman & Robin"
+    },
+    {
+     "tmdb": "4604",
+     "typ": "serie",
+     "name": "Smallville"
+    },
+    {
+     "tmdb": "1618",
+     "typ": "serie",
+     "name": "Die Liga der Gerechten"
+    },
+    {
+     "tmdb": "314",
+     "typ": "film",
+     "name": "Catwoman"
+    },
+    {
+     "tmdb": "752",
+     "typ": "film",
+     "name": "V wie Vendetta"
+    },
+    {
+     "tmdb": "33217",
+     "typ": "serie",
+     "name": "Young Justice"
+    },
+    {
+     "tmdb": "62688",
+     "typ": "serie",
+     "name": "Supergirl"
+    },
+    {
+     "tmdb": "62643",
+     "typ": "serie",
+     "name": "Legends of Tomorrow"
+    },
+    {
+     "tmdb": "71663",
+     "typ": "serie",
+     "name": "Black Lightning"
+    },
+    {
+     "tmdb": "89247",
+     "typ": "serie",
+     "name": "Batwoman"
+    },
+    {
+     "tmdb": "80986",
+     "typ": "serie",
+     "name": "Stargirl"
+    },
+    {
+     "tmdb": "889737",
+     "typ": "film",
+     "name": "Joker: Folie à Deux"
+    },
+    {
+     "tmdb": "1400940",
+     "typ": "film",
+     "name": "Clayface"
     }
    ],
    "ausschluss": [
@@ -2808,11 +3028,6 @@
      "name": "The Kid - Image ist alles"
     },
     {
-     "tmdb": "33914",
-     "typ": "film",
-     "name": "Frankenweenie"
-    },
-    {
      "tmdb": "13155",
      "typ": "film",
      "name": "Oz - Eine fantastische Welt"
@@ -3123,11 +3338,6 @@
      "name": "Prince of Persia - Der Sand der Zeit"
     },
     {
-     "tmdb": "40619",
-     "typ": "film",
-     "name": "Day & Night"
-    },
-    {
      "tmdb": "39486",
      "typ": "film",
      "name": "Secretariat - Ein Pferd wird zur Legende"
@@ -3243,11 +3453,6 @@
      "name": "Togo"
     },
     {
-     "tmdb": "594530",
-     "typ": "film",
-     "name": "Lamp Life"
-    },
-    {
      "tmdb": "382748",
      "typ": "film",
      "name": "Stargirl: Anders ist völlig normal"
@@ -3311,6 +3516,536 @@
      "tmdb": "35114",
      "typ": "film",
      "name": "Destino"
+    },
+    {
+     "tmdb": "45665",
+     "typ": "film",
+     "name": "Bruchlandung"
+    },
+    {
+     "tmdb": "88018",
+     "typ": "film",
+     "name": "Tanz der Skelette"
+    },
+    {
+     "tmdb": "77022",
+     "typ": "film",
+     "name": "Das Spukhaus"
+    },
+    {
+     "tmdb": "106112",
+     "typ": "film",
+     "name": "Von Blumen und Bäumen"
+    },
+    {
+     "tmdb": "67167",
+     "typ": "film",
+     "name": "Die Werkstatt vom Weihnachtsmann"
+    },
+    {
+     "tmdb": "34463",
+     "typ": "film",
+     "name": "Die drei kleinen Schweinchen"
+    },
+    {
+     "tmdb": "81077",
+     "typ": "film",
+     "name": "Die Heuschrecke und die Ameisen"
+    },
+    {
+     "tmdb": "109298",
+     "typ": "film",
+     "name": "Der große böse Wolf"
+    },
+    {
+     "tmdb": "91815",
+     "typ": "film",
+     "name": "Die kluge kleine Henne"
+    },
+    {
+     "tmdb": "58159",
+     "typ": "film",
+     "name": "Die Schildkröte und der Hase"
+    },
+    {
+     "tmdb": "67572",
+     "typ": "film",
+     "name": "Mickys Platzkonzert"
+    },
+    {
+     "tmdb": "58164",
+     "typ": "film",
+     "name": "Die glückliche Hand"
+    },
+    {
+     "tmdb": "67152",
+     "typ": "film",
+     "name": "Auf dem Eis"
+    },
+    {
+     "tmdb": "67661",
+     "typ": "film",
+     "name": "Micky im Traumland"
+    },
+    {
+     "tmdb": "66872",
+     "typ": "film",
+     "name": "Urlaub auf Hawaii"
+    },
+    {
+     "tmdb": "66834",
+     "typ": "film",
+     "name": "Die Uhrenreiniger"
+    },
+    {
+     "tmdb": "72640",
+     "typ": "film",
+     "name": "Die alte Mühle"
+    },
+    {
+     "tmdb": "32428",
+     "typ": "film",
+     "name": "Einsame Geister"
+    },
+    {
+     "tmdb": "408",
+     "typ": "film",
+     "name": "Schneewittchen und die sieben Zwerge"
+    },
+    {
+     "tmdb": "53219",
+     "typ": "film",
+     "name": "Mickys Wohnwagen"
+    },
+    {
+     "tmdb": "57472",
+     "typ": "film",
+     "name": "Tapferes kleines Schneiderlein"
+    },
+    {
+     "tmdb": "47166",
+     "typ": "film",
+     "name": "Ferdinand der Stier"
+    },
+    {
+     "tmdb": "418956",
+     "typ": "film",
+     "name": "Das hässliche Entlein"
+    },
+    {
+     "tmdb": "10895",
+     "typ": "film",
+     "name": "Pinocchio"
+    },
+    {
+     "tmdb": "756",
+     "typ": "film",
+     "name": "Fantasia"
+    },
+    {
+     "tmdb": "22752",
+     "typ": "film",
+     "name": "Der Drache wider Willen"
+    },
+    {
+     "tmdb": "51024",
+     "typ": "film",
+     "name": "Der herzlose Retter"
+    },
+    {
+     "tmdb": "11360",
+     "typ": "film",
+     "name": "Dumbo"
+    },
+    {
+     "tmdb": "67571",
+     "typ": "film",
+     "name": "Die Kunst des Skilaufens"
+    },
+    {
+     "tmdb": "53474",
+     "typ": "film",
+     "name": "Donald, der Chefkoch"
+    },
+    {
+     "tmdb": "3170",
+     "typ": "film",
+     "name": "Bambi"
+    },
+    {
+     "tmdb": "14906",
+     "typ": "film",
+     "name": "Drei Caballeros im Sambafieber"
+    },
+    {
+     "tmdb": "33600",
+     "typ": "film",
+     "name": "Der Fuehrer's Face"
+    },
+    {
+     "tmdb": "15947",
+     "typ": "film",
+     "name": "Drei Caballeros"
+    },
+    {
+     "tmdb": "20343",
+     "typ": "film",
+     "name": "Lachkonzert in Entenhausen"
+    },
+    {
+     "tmdb": "31518",
+     "typ": "film",
+     "name": "Peter und der Wolf"
+    },
+    {
+     "tmdb": "13850",
+     "typ": "film",
+     "name": "Onkel Remus’ Wunderland"
+    },
+    {
+     "tmdb": "46929",
+     "typ": "film",
+     "name": "Fröhlich, frei, Spaß dabei"
+    },
+    {
+     "tmdb": "31135",
+     "typ": "film",
+     "name": "Micky und die Bohnenranke"
+    },
+    {
+     "tmdb": "53478",
+     "typ": "film",
+     "name": "Donald, der Nußdieb"
+    },
+    {
+     "tmdb": "13757",
+     "typ": "film",
+     "name": "Musik, Tanz und Rhythmus"
+    },
+    {
+     "tmdb": "13465",
+     "typ": "film",
+     "name": "Die Abenteuer von Ichabod und Taddäus Kröte"
+    },
+    {
+     "tmdb": "43650",
+     "typ": "film",
+     "name": "The Legend of Sleepy Hollow"
+    },
+    {
+     "tmdb": "11224",
+     "typ": "film",
+     "name": "Cinderella"
+    },
+    {
+     "tmdb": "6646",
+     "typ": "film",
+     "name": "Die Schatzinsel"
+    },
+    {
+     "tmdb": "12092",
+     "typ": "film",
+     "name": "Alice im Wunderland"
+    },
+    {
+     "tmdb": "54184",
+     "typ": "film",
+     "name": "Lambert, der kleine Löwe"
+    },
+    {
+     "tmdb": "67699",
+     "typ": "film",
+     "name": "Donald, Geister und Gespenster"
+    },
+    {
+     "tmdb": "61080",
+     "typ": "film",
+     "name": "Micky und Pluto feiern Weihnachten"
+    },
+    {
+     "tmdb": "10693",
+     "typ": "film",
+     "name": "Peter Pans heitere Abenteuer"
+    },
+    {
+     "tmdb": "173",
+     "typ": "film",
+     "name": "20.000 Meilen unter dem Meer"
+    },
+    {
+     "tmdb": "35115",
+     "typ": "film",
+     "name": "Davy Crockett, König der Trapper"
+    },
+    {
+     "tmdb": "10340",
+     "typ": "film",
+     "name": "Susi und Strolch"
+    },
+    {
+     "tmdb": "22660",
+     "typ": "film",
+     "name": "Sein Freund Jello"
+    },
+    {
+     "tmdb": "10882",
+     "typ": "film",
+     "name": "Dornröschen"
+    },
+    {
+     "tmdb": "15944",
+     "typ": "film",
+     "name": "Der unheimliche Zotti"
+    },
+    {
+     "tmdb": "18887",
+     "typ": "film",
+     "name": "Das Geheimnis der verwunschenen Höhle"
+    },
+    {
+     "tmdb": "19715",
+     "typ": "film",
+     "name": "Donald in Mathmagic Land"
+    },
+    {
+     "tmdb": "31102",
+     "typ": "film",
+     "name": "Alle lieben Pollyanna"
+    },
+    {
+     "tmdb": "18444",
+     "typ": "film",
+     "name": "Dschungel der 1000 Gefahren"
+    },
+    {
+     "tmdb": "17984",
+     "typ": "film",
+     "name": "Der fliegende Pauker"
+    },
+    {
+     "tmdb": "12230",
+     "typ": "film",
+     "name": "Pongo und Perdita"
+    },
+    {
+     "tmdb": "19186",
+     "typ": "film",
+     "name": "Die Vermählung ihrer Eltern geben bekannt"
+    },
+    {
+     "tmdb": "32611",
+     "typ": "film",
+     "name": "Aufruhr im Spielzeugland"
+    },
+    {
+     "tmdb": "37969",
+     "typ": "film",
+     "name": "Die unglaubliche Reise"
+    },
+    {
+     "tmdb": "9078",
+     "typ": "film",
+     "name": "Merlin und Mim"
+    },
+    {
+     "tmdb": "433",
+     "typ": "film",
+     "name": "Mary Poppins"
+    },
+    {
+     "tmdb": "20723",
+     "typ": "film",
+     "name": "Alles für die Katz"
+    },
+    {
+     "tmdb": "36540",
+     "typ": "film",
+     "name": "Winnie Puuh und der Honigbaum"
+    },
+    {
+     "tmdb": "20277",
+     "typ": "film",
+     "name": "Geliebter Haustyrann"
+    },
+    {
+     "tmdb": "9325",
+     "typ": "film",
+     "name": "Das Dschungelbuch"
+    },
+    {
+     "tmdb": "16249",
+     "typ": "film",
+     "name": "Käpt'n Blackbeards Spuk-Kaschemme"
+    },
+    {
+     "tmdb": "81310",
+     "typ": "film",
+     "name": "Winnie Puuh - Das Hundewetter"
+    },
+    {
+     "tmdb": "14136",
+     "typ": "film",
+     "name": "Ein toller Käfer"
+    },
+    {
+     "tmdb": "29228",
+     "typ": "film",
+     "name": "Superhirn in Tennisschuhen"
+    },
+    {
+     "tmdb": "10112",
+     "typ": "film",
+     "name": "Aristocats"
+    },
+    {
+     "tmdb": "12335",
+     "typ": "film",
+     "name": "Die tollkühne Hexe in ihrem fliegenden Bett"
+    },
+    {
+     "tmdb": "11886",
+     "typ": "film",
+     "name": "Robin Hood"
+    },
+    {
+     "tmdb": "10869",
+     "typ": "film",
+     "name": "Herbie groß in Fahrt"
+    },
+    {
+     "tmdb": "14821",
+     "typ": "film",
+     "name": "Die Flucht zum Hexenberg"
+    },
+    {
+     "tmdb": "18660",
+     "typ": "film",
+     "name": "Die Semmelknödelbande"
+    },
+    {
+     "tmdb": "16084",
+     "typ": "film",
+     "name": "Ein ganz verrückter Freitag"
+    },
+    {
+     "tmdb": "250480",
+     "typ": "film",
+     "name": "Die vielen Abenteuer von Winnie Puuh"
+    },
+    {
+     "tmdb": "11319",
+     "typ": "film",
+     "name": "Bernard & Bianca - Die Mäusepolizei"
+    },
+    {
+     "tmdb": "14140",
+     "typ": "film",
+     "name": "Ein toller Käfer in der Rallye Monte Carlo"
+    },
+    {
+     "tmdb": "11114",
+     "typ": "film",
+     "name": "Elliot, das Schmunzelmonster"
+    },
+    {
+     "tmdb": "14612",
+     "typ": "film",
+     "name": "Abenteuer auf Schloß Candleshoe"
+    },
+    {
+     "tmdb": "14822",
+     "typ": "film",
+     "name": "Der Sieg der Sternenkinder"
+    },
+    {
+     "tmdb": "19378",
+     "typ": "film",
+     "name": "Die Katze aus dem Weltraum"
+    },
+    {
+     "tmdb": "27287",
+     "typ": "film",
+     "name": "Der Esel von Bethlehem"
+    },
+    {
+     "tmdb": "9570",
+     "typ": "film",
+     "name": "Das schwarze Loch"
+    },
+    {
+     "tmdb": "21970",
+     "typ": "film",
+     "name": "Schreie der Verlorenen"
+    },
+    {
+     "tmdb": "12129",
+     "typ": "film",
+     "name": "Herbie dreht durch"
+    },
+    {
+     "tmdb": "11335",
+     "typ": "film",
+     "name": "Popeye"
+    },
+    {
+     "tmdb": "848",
+     "typ": "film",
+     "name": "Der Drachentöter"
+    },
+    {
+     "tmdb": "19379",
+     "typ": "film",
+     "name": "Condorman"
+    },
+    {
+     "tmdb": "10948",
+     "typ": "film",
+     "name": "Cap und Capper"
+    },
+    {
+     "tmdb": "97",
+     "typ": "film",
+     "name": "Tron"
+    },
+    {
+     "tmdb": "32085",
+     "typ": "film",
+     "name": "Vincent"
+    },
+    {
+     "tmdb": "24808",
+     "typ": "film",
+     "name": "Das Böse kommt auf leisen Sohlen"
+    },
+    {
+     "tmdb": "10144",
+     "typ": "film",
+     "name": "Arielle, die Meerjungfrau"
+    },
+    {
+     "tmdb": "11135",
+     "typ": "film",
+     "name": "Bernard & Bianca im Känguruland"
+    },
+    {
+     "tmdb": "812",
+     "typ": "film",
+     "name": "Aladdin"
+    },
+    {
+     "tmdb": "9479",
+     "typ": "film",
+     "name": "Nightmare Before Christmas"
+    },
+    {
+     "tmdb": "11970",
+     "typ": "film",
+     "name": "Hercules"
+    },
+    {
+     "tmdb": "10009",
+     "typ": "film",
+     "name": "Bärenbrüder"
     }
    ],
    "ausschluss": [
@@ -3342,6 +4077,21 @@
     {
      "sammlung": "Cars",
      "name": "Cars gehört zu Pixar"
+    },
+    {
+     "tmdb": "33914",
+     "typ": "film",
+     "name": "Frankenweenie (Kurzfilm 1984, doppelt neben dem Film von 2012)"
+    },
+    {
+     "tmdb": "40619",
+     "typ": "film",
+     "name": "Day & Night (Pixar)"
+    },
+    {
+     "tmdb": "594530",
+     "typ": "film",
+     "name": "Lamp Life (Pixar)"
     }
    ]
   },
@@ -4194,6 +4944,16 @@
      "tmdb": "338953",
      "typ": "film",
      "name": "Phantastische Tierwesen: Dumbledores Geheimnisse"
+    },
+    {
+     "tmdb": "899082",
+     "typ": "film",
+     "name": "Rückkehr nach Hogwarts - 20 Jahre Harry Potter"
+    },
+    {
+     "tmdb": "224377",
+     "typ": "serie",
+     "name": "Harry Potter"
     }
    ],
    "ausschluss": []
@@ -4371,11 +5131,6 @@
     {
      "tmdb": "36670",
      "typ": "film"
-    },
-    {
-     "tmdb": "1184696",
-     "typ": "film",
-     "name": "Untitled James Bond Film"
     }
    ],
    "ausschluss": []
@@ -4426,11 +5181,6 @@
      "name": "Jurassic World: Die Wiedergeburt"
     },
     {
-     "tmdb": "1714034",
-     "typ": "film",
-     "name": "Untitled Jurassic World Rebirth Sequel"
-    },
-    {
      "tmdb": "93741",
      "typ": "serie",
      "name": "Jurassic World: Neue Abenteuer"
@@ -4439,6 +5189,11 @@
      "tmdb": "237512",
      "typ": "serie",
      "name": "Jurassic World: Die Chaostheorie"
+    },
+    {
+     "tmdb": "1714034",
+     "typ": "film",
+     "name": "Jurassic World Liberation"
     }
    ],
    "ausschluss": []
@@ -5530,9 +6285,9 @@
      "name": "Alien: Romulus"
     },
     {
-     "tmdb": "1434936",
+     "tmdb": "1376434",
      "typ": "film",
-     "name": "Untitled Alien: Romulus Sequel"
+     "name": "Predator: Killer of Killers"
     }
    ],
    "ausschluss": []
@@ -5672,6 +6427,546 @@
      "tmdb": "1650066",
      "typ": "film",
      "name": "Scream 8"
+    },
+    {
+     "tmdb": "653",
+     "typ": "film",
+     "name": "Nosferatu, eine Symphonie des Grauens"
+    },
+    {
+     "tmdb": "539",
+     "typ": "film",
+     "name": "Psycho"
+    },
+    {
+     "tmdb": "571",
+     "typ": "film",
+     "name": "Die Vögel"
+    },
+    {
+     "tmdb": "805",
+     "typ": "film",
+     "name": "Rosemaries Baby"
+    },
+    {
+     "tmdb": "10331",
+     "typ": "film",
+     "name": "Die Nacht der lebenden Toten"
+    },
+    {
+     "tmdb": "9552",
+     "typ": "film",
+     "name": "Der Exorzist"
+    },
+    {
+     "tmdb": "578",
+     "typ": "film",
+     "name": "Der weiße Hai"
+    },
+    {
+     "tmdb": "794",
+     "typ": "film",
+     "name": "Das Omen"
+    },
+    {
+     "tmdb": "7340",
+     "typ": "film",
+     "name": "Carrie - Des Satans jüngste Tochter"
+    },
+    {
+     "tmdb": "11906",
+     "typ": "film",
+     "name": "Suspiria - In den Krallen des Bösen"
+    },
+    {
+     "tmdb": "11586",
+     "typ": "film",
+     "name": "Der Exorzist II - Der Ketzer"
+    },
+    {
+     "tmdb": "10766",
+     "typ": "film",
+     "name": "Damien - Omen II"
+    },
+    {
+     "tmdb": "579",
+     "typ": "film",
+     "name": "Der weiße Hai 2"
+    },
+    {
+     "tmdb": "923",
+     "typ": "film",
+     "name": "Zombie"
+    },
+    {
+     "tmdb": "948",
+     "typ": "film",
+     "name": "Halloween - Die Nacht des Grauens"
+    },
+    {
+     "tmdb": "4488",
+     "typ": "film",
+     "name": "Freitag der 13."
+    },
+    {
+     "tmdb": "694",
+     "typ": "film",
+     "name": "Shining"
+    },
+    {
+     "tmdb": "10768",
+     "typ": "film",
+     "name": "Barbara's Baby - Omen III"
+    },
+    {
+     "tmdb": "9725",
+     "typ": "film",
+     "name": "Freitag der 13. - Jason kehrt zurück"
+    },
+    {
+     "tmdb": "11281",
+     "typ": "film",
+     "name": "Halloween II - Das Grauen kehrt zurück"
+    },
+    {
+     "tmdb": "609",
+     "typ": "film",
+     "name": "Poltergeist"
+    },
+    {
+     "tmdb": "1091",
+     "typ": "film",
+     "name": "Das Ding aus einer anderen Welt"
+    },
+    {
+     "tmdb": "9728",
+     "typ": "film",
+     "name": "Und wieder ist Freitag der 13."
+    },
+    {
+     "tmdb": "10676",
+     "typ": "film",
+     "name": "Halloween III - Die Nacht der Entscheidung"
+    },
+    {
+     "tmdb": "17692",
+     "typ": "film",
+     "name": "Der weiße Hai 3"
+    },
+    {
+     "tmdb": "9730",
+     "typ": "film",
+     "name": "Freitag der 13. - Das letzte Kapitel"
+    },
+    {
+     "tmdb": "377",
+     "typ": "film",
+     "name": "Nightmare - Mörderische Träume"
+    },
+    {
+     "tmdb": "9731",
+     "typ": "film",
+     "name": "Freitag der 13. - Ein neuer Anfang"
+    },
+    {
+     "tmdb": "8408",
+     "typ": "film",
+     "name": "Zombie 2 - Das letzte Kapitel"
+    },
+    {
+     "tmdb": "10014",
+     "typ": "film",
+     "name": "Nightmare II - Die Rache"
+    },
+    {
+     "tmdb": "11133",
+     "typ": "film",
+     "name": "Poltergeist II – Die andere Seite"
+    },
+    {
+     "tmdb": "10225",
+     "typ": "film",
+     "name": "Freitag der 13. Teil VI - Jason lebt"
+    },
+    {
+     "tmdb": "10072",
+     "typ": "film",
+     "name": "Nightmare 3 - Freddy Krueger lebt"
+    },
+    {
+     "tmdb": "580",
+     "typ": "film",
+     "name": "Der weiße Hai IV - Die Abrechnung"
+    },
+    {
+     "tmdb": "9003",
+     "typ": "film",
+     "name": "Hellraiser - Das Tor zur Hölle"
+    },
+    {
+     "tmdb": "10281",
+     "typ": "film",
+     "name": "Freitag der 13. - Jason im Blutrausch"
+    },
+    {
+     "tmdb": "10306",
+     "typ": "film",
+     "name": "Poltergeist III - Die dunkle Seite des Bösen"
+    },
+    {
+     "tmdb": "10131",
+     "typ": "film",
+     "name": "Nightmare on Elm Street 4"
+    },
+    {
+     "tmdb": "11357",
+     "typ": "film",
+     "name": "Halloween IV - Michael Myers kehrt zurück"
+    },
+    {
+     "tmdb": "10585",
+     "typ": "film",
+     "name": "Chucky - Die Mörderpuppe"
+    },
+    {
+     "tmdb": "9064",
+     "typ": "film",
+     "name": "Hellbound: Hellraiser II"
+    },
+    {
+     "tmdb": "10283",
+     "typ": "film",
+     "name": "Freitag der 13. Teil VIII - Todesfalle Manhattan"
+    },
+    {
+     "tmdb": "10160",
+     "typ": "film",
+     "name": "Nightmare on Elm Street 5 - Das Trauma"
+    },
+    {
+     "tmdb": "11361",
+     "typ": "film",
+     "name": "Halloween V - Die Rache des Michael Myers"
+    },
+    {
+     "tmdb": "11587",
+     "typ": "film",
+     "name": "Der Exorzist III"
+    },
+    {
+     "tmdb": "11186",
+     "typ": "film",
+     "name": "Chucky 2 - Die Mörderpuppe ist zurück"
+    },
+    {
+     "tmdb": "17792",
+     "typ": "film",
+     "name": "Das Omen IV - Das Erwachen"
+    },
+    {
+     "tmdb": "11187",
+     "typ": "film",
+     "name": "Chucky 3"
+    },
+    {
+     "tmdb": "11284",
+     "typ": "film",
+     "name": "Freddy's Finale - Nightmare on Elm Street 6"
+    },
+    {
+     "tmdb": "11569",
+     "typ": "film",
+     "name": "Hellraiser III: Hell on Earth"
+    },
+    {
+     "tmdb": "9529",
+     "typ": "film",
+     "name": "Candyman's Fluch"
+    },
+    {
+     "tmdb": "10285",
+     "typ": "film",
+     "name": "Jason Goes to Hell - Die Endabrechnung"
+    },
+    {
+     "tmdb": "11596",
+     "typ": "film",
+     "name": "Freddy's New Nightmare"
+    },
+    {
+     "tmdb": "10824",
+     "typ": "film",
+     "name": "Candyman 2 - Die Blutrache"
+    },
+    {
+     "tmdb": "10987",
+     "typ": "film",
+     "name": "Halloween VI - Der Fluch des Michael Myers"
+    },
+    {
+     "tmdb": "8766",
+     "typ": "film",
+     "name": "Hellraiser IV: Bloodline"
+    },
+    {
+     "tmdb": "11675",
+     "typ": "film",
+     "name": "Halloween H20 - 20 Jahre später"
+    },
+    {
+     "tmdb": "11932",
+     "typ": "film",
+     "name": "Chucky und seine Braut"
+    },
+    {
+     "tmdb": "12485",
+     "typ": "film",
+     "name": "Candyman 3 - Der Tag der Toten"
+    },
+    {
+     "tmdb": "2667",
+     "typ": "film",
+     "name": "Blair Witch Project"
+    },
+    {
+     "tmdb": "12597",
+     "typ": "film",
+     "name": "Hellraiser V: Inferno"
+    },
+    {
+     "tmdb": "11470",
+     "typ": "film",
+     "name": "Jason X"
+    },
+    {
+     "tmdb": "11442",
+     "typ": "film",
+     "name": "Halloween: Resurrection"
+    },
+    {
+     "tmdb": "11246",
+     "typ": "film",
+     "name": "Hellraiser VI: Hellseeker"
+    },
+    {
+     "tmdb": "565",
+     "typ": "film",
+     "name": "Ring"
+    },
+    {
+     "tmdb": "6466",
+     "typ": "film",
+     "name": "Freddy vs. Jason"
+    },
+    {
+     "tmdb": "11026",
+     "typ": "film",
+     "name": "Exorzist - Der Anfang"
+    },
+    {
+     "tmdb": "176",
+     "typ": "film",
+     "name": "Saw"
+    },
+    {
+     "tmdb": "11249",
+     "typ": "film",
+     "name": "Chucky's Baby"
+    },
+    {
+     "tmdb": "12700",
+     "typ": "film",
+     "name": "Dominion: Exorzist - Der Anfang des Bösen"
+    },
+    {
+     "tmdb": "17455",
+     "typ": "film",
+     "name": "Hellraiser: Deader"
+    },
+    {
+     "tmdb": "12699",
+     "typ": "film",
+     "name": "Hellraiser VIII: Hellworld"
+    },
+    {
+     "tmdb": "215",
+     "typ": "film",
+     "name": "Saw II"
+    },
+    {
+     "tmdb": "214",
+     "typ": "film",
+     "name": "Saw III"
+    },
+    {
+     "tmdb": "663",
+     "typ": "film",
+     "name": "Saw IV"
+    },
+    {
+     "tmdb": "11917",
+     "typ": "film",
+     "name": "Saw V"
+    },
+    {
+     "tmdb": "22804",
+     "typ": "film",
+     "name": "Saw VI"
+    },
+    {
+     "tmdb": "41439",
+     "typ": "film",
+     "name": "Saw 3D - Vollendung"
+    },
+    {
+     "tmdb": "49018",
+     "typ": "film",
+     "name": "Insidious"
+    },
+    {
+     "tmdb": "70584",
+     "typ": "film",
+     "name": "Hellraiser: Revelations - Die Offenbarung"
+    },
+    {
+     "tmdb": "138843",
+     "typ": "film",
+     "name": "Conjuring - Die Heimsuchung"
+    },
+    {
+     "tmdb": "91586",
+     "typ": "film",
+     "name": "Insidious: Chapter 2"
+    },
+    {
+     "tmdb": "167032",
+     "typ": "film",
+     "name": "Curse of Chucky"
+    },
+    {
+     "tmdb": "250546",
+     "typ": "film",
+     "name": "Annabelle"
+    },
+    {
+     "tmdb": "280092",
+     "typ": "film",
+     "name": "Insidious: Chapter 3 - Jede Geschichte hat einen Anfang"
+    },
+    {
+     "tmdb": "259693",
+     "typ": "film",
+     "name": "Conjuring 2"
+    },
+    {
+     "tmdb": "396422",
+     "typ": "film",
+     "name": "Annabelle 2"
+    },
+    {
+     "tmdb": "346364",
+     "typ": "film",
+     "name": "Es"
+    },
+    {
+     "tmdb": "393345",
+     "typ": "film",
+     "name": "Cult of Chucky"
+    },
+    {
+     "tmdb": "298250",
+     "typ": "film",
+     "name": "Jigsaw"
+    },
+    {
+     "tmdb": "406563",
+     "typ": "film",
+     "name": "Insidious: The Last Key"
+    },
+    {
+     "tmdb": "444149",
+     "typ": "film",
+     "name": "Hellraiser: Judgment"
+    },
+    {
+     "tmdb": "439079",
+     "typ": "film",
+     "name": "The Nun"
+    },
+    {
+     "tmdb": "424139",
+     "typ": "film",
+     "name": "Halloween"
+    },
+    {
+     "tmdb": "521029",
+     "typ": "film",
+     "name": "Annabelle 3"
+    },
+    {
+     "tmdb": "474350",
+     "typ": "film",
+     "name": "Es Kapitel 2"
+    },
+    {
+     "tmdb": "602734",
+     "typ": "film",
+     "name": "Saw: Spiral"
+    },
+    {
+     "tmdb": "423108",
+     "typ": "film",
+     "name": "Conjuring 3: Im Bann des Teufels"
+    },
+    {
+     "tmdb": "565028",
+     "typ": "film",
+     "name": "Candyman"
+    },
+    {
+     "tmdb": "610253",
+     "typ": "film",
+     "name": "Halloween Kills"
+    },
+    {
+     "tmdb": "616820",
+     "typ": "film",
+     "name": "Halloween Ends"
+    },
+    {
+     "tmdb": "614479",
+     "typ": "film",
+     "name": "Insidious: The Red Door"
+    },
+    {
+     "tmdb": "968051",
+     "typ": "film",
+     "name": "The Nun II"
+    },
+    {
+     "tmdb": "951491",
+     "typ": "film",
+     "name": "Saw X"
+    },
+    {
+     "tmdb": "807172",
+     "typ": "film",
+     "name": "Der Exorzist: Bekenntnis"
+    },
+    {
+     "tmdb": "437342",
+     "typ": "film",
+     "name": "Das erste Omen"
+    },
+    {
+     "tmdb": "1038392",
+     "typ": "film",
+     "name": "Conjuring 4: Das letzte Kapitel"
+    },
+    {
+     "tmdb": "1291595",
+     "typ": "film",
+     "name": "Insidious: Out of the Further"
     }
    ],
    "ausschluss": []
